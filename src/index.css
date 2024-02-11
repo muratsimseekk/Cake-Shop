@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Delius&family=Gloria+Hallelujah&family=Indie+Flower&family=Macondo&family=Pinyon+Script&family=Roboto:wght@100;300;400;500;700;900&family=Single+Day&family=Whisper&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Architects Daughter, Macondo, Roboto, Single Day, Whisper;
+}
