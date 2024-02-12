@@ -11,7 +11,7 @@ function Header() {
         </h3>
         <FaArrowRightLong className="w-4 h-4 " />
       </div>
-      <div className="w-full flex justify-center">
+      {/* <div className="w-full flex justify-center items-center">
         <div className="bg-red-300 tracking-wider flex items-center justify-between gap-8 w-4/5 py-5">
           <div className="flex flex-col font-whisper bg-green-300">
             <h1 className="text-5xl">Opera Baker</h1>
@@ -26,7 +26,7 @@ function Header() {
             <li>CONTACT</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

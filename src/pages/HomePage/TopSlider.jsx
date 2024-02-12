@@ -7,11 +7,11 @@ import "react-awesome-slider/dist/custom-animations/open-animation.css";
 
 function TopSlider() {
   return (
-    <div className="max-h-min ">
-      <AwesomeSlider animation="openAnimation">
-        <div data-src={slider1} />
-        <div data-src={slider2} />
-      </AwesomeSlider>
+    <div className="w-[1280px]">
+      {/* <AwesomeSlider className="w-full h-[600px]" animation="openAnimation">
+        <div className="w-full" data-src={slider1} />
+        <div className="w-full" data-src={slider2} />
+      </AwesomeSlider> */}
     </div>
   );
 }
