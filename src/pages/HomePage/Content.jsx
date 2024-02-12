@@ -1,15 +1,13 @@
 import React from "react";
 
 import Cards from "./ContentPages/Cards";
+import InfoCards from "./ContentPages/InfoCards";
 
 function Content() {
-  const viewButton = (e) => {
-    e.preventDefault();
-    console.log("tiklandi");
-  };
   return (
-    <div className="bg-slate-500 py-10 flex w-full justify-center">
+    <div className="bg-slate-500 py-10 flex flex-col w-full gap-10 items-center">
       <Cards />
+      <InfoCards />
     </div>
   );
 }

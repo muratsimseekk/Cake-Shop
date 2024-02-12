@@ -1,6 +1,10 @@
 import React from "react";
 import slider1 from "../../../assets/img1.jpg";
 function Cards() {
+  const viewButton = (e) => {
+    e.preventDefault();
+    console.log("tiklandi");
+  };
   return (
     <div className="w-4/5 bg-red-200">
       <div>
@@ -57,17 +61,17 @@ function Cards() {
       </div>
       <div className="bg-yellow-100 py-10 flex flex-col gap-4">
         <div className="flex justify-center gap-2">
-          <button className="border-2 border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer">
+          <button className="border hover:border-2 border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer">
             Click & Collect
           </button>
-          <button className="border-2 border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer">
+          <button className="border hover:border-2 border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer">
             Bespoke
           </button>
         </div>
         <div className="flex justify-center">
           <p className="text-sm">
             Luxury bespoke cakes and sweet treats , designed , created and
-            served in Chorley , Lancashire
+            served in Chorley , Lancashire.
           </p>
         </div>
       </div>
