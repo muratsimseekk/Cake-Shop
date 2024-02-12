@@ -5,11 +5,11 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full">
       <Header />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<HomePage />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
