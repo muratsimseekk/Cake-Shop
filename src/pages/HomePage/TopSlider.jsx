@@ -13,15 +13,15 @@ import slider6 from "./../../assets/img2.jpg";
 
 function TopSlider() {
   return (
-    <div className="">
+    <div className="pt-8">
       <Swiper
         style={{ height: 570 }}
         effect={"coverflow"}
-        grapCursor={true}
+        grabCursor={true}
         centeredSlides={true}
         loop={true}
         slidesPerView={"auto"}
-        coverFlowEffect={{
+        coverflowEffect={{
           rotate: 0,
           stretch: 0,
           depth: 100,
