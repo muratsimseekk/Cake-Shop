@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="w-full">
+    <div className=" w-full ">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
