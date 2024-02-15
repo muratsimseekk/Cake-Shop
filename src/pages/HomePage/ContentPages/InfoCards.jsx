@@ -3,7 +3,7 @@ import foto1 from "../../../assets/img1.jpg";
 import foto2 from "../../../assets/img2.jpg";
 function InfoCards() {
   return (
-    <div className="flex flex-col w-4/5 bg-red-300">
+    <div className="flex flex-col w-4/5 bg-red-300 gap-12">
       <div className="flex w-full h-[450px] justify-center ">
         <div className="w-1/2 bg-indigo-200 flex justify-end items-center">
           <div className="bg-green-400 w-[90%] h-5/6 px-10 flex flex-col gap-4 ">
@@ -35,7 +35,29 @@ function InfoCards() {
           </div>
         </div>
       </div>
-      <div className="w-full bg"></div>
+      <div className="flex w-full h-[450px] justify-center text-end">
+        <div className="w-1/2 bg-indigo-200 flex justify-end items-center ">
+          <div className="bg-green-400 w-[90%] h-5/6 px-10 flex flex-col gap-4 items-end">
+            <h2 className="text-4xl">Visit us in store</h2>
+            <div className="flex flex-col gap-2">
+              <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
+              <p>Opening hours:</p>
+              <p>Monday 09:00 - 16:30</p>
+              <p>Tuesday 09:00 - 16:30</p>
+              <p>Wednesday 09:00 - 16:30</p>
+              <p>Thursday 09:00 - 16:30</p>
+              <p>Friday 09:00 - 16:30</p>
+              <p>Saturday 09:00 - 16:30</p>
+            </div>
+            <button className="border w-1/3 py-1 rounded-md shadow">
+              Directions
+            </button>
+          </div>
+        </div>
+        <div className="w-1/2 flex justify-end">
+          <img className="w-4/5 h-full" src={foto1} alt="" />
+        </div>
+      </div>
     </div>
   );
 }
