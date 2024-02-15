@@ -3,43 +3,43 @@ import foto1 from "../../../assets/img1.jpg";
 import foto2 from "../../../assets/img2.jpg";
 function InfoCards() {
   return (
-    <div className="flex flex-col w-4/5 bg-red-300 gap-12">
-      <div className="flex w-full h-[450px] justify-center ">
-        <div className="w-1/2 bg-indigo-200 flex justify-end items-center">
-          <div className="bg-green-400 w-[90%] h-5/6 px-10 flex flex-col gap-4 ">
-            <h2 className="text-4xl">As featured in British VOGUE</h2>
-            <p className="text-md ">
+    <div className="flex flex-col w-4/5 bg-300 gap-12">
+      <div className="flex w-full  justify-center ">
+        <div className="w-3/5  flex justify-end items-center">
+          <div className=" w-[90%] h-5/6 px-10 flex flex-col gap-4 ">
+            <h2 className="text-5xl">As featured in British VOGUE</h2>
+            <p className="text-lg ">
               Our Christmas Mini Cake featured in the British VOGUE DECEMBER
               2022 edition!
             </p>
           </div>
         </div>
         <div className="w-1/2 flex justify-end">
-          <img className="w-4/5 h-full" src={foto1} alt="" />
+          <img className="w-[450px] " src={foto1} alt="" />
         </div>
       </div>
-      <div className="h-[350px] bg-blue-300 flex  ">
-        <div className="w-1/3 h-full bg-slate-700 flex ">
-          <img className="h-full max-w-max" src={foto2} alt="" />
+      <div className="h-[400px]  flex  ">
+        <div className="w-1/3 h-full  flex ">
+          <img className="h-full w-[350px]" src={foto2} alt="" />
         </div>
-        <div className="w-2/3 bg-red-600 px-10">
-          <div className="bg-yellow-300  h-full">
-            <h2 className="text-4xl">Weddings</h2>
-            <p className="text-md">
+        <div className="w-2/3  px-10">
+          <div className="  h-full flex flex-col gap-4">
+            <h2 className="text-5xl">Weddings</h2>
+            <p className="text-lg">
               The most important dat of your life deserves the most elegant
               cake. Let's create the wedding cake you've only ever dreamt of .
             </p>
-            <button className="border px-5 py-1 shadow-md rounded-md border-blue-300">
+            <button className="border w-[26.5%] py-1 text-lg shadow-md rounded-md border-blue-300">
               Learn More
             </button>
           </div>
         </div>
       </div>
-      <div className="flex w-full h-[450px] justify-center text-end">
-        <div className="w-1/2 bg-indigo-200 flex justify-end items-center ">
-          <div className="bg-green-400 w-[90%] h-5/6 px-10 flex flex-col gap-4 items-end">
-            <h2 className="text-4xl">Visit us in store</h2>
-            <div className="flex flex-col gap-2">
+      <div className="flex w-full justify-end text-end">
+        <div className="w-3/5  flex justify-between items-center ">
+          <div className=" w-[90%]  px-10 flex flex-col gap-4 items-end">
+            <h2 className="text-5xl">Visit us in store</h2>
+            <div className="flex text-lg flex-col gap-2">
               <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
               <p>Opening hours:</p>
               <p>Monday 09:00 - 16:30</p>
@@ -49,13 +49,13 @@ function InfoCards() {
               <p>Friday 09:00 - 16:30</p>
               <p>Saturday 09:00 - 16:30</p>
             </div>
-            <button className="border w-1/3 py-1 rounded-md shadow">
+            <button className="border text-lg w-1/3 py-1 rounded-md shadow">
               Directions
             </button>
           </div>
         </div>
-        <div className="w-1/2 flex justify-end">
-          <img className="w-4/5 h-full" src={foto1} alt="" />
+        <div className="w-2/5 flex justify-end">
+          <img className="w-[450px] h-full" src={foto1} alt="" />
         </div>
       </div>
     </div>
