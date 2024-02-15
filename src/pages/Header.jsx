@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function Header() {
   return (
     <div className="w-full flex justify-center">
-      <div className="w-[90%]">
+      <div className="w-[100%]">
         <div className="flex items-center gap-3 bg-[#f7e4e3] justify-center py-3">
           <h3 className="font-architech text-[#40695d] text-xl ">
             SHOP OUR VALENTINES COLLECTION
