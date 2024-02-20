@@ -59,7 +59,7 @@ function InfoCards() {
         </div>
       </div>
       <div className="w-full flex flex-col gap-10">
-        <h3 className="text-2xl bg-red-400 text-center">Follow on instagram</h3>
+        <h3 className="text-3xl bg-red-400 text-center">Follow on instagram</h3>
         <div className="flex w-full justify-between">
           <img className="w-[24%]" src={foto1} alt="" />
           <img className="w-[24%]" src={foto1} alt="" />
