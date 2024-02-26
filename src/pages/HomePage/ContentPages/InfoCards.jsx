@@ -2,6 +2,7 @@ import React from "react";
 import foto1 from "../../../assets/img1.jpg";
 import foto2 from "../../../assets/img2.jpg";
 function InfoCards() {
+  //TODO: img ler map ile yazdiriliacak
   return (
     <div className="flex flex-col w-4/5 bg-300 gap-20">
       <div className="flex w-full  justify-center">
