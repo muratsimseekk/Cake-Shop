@@ -1,11 +1,12 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineCopyright } from "react-icons/ai";
 
 function Footer() {
   //TODO: ul-li ler icin button ve hover effect verilecek.
   return (
-    <div className="w-full bg-[#f7e4e3] flex justify-center">
+    <div className="w-full bg-[#f7e4e3] flex flex-col items-center justify-center">
       <div className="w-4/5 bg-red-500 flex my-8">
         <div className="w-1/3 bg-green-300 flex flex-col gap-4">
           <div>
@@ -46,7 +47,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-1/3 bg-yellow-300 flex flex-col ">
+        <div className="w-1/3 bg-yellow-300 flex flex-col justify-between">
           <div className="flex flex-col gap-4">
             <h3 className="text-xl">Opera Baker</h3>
             <div className="text-sm flex flex-col gap-3">
@@ -62,10 +63,16 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className="text-xl flex  gap-1">
+          <div className=" flex justify-end gap-4 text-2xl">
             <FaFacebookF />
             <FaInstagram />
           </div>
+        </div>
+      </div>
+      <div className="border-t-2 w-full">
+        <div className="flex items-center gap-2 my-4 justify-center">
+          <AiOutlineCopyright />
+          <p>2024 , Opera Baker</p>
         </div>
       </div>
     </div>
