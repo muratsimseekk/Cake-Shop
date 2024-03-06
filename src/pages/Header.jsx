@@ -27,7 +27,9 @@ function Header() {
               <Link to="/specialday">
                 <li>VALENTINES</li>
               </Link>
-              <li>BESPOKE</li>
+              <Link to="/cookies">
+                <li>BESPOKE</li>
+              </Link>
               <li>WEDDINGS</li>
               <li>ABOUT</li>
               <li>FAQ</li>

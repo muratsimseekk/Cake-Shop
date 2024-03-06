@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Footer from "./pages/Footer";
 import SpecialPage from "./pages/SpecialPage";
+import Cookies from "./pages/Cookies";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/specialday" element={<SpecialPage />} />
+      </Routes>
+      <Routes>
+        <Route path="/cookies" element={<Cookies />} />
       </Routes>
       <Footer />
     </div>
