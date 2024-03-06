@@ -1,14 +1,14 @@
 import React from "react";
 
-import topPhoto from "../assets/specialpage/specialDayPhotos/photo1.png";
-import photo2 from "../assets/specialpage/specialDayPhotos/photo2.png";
-import photo3 from "../assets/specialpage/specialDayPhotos/photo3.png";
-import photo4 from "../assets/specialpage/specialDayPhotos/photo4.png";
-import photo5 from "../assets/specialpage/specialDayPhotos/photo5.png";
-import photo6 from "../assets/specialpage/specialDayPhotos/photo6.png";
-import photo7 from "../assets/specialpage/specialDayPhotos/photo7.png";
-import photo8 from "../assets/specialpage/specialDayPhotos/photo8.png";
-import photo9 from "../assets/specialpage/specialDayPhotos/photo9.png";
+import topPhoto from "../assets/specialpage/specialDayPhotos/cookie1.png";
+import photo2 from "../assets/specialpage/specialDayPhotos/cookie2.png";
+import photo3 from "../assets/specialpage/specialDayPhotos/cookie3.png";
+import photo4 from "../assets/specialpage/specialDayPhotos/cookie4.png";
+import photo5 from "../assets/specialpage/specialDayPhotos/cookie5.png";
+import photo6 from "../assets/specialpage/specialDayPhotos/cookie6.png";
+import photo7 from "../assets/specialpage/specialDayPhotos/cookie7.png";
+import photo8 from "../assets/specialpage/specialDayPhotos/cookie8.png";
+
 import store from "../assets/specialpage/specialDayPhotos/store.png";
 
 function Cookies() {
@@ -57,7 +57,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo9} />
+              <img className="w-full" src={photo4} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -89,7 +89,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo8} />
+              <img className="w-full" src={photo4} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
