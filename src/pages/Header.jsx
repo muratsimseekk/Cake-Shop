@@ -30,7 +30,9 @@ function Header() {
               <Link to="/cookies">
                 <li>BESPOKE</li>
               </Link>
-              <li>WEDDINGS</li>
+              <Link to="/weddings">
+                <li>WEDDINGS</li>
+              </Link>
               <li>ABOUT</li>
               <li>FAQ</li>
               <li>CONTACT</li>

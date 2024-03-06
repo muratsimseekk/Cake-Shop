@@ -1,13 +1,12 @@
 import React from "react";
 
-import topPhoto from "../assets/specialpage/specialDayPhotos/cookie1.png";
-import photo2 from "../assets/specialpage/specialDayPhotos/cookie2.png";
-import photo3 from "../assets/specialpage/specialDayPhotos/cookie3.png";
-import photo4 from "../assets/specialpage/specialDayPhotos/cookie4.png";
-import photo5 from "../assets/specialpage/specialDayPhotos/cookie5.png";
-import photo6 from "../assets/specialpage/specialDayPhotos/cookie6.png";
-import photo7 from "../assets/specialpage/specialDayPhotos/cookie7.png";
-import photo8 from "../assets/specialpage/specialDayPhotos/cookie8.png";
+import photo2 from "../assets/cookies/cookie2.png";
+import photo3 from "../assets/cookies/cookie3.png";
+import photo4 from "../assets/cookies/cookie4.png";
+import photo5 from "../assets/cookies/cookie5.png";
+import photo6 from "../assets/cookies/cookie6.png";
+import photo7 from "../assets/cookies/cookie7.png";
+import photo8 from "../assets/cookies/cookie8.png";
 
 import store from "../assets/specialpage/specialDayPhotos/store.png";
 
@@ -17,7 +16,7 @@ function Cookies() {
       <div className="w-4/5 bg-red-300 my-14 flex flex-col gap-16">
         <div className="bg-yellow-300 flex flex-col gap-5 w-4/5">
           <h2 className="text-5xl">Cookies</h2>
-          <p className="leading-7">
+          <p className="leading-7 text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non,
             aut ipsam ab perspiciatis nihil, quae perferendis velit, consectetur
             maxime magnam commodi! Quasi repellendus delectus provident

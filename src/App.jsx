@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import Footer from "./pages/Footer";
 import SpecialPage from "./pages/SpecialPage";
 import Cookies from "./pages/Cookies";
+import Wedding from "./pages/Wedding";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/cookies" element={<Cookies />} />
+      </Routes>
+      <Routes>
+        <Route path="/weddings" element={<Wedding />} />
       </Routes>
       <Footer />
     </div>
