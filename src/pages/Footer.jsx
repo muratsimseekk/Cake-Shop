@@ -14,13 +14,15 @@ function Footer() {
           </div>
           <div>
             <ul className="flex flex-col gap-2 text-sm">
-              <li>HOME</li>
-              <li>VALENTINES</li>
-              <li>BESPOKE</li>
-              <li>WEDDINGS</li>
-              <li>ABOUT</li>
-              <li>FAQ</li>
-              <li>CONTACT</li>
+              <li className="hover:underline hover:cursor-pointer">HOME</li>
+              <li className="hover:underline hover:cursor-pointer">
+                VALENTINES
+              </li>
+              <li className="hover:underline hover:cursor-pointer">BESPOKE</li>
+              <li className="hover:underline hover:cursor-pointer">WEDDINGS</li>
+              <li className="hover:underline hover:cursor-pointer">ABOUT</li>
+              <li className="hover:underline hover:cursor-pointer">FAQ</li>
+              <li className="hover:underline hover:cursor-pointer">CONTACT</li>
             </ul>
           </div>
           <div className="flex flex-col gap-3 ">
@@ -40,10 +42,12 @@ function Footer() {
           </div>
           <div className="">
             <ul className="flex flex-col gap-2 text-sm">
-              <li>SEARCH</li>
-              <li>CANCELLATION</li>
-              <li>PRIVACY</li>
-              <li>TERMS</li>
+              <li className="hover:underline hover:cursor-pointer">SEARCH</li>
+              <li className="hover:underline hover:cursor-pointer">
+                CANCELLATION
+              </li>
+              <li className="hover:underline hover:cursor-pointer">PRIVACY</li>
+              <li className="hover:underline hover:cursor-pointer">TERMS</li>
             </ul>
           </div>
         </div>
@@ -63,14 +67,14 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className=" flex justify-end gap-4 text-2xl">
+          <div className=" flex justify-end gap-4 text-2xl mr-4">
             <FaFacebookF />
             <FaInstagram />
           </div>
         </div>
       </div>
       <div className="border-t-2 w-full">
-        <div className="flex items-center gap-2 my-4 justify-center">
+        <div className="flex items-center gap-2 my-4  justify-center">
           <AiOutlineCopyright />
           <p>2024 , Opera Baker</p>
         </div>
