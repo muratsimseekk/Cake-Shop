@@ -58,9 +58,9 @@ function Wedding() {
             <img className="w-full" src={photo7} />
           </div>
         </div>
-        <div className="flex justify-between h-[800px]">
-          <div className="w-1/2 h-full">
-            <img className="h-full" src={photo8} />
+        <div className="flex justify-between ">
+          <div className="w-1/2 ">
+            <img className="w-full" src={photo8} />
           </div>
           <div className="w-1/2 flex justify-center items-center ">
             <div className="bg-red-300 w-4/5 flex flex-col gap-8">
@@ -116,6 +116,22 @@ function Wedding() {
             <button className="max-w-max border border-black py-1 px-10 rounded-md">
               Send
             </button>
+          </div>
+        </div>
+        <div className="bg-blue-400 flex flex-col gap-2 text-center mt-9">
+          <p>30 Market Street , Adlinhton , Chorley,PR7 4HE</p>
+          <p>123456789</p>
+          <p>muratsimseekk@gmail.com</p>
+        </div>
+        <div className="w-full flex flex-col gap-10">
+          <h3 className="text-3xl bg-red-400 text-center">
+            Follow on instagram
+          </h3>
+          <div className="flex w-full justify-between">
+            <img className="w-[24%]" src={photo4} alt="" />
+            <img className="w-[24%]" src={photo5} alt="" />
+            <img className="w-[24%]" src={photo6} alt="" />
+            <img className="w-[24%]" src={photo7} alt="" />
           </div>
         </div>
       </div>
