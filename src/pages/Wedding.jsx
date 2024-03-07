@@ -118,7 +118,7 @@ function Wedding() {
             </button>
           </div>
         </div>
-        <div className="bg-blue-400 flex flex-col gap-2 text-center mt-9">
+        <div className="bg-blue-400 flex flex-col gap-2 text-center mt-9 text-lg">
           <p>30 Market Street , Adlinhton , Chorley,PR7 4HE</p>
           <p>123456789</p>
           <p>muratsimseekk@gmail.com</p>

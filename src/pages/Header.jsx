@@ -33,7 +33,9 @@ function Header() {
               <Link to="/weddings">
                 <li>WEDDINGS</li>
               </Link>
-              <li>ABOUT</li>
+              <Link to="/about">
+                <li>ABOUT</li>
+              </Link>
               <li>FAQ</li>
               <li>CONTACT</li>
             </ul>
