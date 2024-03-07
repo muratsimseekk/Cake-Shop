@@ -8,6 +8,7 @@ import Cookies from "./pages/Cookies";
 import Wedding from "./pages/Wedding";
 import About from "./pages/About";
 import Faq from "./pages/Faq";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/faq" element={<Faq />} />
+      </Routes>
+      <Routes>
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
