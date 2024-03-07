@@ -7,6 +7,7 @@ import SpecialPage from "./pages/SpecialPage";
 import Cookies from "./pages/Cookies";
 import Wedding from "./pages/Wedding";
 import About from "./pages/About";
+import Faq from "./pages/Faq";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/about" element={<About />} />
+      </Routes>
+      <Routes>
+        <Route path="/faq" element={<Faq />} />
       </Routes>
       <Footer />
     </div>
