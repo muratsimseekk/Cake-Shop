@@ -10,7 +10,9 @@ function About() {
   return (
     <div className="w-full flex justify-center">
       <div className="w-4/5 flex flex-col gap-12 my-14">
-        <h1 className="text-5xl text-center bg-green-200">About</h1>
+        <h1 className="2xl:text-4xl xl:text-3xl text-center bg-green-200">
+          About
+        </h1>
         <div className="flex flex-col gap-16">
           <div className="flex justify-between">
             <div className=" flex w-1/2">
@@ -18,7 +20,7 @@ function About() {
             </div>
             <div className="w-1/2 bg-yellow-200 flex justify-between items-center ">
               <div className="flex flex-col gap-5 px-8">
-                <h2 className="text-3xl ">Hannah Jones</h2>
+                <h2 className="2xl:text-3xl xl:text-2xl ">Hannah Jones</h2>
                 <p className="text-lg">
                   I'm a self taught baker and cake designer ! My passion for
                   baking began 2015 when i started making cakes and treats for
@@ -60,14 +62,14 @@ function About() {
             </div>
           </div>
           <div className="w-full flex flex-col gap-10">
-            <h3 className="text-3xl bg-red-400 text-center">
+            <h3 className="2xl:text-3xl xl:text-2xl bg-red-400 text-center">
               Follow on instagram
             </h3>
             <div className="flex w-full justify-between">
-              <img className="w-[24%]" src={photo4} alt="" />
-              <img className="w-[24%]" src={photo5} alt="" />
-              <img className="w-[24%]" src={photo6} alt="" />
-              <img className="w-[24%]" src={photo7} alt="" />
+              <img className="w-[24%] rounded-md" src={photo4} alt="" />
+              <img className="w-[24%] rounded-md" src={photo5} alt="" />
+              <img className="w-[24%] rounded-md" src={photo6} alt="" />
+              <img className="w-[24%] rounded-md" src={photo7} alt="" />
             </div>
           </div>
         </div>

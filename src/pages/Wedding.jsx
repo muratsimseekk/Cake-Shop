@@ -14,22 +14,31 @@ function Wedding() {
     <div className="w-full flex justify-center">
       <div className="w-4/5 bg-yellow-300 my-14 flex flex-col gap-10">
         <div className="flex flex-col gap-6">
-          <h2 className="text-4xl text-center">Weddings</h2>
-          <p className="text-2xl text-center">
+          <h2 className="2xl:text-4xl xl:text-3xl text-center">Weddings</h2>
+          <p className="2xl:text-2xl xl:text-xl text-center">
             For your perfect day,you deserve the perfect cake
           </p>
         </div>
         <div className="flex justify-between h-[900px]">
           <div className="w-[65%] h-full">
-            <img className="w-full h-full object-fill" src={photo1} />
+            <img
+              className="w-full h-full object-fill rounded-md"
+              src={photo1}
+            />
           </div>
           <div className="w-[34%] flex flex-col justify-between">
-            <img className="w-full h-[49%] object-fill" src={photo2} />
-            <img className="w-full h-[49%] object-fill" src={photo3} />
+            <img
+              className="w-full h-[49%] object-fill rounded-md"
+              src={photo2}
+            />
+            <img
+              className="w-full h-[49%] object-fill rounded-md"
+              src={photo3}
+            />
           </div>
         </div>
         <div className="flex flex-col gap-5 text-center items-center ">
-          <h3 className="text-3xl">
+          <h3 className="2xl:text-3xl xl:text-2xl">
             It's time to create something you've only ever dreamt of{" "}
           </h3>
           <p>
@@ -46,25 +55,27 @@ function Wedding() {
         </div>
         <div className="flex justify-between">
           <div className="w-[24%]">
-            <img className="w-full" src={photo4} />
+            <img className="w-full rounded-md" src={photo4} />
           </div>
           <div className="w-[24%]">
-            <img className="w-full" src={photo5} />
+            <img className="w-full rounded-md" src={photo5} />
           </div>
           <div className="w-[24%]">
-            <img className="w-full" src={photo6} />
+            <img className="w-full rounded-md" src={photo6} />
           </div>
           <div className="w-[24%]">
-            <img className="w-full" src={photo7} />
+            <img className="w-full rounded-md" src={photo7} />
           </div>
         </div>
         <div className="flex justify-between ">
           <div className="w-1/2 ">
-            <img className="w-full" src={photo8} />
+            <img className="w-full rounded-md" src={photo8} />
           </div>
           <div className="w-1/2 flex justify-center items-center ">
             <div className="bg-red-300 w-4/5 flex flex-col gap-8">
-              <h2 className="text-4xl">Let's talk it over ...</h2>
+              <h2 className="2xl:text-4xl xl:text-3xl">
+                Let's talk it over ...
+              </h2>
               <div className="flex flex-col gap-4">
                 <p className="text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
@@ -83,7 +94,7 @@ function Wedding() {
         </div>
         <div className="flex justify-center">
           <div className="w-[60%] bg-red-300 flex flex-col gap-4">
-            <h3 className="text-2xl">Make an enquiery</h3>
+            <h3 className="2xl:text-2xl xl:text-xl">Make an enquiery</h3>
             <div className="flex justify-between">
               <input
                 className="border border-black w-[47%] py-2 pl-5"
@@ -124,7 +135,7 @@ function Wedding() {
           <p>muratsimseekk@gmail.com</p>
         </div>
         <div className="w-full flex flex-col gap-10">
-          <h3 className="text-3xl bg-red-400 text-center">
+          <h3 className="2xl:text-3xl xl:text-2xl bg-red-400 text-center">
             Follow on instagram
           </h3>
           <div className="flex w-full justify-between">
