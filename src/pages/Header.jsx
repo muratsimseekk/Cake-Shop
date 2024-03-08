@@ -20,7 +20,7 @@ function Header() {
                 <h1 className="2xl:text-6xl xl:text-5xl ">Opera Baker</h1>
               </Link>
             </div>
-            <ul className="2xl:flex xl:flex xl:gap-6 2xl:gap-6 bg-yellow-300 text-xl xl:text-lg">
+            <ul className="2xl:flex xl:flex xl:gap-6 2xl:gap-6 bg-yellow-300 2xl:text-2xl xl:text-lg">
               <Link to="/">
                 <li>HOME</li>
               </Link>

@@ -15,8 +15,8 @@ function Cookies() {
     <div className="w-full flex justify-center items-center">
       <div className="w-4/5 bg-red-300 my-14 flex flex-col gap-16">
         <div className="bg-yellow-300 flex flex-col gap-5 w-4/5">
-          <h2 className="text-5xl">Cookies</h2>
-          <p className="leading-7 text-xl">
+          <h2 className="2xl:text-4xl xl:text-3xl">Cookies</h2>
+          <p className="leading-7 2xl:text-xl xl:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non,
             aut ipsam ab perspiciatis nihil, quae perferendis velit, consectetur
             maxime magnam commodi! Quasi repellendus delectus provident
@@ -32,7 +32,7 @@ function Cookies() {
           </div>
           <div className="flex justify-between flex-wrap gap-y-5 py-5">
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo2} />
+              <img className="w-full rounded-md" src={photo2} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -40,7 +40,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo3} />
+              <img className="w-full rounded-md" src={photo3} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -48,7 +48,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo8} />
+              <img className="w-full rounded-md" src={photo8} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -56,7 +56,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo4} />
+              <img className="w-full rounded-md" src={photo4} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -64,7 +64,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo5} />
+              <img className="w-full rounded-md" src={photo5} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -72,7 +72,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo6} />
+              <img className="w-full rounded-md" src={photo6} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -80,7 +80,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo7} />
+              <img className="w-full rounded-md" src={photo7} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -88,7 +88,7 @@ function Cookies() {
               </div>
             </div>
             <div className="w-[24%] flex flex-col gap-2">
-              <img className="w-full" src={photo4} />
+              <img className="w-full rounded-md" src={photo4} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -99,11 +99,11 @@ function Cookies() {
         </div>
         <div className="flex w-full justify-end text">
           <div className="w-2/5 flex justify-end">
-            <img className="w-[450px] h-full" src={store} alt="" />
+            <img className="w-[450px] h-full rounded-md" src={store} alt="" />
           </div>
           <div className="w-3/5 flex justify-between items-center ">
             <div className=" w-[90%] pl-20 flex flex-col gap-4 items-start">
-              <h2 className="text-5xl">Visit us in store</h2>
+              <h2 className="2xl:text-5xl xl:text-3xl">Visit us in store</h2>
               <div className="flex text-lg flex-col gap-2">
                 <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
                 <p>Opening hours:</p>

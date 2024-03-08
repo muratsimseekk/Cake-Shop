@@ -17,7 +17,7 @@ function SpecialPage() {
       <div className="w-4/5 flex flex-col items-center gap-10">
         <div className="bg-slate-400 w-full flex ">
           <div className="w-1/2 flex flex-col gap-4 bg-yellow-200 pt-10">
-            <h2 className="text-4xl">Valentines at CAKE</h2>
+            <h2 className="2xl:text-4xl xl:text-3xl">Valentines at CAKE</h2>
             <div className="flex flex-col gap-2 text-base">
               <p>Happy Valentine's Day</p>
               <p>
@@ -46,7 +46,7 @@ function SpecialPage() {
           </div>
           <div className="flex justify-between flex-wrap gap-y-5 py-5">
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo2} />
+              <img className="w-full rounded-md" src={photo2} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -54,7 +54,7 @@ function SpecialPage() {
               </div>
             </div>
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo3} />
+              <img className="w-full rounded-md" src={photo3} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -62,7 +62,7 @@ function SpecialPage() {
               </div>
             </div>
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo8} />
+              <img className="w-full rounded-md" src={photo8} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -70,7 +70,7 @@ function SpecialPage() {
               </div>
             </div>
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo9} />
+              <img className="w-full rounded-md" src={photo9} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -78,7 +78,7 @@ function SpecialPage() {
               </div>
             </div>
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo5} />
+              <img className="w-full rounded-md" src={photo5} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -86,7 +86,7 @@ function SpecialPage() {
               </div>
             </div>
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo6} />
+              <img className="w-full rounded-md" src={photo6} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -94,7 +94,7 @@ function SpecialPage() {
               </div>
             </div>
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo7} />
+              <img className="w-full rounded-md" src={photo7} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -102,7 +102,7 @@ function SpecialPage() {
               </div>
             </div>
             <div className="w-[23%] flex flex-col gap-2">
-              <img className="w-full" src={photo8} />
+              <img className="w-full rounded-md" src={photo8} />
               <div className="flex flex-col gap-1">
                 <h3 className="text-lg">Valentines Treat Box</h3>
                 <p className="text-sm">Cake By Opera Baker</p>
@@ -114,7 +114,7 @@ function SpecialPage() {
         <div className="flex w-full justify-end text-end">
           <div className="w-3/5 flex justify-between items-center ">
             <div className=" w-[90%] px-10 flex flex-col gap-4 items-end">
-              <h2 className="text-5xl">Visit us in store</h2>
+              <h2 className="2xl:text-5xl xl:text-4xl">Visit us in store</h2>
               <div className="flex text-lg flex-col gap-2">
                 <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
                 <p>Opening hours:</p>
