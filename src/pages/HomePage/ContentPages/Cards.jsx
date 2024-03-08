@@ -8,7 +8,7 @@ function Cards() {
   return (
     <div className="w-4/5 bg-red-200">
       <div>
-        <h3 className="tracking tracking-wider text-2xl py-10 ">
+        <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-xl xl:py-7 ">
           Our Valentines range ...
         </h3>
       </div>
@@ -17,7 +17,7 @@ function Cards() {
           <div className=" w-full">
             <img src={slider1} alt="" />
           </div>
-          <div className="flex flex-col gap-2 text-xl">
+          <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
             <h3>Valentines Treat Box</h3>
             <p>$16.00 </p>
           </div>
@@ -26,7 +26,7 @@ function Cards() {
           <div className=" w-full">
             <img src={slider1} alt="" />
           </div>
-          <div className="flex flex-col gap-2 text-xl">
+          <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
             <h3>Valentines Treat Box</h3>
             <p>$16.00 </p>
           </div>
@@ -35,7 +35,7 @@ function Cards() {
           <div className=" w-full">
             <img src={slider1} alt="" />
           </div>
-          <div className="flex flex-col gap-2 text-xl">
+          <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
             <h3>Valentines Treat Box</h3>
             <p>$16.00 </p>
           </div>
@@ -44,7 +44,7 @@ function Cards() {
           <div className=" w-full">
             <img src={slider1} alt="" />
           </div>
-          <div className="flex flex-col gap-2 text-xl">
+          <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
             <h3>Valentines Treat Box</h3>
             <p>$16.00 </p>
           </div>
@@ -54,7 +54,7 @@ function Cards() {
         <button
           type="button"
           onClick={(e) => viewButton(e)}
-          className="bg-red-600 py-1 px-5 shadow-md cursor-pointer "
+          className="bg-red-600 2xl:py-1 2xl:px-5 xl:py-1 xl:px-5 rounded-md shadow-md cursor-pointer "
         >
           View All
         </button>

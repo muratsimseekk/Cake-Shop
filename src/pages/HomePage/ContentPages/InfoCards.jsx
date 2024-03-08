@@ -8,25 +8,31 @@ function InfoCards() {
       <div className="flex w-full  justify-center">
         <div className="w-3/5  flex justify-end items-center">
           <div className=" w-[90%] h-5/6 px-10 flex flex-col gap-4 ">
-            <h2 className="text-5xl">As featured in British VOGUE</h2>
-            <p className="text-lg ">
+            <h2 className="2xl:text-5xl xl:text-4xl">
+              As featured in British VOGUE
+            </h2>
+            <p className=" 2xl:text-lg xl:text-lg ">
               Our Christmas Mini Cake featured in the British VOGUE DECEMBER
               2022 edition!
             </p>
           </div>
         </div>
         <div className="w-1/2 flex justify-end">
-          <img className="w-[450px] " src={foto1} alt="" />
+          <img
+            className="2xl:w-[450px] xl:w-[400px] rounded-md"
+            src={foto1}
+            alt=""
+          />
         </div>
       </div>
       <div className="h-[400px] flex  items-center">
         <div className="w-1/3 h-full  flex ">
-          <img className="h-full w-[350px]" src={foto2} alt="" />
+          <img className="h-full w-[350px] rounded-md" src={foto2} alt="" />
         </div>
         <div className="w-2/3 h-4/5 px-10">
           <div className="flex flex-col gap-6">
-            <h2 className="text-5xl">Weddings</h2>
-            <p className="text-lg">
+            <h2 className="2xl:text-5xl xl:text-4xl">Weddings</h2>
+            <p className="2xl:text-lg xl:text-lg">
               The most important dat of your life deserves the most elegant
               cake. Let's create the wedding cake you've only ever dreamt of .
             </p>
@@ -39,7 +45,7 @@ function InfoCards() {
       <div className="flex w-full justify-end text-end">
         <div className="w-3/5 flex justify-between items-center ">
           <div className=" w-[90%] px-10 flex flex-col gap-4 items-end">
-            <h2 className="text-5xl">Visit us in store</h2>
+            <h2 className="2xl:text-5xl xl:text-4xl">Visit us in store</h2>
             <div className="flex text-lg flex-col gap-2">
               <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
               <p>Opening hours:</p>
@@ -56,16 +62,22 @@ function InfoCards() {
           </div>
         </div>
         <div className="w-2/5 flex justify-end">
-          <img className="w-[450px] h-full" src={foto1} alt="" />
+          <img
+            className="2xl:w-[450px] xl:w-[400px] h-full rounded-md"
+            src={foto1}
+            alt=""
+          />
         </div>
       </div>
       <div className="w-full flex flex-col gap-10">
-        <h3 className="text-3xl bg-red-400 text-center">Follow on instagram</h3>
+        <h3 className="2xl:text-3xl xl:text-2xl bg-red-400 text-center">
+          Follow on instagram
+        </h3>
         <div className="flex w-full justify-between">
-          <img className="w-[24%]" src={foto1} alt="" />
-          <img className="w-[24%]" src={foto1} alt="" />
-          <img className="w-[24%]" src={foto1} alt="" />
-          <img className="w-[24%]" src={foto1} alt="" />
+          <img className="w-[24%] rounded-md" src={foto1} alt="" />
+          <img className="w-[24%] rounded-md" src={foto1} alt="" />
+          <img className="w-[24%] rounded-md" src={foto1} alt="" />
+          <img className="w-[24%] rounded-md" src={foto1} alt="" />
         </div>
       </div>
     </div>
