@@ -36,22 +36,22 @@ function TopSlider() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide className="h-full w-1/3">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[95%]">
           <img className=" h-full" src={slider1} />
         </SwiperSlide>
-        <SwiperSlide className="h-full w-1/3">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[95%]">
           <img className=" h-full" src={slider2} />
         </SwiperSlide>
-        <SwiperSlide className="h-full w-1/3">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[95%]">
           <img className="h-full" src={slider3} />
         </SwiperSlide>
-        <SwiperSlide className="h-full w-1/3">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[95%]">
           <img className="h-full" src={slider4} />
         </SwiperSlide>
-        <SwiperSlide className="h-full w-1/3">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[95%]">
           <img className="h-full" src={slider5} />
         </SwiperSlide>
-        <SwiperSlide className="h-full w-1/3">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[95%]">
           <img className="h-full" src={slider6} />
         </SwiperSlide>
         <div className="slider-controler">
