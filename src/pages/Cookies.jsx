@@ -15,7 +15,7 @@ function Cookies() {
     <div className="w-full flex justify-center items-center">
       <div className="w-4/5 bg-red-300 my-14 flex flex-col gap-16">
         <div className="bg-yellow-300 flex flex-col gap-5 w-4/5">
-          <h2 className="2xl:text-4xl xl:text-3xl">Cookies</h2>
+          <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl">Cookies</h2>
           <p className="leading-7 2xl:text-xl xl:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non,
             aut ipsam ab perspiciatis nihil, quae perferendis velit, consectetur
@@ -103,7 +103,9 @@ function Cookies() {
           </div>
           <div className="w-3/5 flex justify-between items-center ">
             <div className=" w-[90%] pl-20 flex flex-col gap-4 items-start">
-              <h2 className="2xl:text-5xl xl:text-3xl">Visit us in store</h2>
+              <h2 className="2xl:text-5xl xl:text-3xl lg:text-3xl">
+                Visit us in store
+              </h2>
               <div className="flex text-lg flex-col gap-2">
                 <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
                 <p>Opening hours:</p>
