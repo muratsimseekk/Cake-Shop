@@ -8,10 +8,10 @@ function InfoCards() {
       <div className="flex w-full  justify-center">
         <div className="w-3/5  flex justify-end items-center">
           <div className=" w-[90%] h-5/6 px-10 flex flex-col gap-4 ">
-            <h2 className="2xl:text-5xl xl:text-4xl">
+            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl">
               As featured in British VOGUE
             </h2>
-            <p className=" 2xl:text-lg xl:text-lg ">
+            <p className=" 2xl:text-lg xl:text-lg lg:text-xl">
               Our Christmas Mini Cake featured in the British VOGUE DECEMBER
               2022 edition!
             </p>
@@ -31,8 +31,8 @@ function InfoCards() {
         </div>
         <div className="w-2/3 h-4/5 px-10">
           <div className="flex flex-col gap-6">
-            <h2 className="2xl:text-5xl xl:text-4xl">Weddings</h2>
-            <p className="2xl:text-lg xl:text-lg">
+            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl">Weddings</h2>
+            <p className="2xl:text-lg xl:text-lg lg:text-xl">
               The most important dat of your life deserves the most elegant
               cake. Let's create the wedding cake you've only ever dreamt of .
             </p>
@@ -45,7 +45,9 @@ function InfoCards() {
       <div className="flex w-full justify-end text-end">
         <div className="w-3/5 flex justify-between items-center ">
           <div className=" w-[90%] px-10 flex flex-col gap-4 items-end">
-            <h2 className="2xl:text-5xl xl:text-4xl">Visit us in store</h2>
+            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl">
+              Visit us in store
+            </h2>
             <div className="flex text-lg flex-col gap-2">
               <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
               <p>Opening hours:</p>
@@ -56,7 +58,7 @@ function InfoCards() {
               <p>Friday 09:00 - 16:30</p>
               <p>Saturday 09:00 - 16:30</p>
             </div>
-            <button className="border text-lg w-1/3 py-1 rounded-md shadow">
+            <button className="border text-lg w-[35%] py-1 rounded-md shadow">
               Directions
             </button>
           </div>
@@ -70,7 +72,7 @@ function InfoCards() {
         </div>
       </div>
       <div className="w-full flex flex-col gap-10">
-        <h3 className="2xl:text-3xl xl:text-2xl bg-red-400 text-center">
+        <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl bg-red-400 text-center">
           Follow on instagram
         </h3>
         <div className="flex w-full justify-between">
