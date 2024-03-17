@@ -30,7 +30,9 @@ function Faq() {
     <div className="w-full flex justify-center">
       <div className="w-4/5 bg-yellow-300 my-10 flex flex-col gap-20">
         <div className="flex flex-col gap-3">
-          <h1 className="text-center 2xl:text-4xl xl:text-3xl my-4">FAQ </h1>
+          <h1 className="text-center 2xl:text-4xl xl:text-3xl lg:text-3xl my-4">
+            FAQ{" "}
+          </h1>
           <div className="bg-red-200 cursor-pointer">
             {first == false && (
               <div
@@ -39,7 +41,7 @@ function Faq() {
               >
                 <div className="flex items-center gap-8">
                   <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg">
+                  <p className="2xl:text-xl xl:text-lg lg:text-lg">
                     Do you make fondant or novelty cakes ?
                   </p>
                 </div>
@@ -56,7 +58,7 @@ function Faq() {
                 >
                   <div className="flex items-center gap-8">
                     <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg">
+                    <p className="2xl:text-xl xl:text-lg lg:text-lg">
                       Do you make fondant or novelty cakes ?
                     </p>
                   </div>
@@ -74,7 +76,7 @@ function Faq() {
               >
                 <div className="flex items-center gap-8">
                   <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg">
+                  <p className="2xl:text-xl xl:text-lg lg:text-lg">
                     Do you make fondant or novelty cakes ?
                   </p>
                 </div>
@@ -91,7 +93,7 @@ function Faq() {
                 >
                   <div className="flex items-center gap-8">
                     <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg">
+                    <p className="2xl:text-xl xl:text-lg lg:text-lg">
                       Do you make fondant or novelty cakes ?
                     </p>
                   </div>
@@ -109,7 +111,7 @@ function Faq() {
               >
                 <div className="flex items-center gap-8">
                   <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg">
+                  <p className="2xl:text-xl xl:text-lg lg:text-lg lg:text-lg">
                     Do you make fondant or novelty cakes ?
                   </p>
                 </div>
@@ -126,7 +128,7 @@ function Faq() {
                 >
                   <div className="flex items-center gap-8">
                     <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg">
+                    <p className="2xl:text-xl xl:text-lg lg:text-lg">
                       Do you make fondant or novelty cakes ?
                     </p>
                   </div>
@@ -144,7 +146,7 @@ function Faq() {
               >
                 <div className="flex items-center gap-8">
                   <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg">
+                  <p className="2xl:text-xl xl:text-lg lg:text-lg">
                     Do you make fondant or novelty cakes ?
                   </p>
                 </div>
@@ -161,7 +163,7 @@ function Faq() {
                 >
                   <div className="flex items-center gap-8">
                     <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg">
+                    <p className="2xl:text-xl xl:text-lg lg:text-lg">
                       Do you make fondant or novelty cakes ?
                     </p>
                   </div>
@@ -179,7 +181,7 @@ function Faq() {
               >
                 <div className="flex items-center gap-8">
                   <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg">
+                  <p className="2xl:text-xl xl:text-lg lg:text-lg">
                     Do you make fondant or novelty cakes ?
                   </p>
                 </div>
@@ -196,7 +198,7 @@ function Faq() {
                 >
                   <div className="flex items-center gap-8">
                     <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg">
+                    <p className="2xl:text-xl xl:text-lg lg:text-lg">
                       Do you make fondant or novelty cakes ?
                     </p>
                   </div>
@@ -208,14 +210,16 @@ function Faq() {
           </div>
         </div>
         <div className="flex flex-col gap-6 items-center bg-rose-200">
-          <h2 className="2xl:text-4xl xl:text-3xl">GET IN TOUCH</h2>
-          <p className="2xl:text-xl xl:text-lg">
+          <h2 className="2xl:text-4xl xl:text-3xl lg:text-2xl">GET IN TOUCH</h2>
+          <p className="2xl:text-xl xl:text-lg lg:text-lg">
             Any other questions ? Just send a message{" "}
           </p>
         </div>
         <div className="flex justify-center">
           <div className="w-[60%] bg-red-300 flex flex-col gap-4">
-            <h3 className="2xl:text-2xl xl:text-xl">Make an enquiery</h3>
+            <h3 className="2xl:text-2xl xl:text-xl lg:text-xl">
+              Make an enquiery
+            </h3>
             <div className="flex justify-between">
               <input
                 className="border border-black w-[47%] py-2 pl-5"
