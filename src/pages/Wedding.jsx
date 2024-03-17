@@ -14,10 +14,10 @@ function Wedding() {
     <div className="w-full flex justify-center">
       <div className="w-4/5 bg-yellow-300 my-14 flex flex-col gap-10">
         <div className="flex flex-col gap-6">
-          <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl text-center">
+          <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-center">
             Weddings
           </h2>
-          <p className="2xl:text-2xl xl:text-xl lg:text-xl text-center">
+          <p className="2xl:text-2xl xl:text-xl lg:text-xl md:text-base text-center">
             For your perfect day,you deserve the perfect cake
           </p>
         </div>
@@ -40,14 +40,14 @@ function Wedding() {
           </div>
         </div>
         <div className="flex flex-col gap-5 text-center items-center ">
-          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl">
+          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl">
             It's time to create something you've only ever dreamt of{" "}
           </h3>
-          <p>
+          <p className="2xl:text-base xl:text-base lg:text-base md:text-[15px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
             quia dolorum magnam aspernatur eos.
           </p>
-          <p>
+          <p className="2xl:text-base xl:text-base lg:text-base md:text-[15px]">
             My Wedding Brochure will provide you with all the details you need
             to know .
           </p>
@@ -75,17 +75,17 @@ function Wedding() {
           </div>
           <div className="w-1/2 flex justify-center items-center ">
             <div className="bg-red-300 w-4/5 flex flex-col gap-8">
-              <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl">
+              <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl">
                 Let's talk it over ...
               </h2>
               <div className="flex flex-col gap-4">
-                <p className="text-lg">
+                <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-[15px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                   itaque dolor dolore enim doloribus eaque omnis, hic officia
                   deleniti fugiat fugit ea ullam unde pariatur eligendi quod
                   eius tenetur nostrum.
                 </p>
-                <p className="text-lg">
+                <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-[15px]">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Repudiandae optio tempore architecto iste numquam sunt ipsa
                   adipisci enim, molestias nesciunt!
@@ -95,8 +95,8 @@ function Wedding() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="w-[60%] bg-red-300 flex flex-col gap-4">
-            <h3 className="2xl:text-2xl xl:text-xl lg:text-2xl">
+          <div className="2xl:w-[60%] xl:w-[60%] lg:w-[65%] md:w-[80%]  bg-red-300 flex flex-col gap-4">
+            <h3 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-lg">
               Make an enquiery
             </h3>
             <div className="flex justify-between">
@@ -139,7 +139,7 @@ function Wedding() {
           <p>muratsimseekk@gmail.com</p>
         </div>
         <div className="w-full flex flex-col gap-10">
-          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl bg-red-400 text-center">
+          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl bg-red-400 text-center">
             Follow on instagram
           </h3>
           <div className="flex w-full justify-between">

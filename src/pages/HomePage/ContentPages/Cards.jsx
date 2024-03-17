@@ -69,7 +69,7 @@ function Cards() {
           </button>
         </div>
         <div className="flex justify-center">
-          <p className="text-md">
+          <p className="">
             Luxury bespoke cakes and sweet treats , designed , created and
             served in Chorley , Lancashire.
           </p>

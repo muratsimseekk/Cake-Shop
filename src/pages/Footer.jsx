@@ -10,10 +10,12 @@ function Footer() {
       <div className="w-4/5 bg-red-500 flex my-8">
         <div className="w-1/3 bg-green-300 flex flex-col gap-4">
           <div>
-            <h3 className="text-xl">Navigation</h3>
+            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base">
+              Navigation
+            </h3>
           </div>
           <div>
-            <ul className="flex flex-col gap-2 text-sm w-max">
+            <ul className="flex flex-col gap-2  w-max 2xl:text-sm xl:text-sm lg:text-sm md:text-xs">
               <li className="hover:underline hover:cursor-pointer">HOME</li>
               <li className="hover:underline hover:cursor-pointer">
                 VALENTINES
@@ -38,10 +40,12 @@ function Footer() {
         </div>
         <div className="w-1/3 bg-indigo-300 flex flex-col gap-4">
           <div className="">
-            <h3 className="text-xl">Information</h3>
+            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base">
+              Information
+            </h3>
           </div>
           <div className="">
-            <ul className="flex flex-col gap-2 text-sm w-max">
+            <ul className="flex flex-col gap-2 2xl:text-sm xl:text-sm lg:text-sm md:text-xs w-max">
               <li className="hover:underline hover:cursor-pointer">SEARCH</li>
               <li className="hover:underline hover:cursor-pointer">
                 CANCELLATION
@@ -53,8 +57,10 @@ function Footer() {
         </div>
         <div className="w-1/3 bg-yellow-300 flex flex-col justify-between">
           <div className="flex flex-col gap-4">
-            <h3 className="text-xl">Opera Baker</h3>
-            <div className="text-sm flex flex-col gap-3">
+            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base">
+              Opera Baker
+            </h3>
+            <div className="2xl:text-sm xl:text-sm lg:text-sm md:text-xs flex flex-col gap-3">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
                 corrupti autem nobis doloremque aut veniam, sequi iusto ducimus

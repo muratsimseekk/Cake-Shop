@@ -17,7 +17,7 @@ function SpecialPage() {
       <div className="w-4/5 flex flex-col items-center gap-10">
         <div className="bg-slate-400 w-full flex ">
           <div className="w-1/2 flex flex-col gap-4 bg-yellow-200 pt-10">
-            <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl">
+            <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl">
               Valentines at CAKE
             </h2>
             <div className="flex flex-col gap-2 text-base">
@@ -38,13 +38,15 @@ function SpecialPage() {
               <p>Postal options also available .</p>
             </div>
           </div>
-          <div className="w-1/2">
-            <img className="w-full" src={topPhoto} alt="" />
+          <div className="w-1/2 h-full">
+            <img className="w-full h-full " src={topPhoto} alt="" />
           </div>
         </div>
-        <div className="bg-green-300 w-full flex flex-col ">
+        <div className="bg-green-300 w-full flex flex-col md:text-center 2xl:text-start xl:text-start lg:text-start ">
           <div>
-            <p className="text-2xl text-center py-5">Available CAKES</p>
+            <p className="text-2xl text-center py-5 md:text-xl">
+              Available CAKES
+            </p>
           </div>
           <div className="flex justify-between flex-wrap gap-y-5 py-5">
             <div className="w-[23%] flex flex-col gap-2">
@@ -114,12 +116,12 @@ function SpecialPage() {
           </div>
         </div>
         <div className="flex w-full justify-end text-end">
-          <div className="w-3/5 flex justify-between items-center ">
+          <div className="2xl:w-3/5 xl:w-3/5 lg:w-3/5 md:w-[55%] flex justify-between items-center ">
             <div className=" w-[90%] px-10 flex flex-col gap-4 items-end">
-              <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl">
+              <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl">
                 Visit us in store
               </h2>
-              <div className="flex text-lg flex-col gap-2">
+              <div className="flex text-lg flex-col gap-2 md:text-base">
                 <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
                 <p>Opening hours:</p>
                 <p>Monday 09:00 - 16:30</p>
@@ -129,13 +131,13 @@ function SpecialPage() {
                 <p>Friday 09:00 - 16:30</p>
                 <p>Saturday 09:00 - 16:30</p>
               </div>
-              <button className="border text-lg w-1/3 py-1 rounded-md shadow">
+              <button className="border 2xl:text-lg xl:text-lg lg:text-lg md:text-base 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] py-1 rounded-md shadow">
                 Directions
               </button>
             </div>
           </div>
-          <div className="w-2/5 flex justify-end">
-            <img className="w-[450px] h-full" src={store} alt="" />
+          <div className="2xl:w-2/5 xl:w-2/5 lg:w-2/5 md:w-[45%] flex justify-end">
+            <img className="w-full h-full" src={store} alt="" />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ function InfoCards() {
       <div className="flex w-full  justify-center">
         <div className="w-3/5  flex justify-end items-center">
           <div className=" w-[90%] h-5/6 px-10 md:px-4 flex flex-col gap-4">
-            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl">
+            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl">
               As featured in British VOGUE
             </h2>
             <p className=" 2xl:text-lg xl:text-lg lg:text-xl md:text-base ">
@@ -31,7 +31,7 @@ function InfoCards() {
         </div>
         <div className="w-[55%] h-4/5 px-10">
           <div className="flex flex-col gap-6">
-            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl">
+            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl">
               Weddings
             </h2>
             <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
@@ -47,10 +47,10 @@ function InfoCards() {
       <div className="flex w-full justify-end text-end">
         <div className="w-3/5 flex justify-between items-center ">
           <div className=" w-[90%] px-10 flex flex-col gap-4 items-end">
-            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl">
+            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl">
               Visit us in store
             </h2>
-            <div className="flex text-lg flex-col gap-2">
+            <div className="flex text-lg md:text-base flex-col gap-2">
               <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
               <p>Opening hours:</p>
               <p>Monday 09:00 - 16:30</p>
