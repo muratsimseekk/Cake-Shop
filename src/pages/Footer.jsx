@@ -13,7 +13,7 @@ function Footer() {
             <h3 className="text-xl">Navigation</h3>
           </div>
           <div>
-            <ul className="flex flex-col gap-2 text-sm">
+            <ul className="flex flex-col gap-2 text-sm w-max">
               <li className="hover:underline hover:cursor-pointer">HOME</li>
               <li className="hover:underline hover:cursor-pointer">
                 VALENTINES
@@ -41,7 +41,7 @@ function Footer() {
             <h3 className="text-xl">Information</h3>
           </div>
           <div className="">
-            <ul className="flex flex-col gap-2 text-sm">
+            <ul className="flex flex-col gap-2 text-sm w-max">
               <li className="hover:underline hover:cursor-pointer">SEARCH</li>
               <li className="hover:underline hover:cursor-pointer">
                 CANCELLATION

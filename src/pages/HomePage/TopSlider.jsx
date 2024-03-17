@@ -36,29 +36,29 @@ function TopSlider() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%]">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
           <img className=" h-full" src={slider1} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%]">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%]  md:w-[42%]">
           <img className=" h-full" src={slider2} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%]">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
           <img className="h-full" src={slider3} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%]">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
           <img className="h-full" src={slider4} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%]">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
           <img className="h-full" src={slider5} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%]">
+        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
           <img className="h-full" src={slider6} />
         </SwiperSlide>
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
-          <div className="swiper-button-next slider-arrow">
+          <div className="swiper-button-next slider-arrow ">
             <ion-icon name="arrow-forward-outline"></ion-icon>
           </div>
           <div className="swiper-pagination"></div>

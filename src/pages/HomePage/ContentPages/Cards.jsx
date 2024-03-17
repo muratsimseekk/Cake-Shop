@@ -8,7 +8,7 @@ function Cards() {
   return (
     <div className="w-4/5 bg-red-200">
       <div>
-        <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-xl xl:py-7 lg:text-xl py-5">
+        <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-xl xl:py-7 lg:text-xl md:text-xl py-5">
           Our Valentines range ...
         </h3>
       </div>
@@ -54,7 +54,7 @@ function Cards() {
         <button
           type="button"
           onClick={(e) => viewButton(e)}
-          className="bg-red-600 2xl:py-1 2xl:px-5 xl:py-1 xl:px-5 lg:py-1 lg:px-6 rounded-md shadow-md cursor-pointer "
+          className="bg-red-600 2xl:py-1 2xl:px-5 xl:py-1 xl:px-5 lg:py-1 lg:px-6 md:px-6 md:py-1 rounded-md shadow-md cursor-pointer "
         >
           View All
         </button>
