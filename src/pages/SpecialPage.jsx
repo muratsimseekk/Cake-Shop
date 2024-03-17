@@ -17,7 +17,9 @@ function SpecialPage() {
       <div className="w-4/5 flex flex-col items-center gap-10">
         <div className="bg-slate-400 w-full flex ">
           <div className="w-1/2 flex flex-col gap-4 bg-yellow-200 pt-10">
-            <h2 className="2xl:text-4xl xl:text-3xl">Valentines at CAKE</h2>
+            <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl">
+              Valentines at CAKE
+            </h2>
             <div className="flex flex-col gap-2 text-base">
               <p>Happy Valentine's Day</p>
               <p>
@@ -114,7 +116,9 @@ function SpecialPage() {
         <div className="flex w-full justify-end text-end">
           <div className="w-3/5 flex justify-between items-center ">
             <div className=" w-[90%] px-10 flex flex-col gap-4 items-end">
-              <h2 className="2xl:text-5xl xl:text-4xl">Visit us in store</h2>
+              <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl">
+                Visit us in store
+              </h2>
               <div className="flex text-lg flex-col gap-2">
                 <p>30 Market Street , Adlington ,Chorley,PR7 4HE</p>
                 <p>Opening hours:</p>
