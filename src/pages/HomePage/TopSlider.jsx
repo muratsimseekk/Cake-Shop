@@ -13,7 +13,7 @@ import slider6 from "./../../assets/img2.jpg";
 
 function TopSlider() {
   return (
-    <div className="pt-8">
+    <div className="pt-8 ">
       <Swiper
         style={{ height: 570 }}
         effect={"coverflow"}
@@ -21,6 +21,15 @@ function TopSlider() {
         centeredSlides={true}
         loop={true}
         slidesPerView={"auto"}
+        // breakpoints={{
+        //   390: {
+        //     slidesPerView: 2,
+        //     height: 400,
+        //   },
+        //   768: {
+        //     slidesPerView: 1,
+        //   },
+        // }}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -36,22 +45,22 @@ function TopSlider() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%] h-[70%] w-[60%]">
           <img className=" h-full" src={slider1} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%]  md:w-[42%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%]  md:w-[42%] h-[70%] w-[60%]">
           <img className=" h-full" src={slider2} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%] h-[70%] w-[60%]">
           <img className="h-full" src={slider3} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%] h-[70%] w-[60%]">
           <img className="h-full" src={slider4} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%] h-[70%] w-[60%]">
           <img className="h-full" src={slider5} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] lg:h-[85%] md:h-[80%] md:w-[42%] h-[70%] w-[60%]">
           <img className="h-full" src={slider6} />
         </SwiperSlide>
         <div className="slider-controler">
