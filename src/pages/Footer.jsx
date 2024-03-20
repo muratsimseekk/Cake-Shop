@@ -7,15 +7,15 @@ function Footer() {
   //TODO: ul-li ler icin button ve hover effect verilecek.
   return (
     <div className="w-full bg-[#f7e4e3] flex flex-col items-center justify-center">
-      <div className="w-4/5 bg-red-500 flex my-8">
-        <div className="w-1/3 bg-green-300 flex flex-col gap-4">
+      <div className="w-4/5 bg-red-500 md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row flex flex-col md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-0 gap-12 my-8">
+        <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full bg-green-300 flex flex-col gap-4">
           <div>
-            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base">
+            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base text-xl">
               Navigation
             </h3>
           </div>
           <div>
-            <ul className="flex flex-col gap-2  w-max 2xl:text-sm xl:text-sm lg:text-sm md:text-xs">
+            <ul className="md:flex md:flex-col md:gap-2 lg:flex lg:flex-col lg:gap-2 xl:flex xl:flex-col xl:gap-2 2xl:flex 2xl:flex-col 2xl:gap-2  flex flex-col gap-3  w-max 2xl:text-sm xl:text-sm lg:text-sm md:text-xs">
               <li className="hover:underline hover:cursor-pointer">HOME</li>
               <li className="hover:underline hover:cursor-pointer">
                 VALENTINES
@@ -27,25 +27,15 @@ function Footer() {
               <li className="hover:underline hover:cursor-pointer">CONTACT</li>
             </ul>
           </div>
-          <div className="flex flex-col gap-3 ">
-            <h3>Subscribe</h3>
-            <input
-              type="email"
-              name=""
-              id=""
-              placeholder="Email"
-              className="py-1 px-2 w-4/5 border border-[#40695d] rounded-sm"
-            />
-          </div>
         </div>
-        <div className="w-1/3 bg-indigo-300 flex flex-col gap-4">
+        <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full bg-indigo-300 flex flex-col gap-4">
           <div className="">
-            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base">
+            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base text-xl">
               Information
             </h3>
           </div>
           <div className="">
-            <ul className="flex flex-col gap-2 2xl:text-sm xl:text-sm lg:text-sm md:text-xs w-max">
+            <ul className="md:flex md:flex-col md:gap-2 lg:flex lg:flex-col lg:gap-2 xl:flex xl:flex-col xl:gap-2 2xl:flex 2xl:flex-col 2xl:gap-2  flex flex-col gap-3  w-max 2xl:text-sm xl:text-sm lg:text-sm md:text-xs">
               <li className="hover:underline hover:cursor-pointer">SEARCH</li>
               <li className="hover:underline hover:cursor-pointer">
                 CANCELLATION
@@ -55,9 +45,9 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-1/3 bg-yellow-300 flex flex-col justify-between">
+        <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full bg-yellow-300 flex flex-col justify-between gap-6">
           <div className="flex flex-col gap-4">
-            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base">
+            <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base text-xl">
               Opera Baker
             </h3>
             <div className="2xl:text-sm xl:text-sm lg:text-sm md:text-xs flex flex-col gap-3">
@@ -73,9 +63,9 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className=" flex justify-end gap-4 text-2xl mr-4">
-            <FaFacebookF />
-            <FaInstagram />
+          <div className="bg-blue-50 flex justify-center gap-8 md:flex md:flex-row md:gap-4 md:mr-4 md:justify-end lg:flex lg:flex-row lg:gap-4 lg:mr-4 lg:justify-end xl:flex xl:flex-row xl:gap-4 xl:mr-4 xl:justify-end 2xl:flex 2xl:flex-row 2xl:gap-4 2xl:mr-4 2xl:justify-end">
+            <FaFacebookF size={"30px"} />
+            <FaInstagram size={"30px"} />
           </div>
         </div>
       </div>
