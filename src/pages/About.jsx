@@ -14,7 +14,7 @@ function About() {
           About
         </h1>
         <div className="flex flex-col gap-16">
-          <div className="md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
+          <div className=" md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
             <div className=" w-full md:flex md:flex-row md:w-[55%] lg:flex lg:flex-row lg:w-[55%] xl:flex xl:flex-row xl:w-[55%] 2xl:flex 2xl:flex-row 2xl:w-[55%]">
               <img className=" bg-red-200 w-full" src={photo2} />
             </div>

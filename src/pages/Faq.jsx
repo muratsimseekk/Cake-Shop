@@ -30,7 +30,7 @@ function Faq() {
     <div className="w-full flex justify-center">
       <div className="w-4/5 bg-yellow-300 my-10 flex flex-col gap-20">
         <div className="flex flex-col gap-3">
-          <h1 className="text-center 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl my-4">
+          <h1 className="text-center 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl my-4">
             FAQ{" "}
           </h1>
           <div className="bg-red-200 cursor-pointer">
@@ -51,7 +51,7 @@ function Faq() {
           </div>
           <div className="bg-red-200 cursor-pointer">
             {first == true && (
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-3">
                 <div
                   onClick={change1}
                   className="flex items-center justify-between"
@@ -64,7 +64,7 @@ function Faq() {
                   </div>
                   <IoIosArrowUp className="text-2xl" />
                 </div>
-                <p>No</p>
+                <p className="">No</p>
               </div>
             )}
           </div>
@@ -86,7 +86,7 @@ function Faq() {
           </div>
           <div className="bg-red-200 cursor-pointer">
             {second == true && (
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-3">
                 <div
                   onClick={change2}
                   className="flex items-center justify-between"
@@ -121,7 +121,7 @@ function Faq() {
           </div>
           <div className="bg-red-200 cursor-pointer">
             {third == true && (
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-3">
                 <div
                   onClick={change3}
                   className="flex items-center justify-between"
@@ -156,7 +156,7 @@ function Faq() {
           </div>
           <div className="bg-red-200 cursor-pointer">
             {fourth == true && (
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-3">
                 <div
                   onClick={change4}
                   className="flex items-center justify-between"
@@ -191,7 +191,7 @@ function Faq() {
           </div>
           <div className="bg-red-200 cursor-pointer">
             {fifth == true && (
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-3">
                 <div
                   onClick={change5}
                   className="flex items-center justify-between"
@@ -210,7 +210,7 @@ function Faq() {
           </div>
         </div>
         <div className="flex flex-col gap-6 items-center bg-rose-200">
-          <h2 className="2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl">
+          <h2 className="2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-2xl">
             GET IN TOUCH
           </h2>
           <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
@@ -218,11 +218,11 @@ function Faq() {
           </p>
         </div>
         <div className="flex justify-center">
-          <div className="2xl:w-[60%] xl:w-[60%] lg:w-[65%] md:w-[80%]  bg-red-300 flex flex-col gap-4">
-            <h3 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-lg">
+          <div className="2xl:w-[60%] xl:w-[60%] lg:w-[65%] md:w-[80%] w-full  bg-red-300 flex flex-col gap-4">
+            <h3 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-lg text-lg">
               Make an enquiery
             </h3>
-            <div className="flex justify-between">
+            <div className="hidden md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
               <input
                 className="border border-black w-[47%] py-2 pl-5"
                 type="text"
@@ -236,6 +236,19 @@ function Faq() {
                 placeholder="E-mail *"
               />
             </div>
+            <input
+              className="block md:hidden lg:hidden xl:hidden 2xl:hidden border border-black w-full py-2 pl-5"
+              type="text"
+              placeholder="Name *"
+            />
+            <input
+              className="block md:hidden lg:hidden xl:hidden 2xl:hidden border border-black w-full py-2 pl-5"
+              type="email"
+              name=""
+              id=""
+              placeholder="E-mail *"
+            />
+
             <input
               className="border border-black w-full py-2 pl-5"
               type="tel"
