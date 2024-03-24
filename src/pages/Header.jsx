@@ -18,7 +18,7 @@ function Header() {
           <FaArrowRightLong className="w-4 h-4 text-[#40695d]" />
         </div>
         <div className="2xl:flex xl:flex 2xl:justify-center xl:justify-center 2xl:items-center xl:items-center flex flex-col items-center">
-          <div className="bg-red-300 tracking-wider  flex flex-col items-center gap-8 2xl:flex xl:flex 2xl:flex-row xl:flex-row 2xl:items-center xl:items-center 2xl:justify-between xl:justify-between 2xl:gap-8 2xl:w-4/5 xl:w-4/5 w-full py-5 xl:py-3">
+          <div className=" tracking-wider  flex flex-col items-center gap-8 2xl:flex xl:flex 2xl:flex-row xl:flex-row 2xl:items-center xl:items-center 2xl:justify-between xl:justify-between 2xl:gap-8 2xl:w-4/5 xl:w-4/5 w-full py-5 xl:py-3">
             <div className="flex items-center w-full md:hidden lg:hidden xl:hidden 2xl:hidden justify-between px-2 font-whisper bg-green-300">
               <CiMenuBurger onClick={() => setMenu(!menu)} size={"28px"} />
               <Link to="/">
@@ -28,14 +28,14 @@ function Header() {
               </Link>
               <CiSearch size={"32px"} />
             </div>
-            <div className=" md:block lg:block xl:block 2xl:block hidden font-whisper bg-green-300">
+            <div className=" md:block lg:block xl:block 2xl:block hidden font-whisper">
               <Link to="/">
                 <h1 className="2xl:text-6xl xl:text-5xl lg:text-6xl md:text-5xl text-[42px]">
                   Opera Baker
                 </h1>
               </Link>
             </div>
-            <ul className="2xl:flex xl:flex xl:gap-6 2xl:gap-6 hidden  bg-yellow-300 2xl:text-2xl xl:text-lg lg:text-lg lg:flex lg:gap-12 md:flex md:gap-6 ">
+            <ul className="2xl:flex xl:flex xl:gap-6 2xl:gap-6 hidden 2xl:text-2xl xl:text-lg lg:text-lg lg:flex lg:gap-12 md:flex md:gap-6 ">
               <Link to="/">
                 <li>HOME</li>
               </Link>
@@ -59,7 +59,7 @@ function Header() {
               </Link>
             </ul>
             {menu && (
-              <ul className="flex flex-col gap-4 md:hidden lg:hidden xl:hidden 2xl:hidden  bg-yellow-300 ">
+              <ul className="flex flex-col gap-4 md:hidden lg:hidden xl:hidden 2xl:hidden  ">
                 <Link to="/">
                   <li>HOME</li>
                 </Link>
