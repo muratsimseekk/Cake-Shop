@@ -13,8 +13,8 @@ import store from "../assets/specialpage/specialDayPhotos/store.png";
 function Cookies() {
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="w-4/5 bg-red-300 my-14 flex flex-col gap-16">
-        <div className="bg-yellow-300 flex flex-col gap-5 md:w-4/5 lg:w-4/5 xl:w-4/5 2xl:w-4/5 w-full">
+      <div className="w-4/5  my-14 flex flex-col gap-16">
+        <div className=" flex flex-col gap-5 md:w-4/5 lg:w-4/5 xl:w-4/5 2xl:w-4/5 w-full">
           <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
             Cookies
           </h2>
@@ -28,7 +28,7 @@ function Cookies() {
             quasi numquam soluta voluptatum placeat quidem pariatur!
           </p>
         </div>
-        <div className="bg-green-300 w-full flex flex-col ">
+        <div className=" w-full flex flex-col ">
           <div>
             <p className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl text-center py-5">
               Available Cookies
@@ -101,7 +101,7 @@ function Cookies() {
             </div>
           </div>
         </div>
-        <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
+        <div className=" flex flex-col gap-8 w-full md:flex md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
           <div className=" 2xl:w-3/5 xl:w-3/5 lg:w-3/5 md:w-[55%] w-full flex flex-col md:flex md:flex-row md:justify-between md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center xl:flex xl:flex-row xl:justify-between xl:items-center 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:items-center ">
             <div className="2xl:w-2/5 xl:w-2/5 lg:w-2/5 md:w-[45%] pb-10 flex justify-end">
               <img className="w-full h-full" src={store} alt="" />
