@@ -7,7 +7,7 @@ import photo7 from "../assets/weddings/wedding7.png";
 function Contact() {
   return (
     <div className="w-full flex justify-center">
-      <div className="w-4/5 bg-blue-300 my-16 flex flex-col gap-16">
+      <div className="w-4/5 my-16 flex flex-col gap-16">
         <div className="flex flex-col gap-7 text-center">
           <h1 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
             Get In Touch
@@ -22,7 +22,7 @@ function Contact() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="2xl:w-[60%] xl:w-[60%] lg:w-[65%] md:w-[80%] w-full  bg-red-300 flex flex-col gap-4">
+          <div className="2xl:w-[60%] xl:w-[60%] lg:w-[65%] md:w-[80%] w-full flex flex-col gap-4">
             <h3 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-lg text-lg">
               Make an enquiery
             </h3>
@@ -79,7 +79,7 @@ function Contact() {
           <p>muratsimseekk@gmail.com</p>
         </div>
         <div className="w-full flex flex-col gap-10">
-          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-red-400 text-center">
+          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl text-center">
             Follow on instagram
           </h3>
           <div className="flex w-full justify-between">

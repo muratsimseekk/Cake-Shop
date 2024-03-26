@@ -2,7 +2,6 @@ import React from "react";
 
 import photo2 from "../assets/cookies/cookie2.png";
 import photo3 from "../assets/cookies/cookie3.png";
-import photo4 from "../assets/cookies/cookie4.png";
 import photo5 from "../assets/cookies/cookie5.png";
 import photo6 from "../assets/cookies/cookie6.png";
 import photo7 from "../assets/cookies/cookie7.png";
