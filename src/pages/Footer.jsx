@@ -7,8 +7,8 @@ function Footer() {
   //TODO: ul-li ler icin button ve hover effect verilecek.
   return (
     <div className="w-full bg-[#f7e4e3] flex flex-col items-center justify-center">
-      <div className="w-4/5 bg-red-500 md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row flex flex-col md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-0 gap-12 my-8">
-        <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full bg-green-300 flex flex-col gap-4">
+      <div className="w-4/5  md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row flex flex-col md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-0 gap-12 my-8">
+        <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full flex flex-col gap-4">
           <div>
             <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base text-xl">
               Navigation
@@ -45,7 +45,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full bg-yellow-300 flex flex-col justify-between gap-6">
+        <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full  flex flex-col justify-between gap-6">
           <div className="flex flex-col gap-4">
             <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base text-xl">
               Opera Baker
@@ -63,7 +63,7 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className="bg-blue-50 flex justify-center gap-8 md:flex md:flex-row md:gap-4 md:mr-4 md:justify-end lg:flex lg:flex-row lg:gap-4 lg:mr-4 lg:justify-end xl:flex xl:flex-row xl:gap-4 xl:mr-4 xl:justify-end 2xl:flex 2xl:flex-row 2xl:gap-4 2xl:mr-4 2xl:justify-end">
+          <div className=" flex justify-center gap-8 md:flex md:flex-row md:gap-4 md:mr-4 md:justify-end lg:flex lg:flex-row lg:gap-4 lg:mr-4 lg:justify-end xl:flex xl:flex-row xl:gap-4 xl:mr-4 xl:justify-end 2xl:flex 2xl:flex-row 2xl:gap-4 2xl:mr-4 2xl:justify-end">
             <FaFacebookF size={"30px"} />
             <FaInstagram size={"30px"} />
           </div>
