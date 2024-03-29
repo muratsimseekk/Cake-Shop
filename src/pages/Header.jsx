@@ -19,7 +19,7 @@ function Header() {
         </div>
         <div className="2xl:flex xl:flex 2xl:justify-center xl:justify-center 2xl:items-center xl:items-center flex flex-col items-center">
           <div className=" tracking-wider  flex flex-col items-center gap-8 2xl:flex xl:flex 2xl:flex-row xl:flex-row 2xl:items-center xl:items-center 2xl:justify-between xl:justify-between 2xl:gap-8 2xl:w-4/5 xl:w-4/5 w-full py-5 xl:py-3">
-            <div className="flex items-center w-full md:hidden lg:hidden xl:hidden 2xl:hidden justify-between px-2 font-whisper bg-green-300">
+            <div className="flex items-center w-full md:hidden lg:hidden xl:hidden 2xl:hidden justify-between px-2 font-whisper ">
               <CiMenuBurger onClick={() => setMenu(!menu)} size={"28px"} />
               <Link to="/">
                 <h1 className="2xl:text-6xl xl:text-5xl lg:text-6xl md:text-5xl text-[42px]">

@@ -28,12 +28,12 @@ function Faq() {
 
   return (
     <div className="w-full flex justify-center">
-      <div className="w-4/5 bg-yellow-300 my-10 flex flex-col gap-20">
+      <div className="w-4/5  my-10 flex flex-col gap-20">
         <div className="flex flex-col gap-3">
           <h1 className="text-center 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl my-4">
             FAQ{" "}
           </h1>
-          <div className="bg-red-200 cursor-pointer">
+          <div className=" cursor-pointer">
             {first == false && (
               <div
                 onClick={change1}
@@ -49,7 +49,7 @@ function Faq() {
               </div>
             )}
           </div>
-          <div className="bg-red-200 cursor-pointer">
+          <div className=" cursor-pointer">
             {first == true && (
               <div className="flex flex-col gap-3">
                 <div
@@ -68,7 +68,7 @@ function Faq() {
               </div>
             )}
           </div>
-          <div className="bg-red-200 cursor-pointer">
+          <div className=" cursor-pointer">
             {second == false && (
               <div
                 onClick={change2}
@@ -84,7 +84,7 @@ function Faq() {
               </div>
             )}
           </div>
-          <div className="bg-red-200 cursor-pointer">
+          <div className=" cursor-pointer">
             {second == true && (
               <div className="flex flex-col gap-3">
                 <div
