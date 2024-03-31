@@ -10,15 +10,15 @@ function About() {
   return (
     <div className="w-full flex justify-center">
       <div className="w-4/5 flex flex-col gap-12 my-14">
-        <h1 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl  text-center bg-green-200">
+        <h1 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl  text-center ">
           About
         </h1>
         <div className="flex flex-col gap-16">
           <div className=" md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
             <div className=" w-full md:flex md:flex-row md:w-[55%] lg:flex lg:flex-row lg:w-[55%] xl:flex xl:flex-row xl:w-[55%] 2xl:flex 2xl:flex-row 2xl:w-[55%]">
-              <img className=" bg-red-200 w-full" src={photo2} />
+              <img className="  w-full" src={photo2} />
             </div>
-            <div className="md:w-[45%] lg:w-[45%] xl:w-[45%] 2xl:w-[45%] w-[85%] bg-yellow-200 m-auto md:flex md:flex-row md:justify-between md:items-center ">
+            <div className="md:w-[45%] lg:w-[45%] xl:w-[45%] 2xl:w-[45%] w-[85%]  m-auto md:flex md:flex-row md:justify-between md:items-center ">
               <div className="flex flex-col gap-5 2xl:px-8 xl:px-8 lg:px-8 md:px-4 py-5">
                 <h2 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-3xl">
                   Hannah Jones
@@ -44,7 +44,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
+          <div className=" flex flex-col gap-8 w-full md:flex md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
             <div className=" 2xl:w-3/5 xl:w-3/5 lg:w-3/5 md:w-[55%] w-full flex flex-col md:flex md:flex-row md:justify-between md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center xl:flex xl:flex-row xl:justify-between xl:items-center 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:items-center ">
               <div className="2xl:w-2/5 xl:w-2/5 lg:w-2/5 md:w-[45%] pb-10 flex justify-end">
                 <img className="w-full h-full" src={photo1} alt="" />
