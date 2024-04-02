@@ -16,7 +16,7 @@ function About() {
         <div className="flex flex-col gap-16">
           <div className=" md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
             <div className=" w-full md:flex md:flex-row md:w-[55%] lg:flex lg:flex-row lg:w-[55%] xl:flex xl:flex-row xl:w-[55%] 2xl:flex 2xl:flex-row 2xl:w-[55%]">
-              <img className="  w-full" src={photo2} />
+              <img className="w-full" src={photo2} />
             </div>
             <div className="md:w-[45%] lg:w-[45%] xl:w-[45%] 2xl:w-[45%] w-[85%]  m-auto md:flex md:flex-row md:justify-between md:items-center ">
               <div className="flex flex-col gap-5 2xl:px-8 xl:px-8 lg:px-8 md:px-4 py-5">
