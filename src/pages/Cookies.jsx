@@ -7,7 +7,7 @@ import photo6 from "../assets/cookies/cookie6.png";
 import photo7 from "../assets/cookies/cookie7.png";
 import photo8 from "../assets/cookies/cookie8.png";
 
-import store from "../assets/specialpage/specialDayPhotos/store.png";
+import store from "../assets/outside.jpg";
 
 function Cookies() {
   return (
@@ -100,7 +100,7 @@ function Cookies() {
             </div>
           </div>
         </div>
-        <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
+        <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:flex-row md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
           <div className="2xl:w-2/5 xl:w-2/5 lg:w-2/5 md:w-[45%] flex justify-end">
             <img className="w-full h-full" src={store} alt="" />
           </div>

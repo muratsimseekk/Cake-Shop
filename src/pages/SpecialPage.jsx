@@ -9,7 +9,7 @@ import photo6 from "../assets/specialpage/specialDayPhotos/photo6.png";
 import photo7 from "../assets/specialpage/specialDayPhotos/photo7.png";
 import photo8 from "../assets/specialpage/specialDayPhotos/photo8.png";
 import photo9 from "../assets/specialpage/specialDayPhotos/photo9.png";
-import store from "../assets/specialpage/specialDayPhotos/store.png";
+import store from "../assets/outside.jpg";
 
 function SpecialPage() {
   return (
@@ -115,7 +115,7 @@ function SpecialPage() {
             </div>
           </div>
         </div>
-        <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
+        <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:flex-row md:justify-end md:text-end lg:flex lg:flex-row lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
           <div className="2xl:w-3/5 xl:w-3/5 lg:w-3/5 md:w-[55%] w-full flex flex-col md:flex md:flex-row md:justify-between md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center xl:flex xl:flex-row xl:justify-between xl:items-center 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:items-center ">
             <div className=" md:w-[90%] md:px-10 lg:w-[90%] lg:px-10 xl:w-[90%] xl:px-10 2xl:w-[90%] 2xl:px-10 flex flex-col gap-4 md:items-end lg:items-end xl:items-end 2xl:items-end">
               <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl">

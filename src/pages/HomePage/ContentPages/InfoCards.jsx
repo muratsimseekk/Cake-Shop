@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import foto1 from "../../../assets/img1.jpg";
 import foto2 from "../../../assets/img2.jpg";
+import cake1 from "../../../assets/cakes/cake1.jpeg";
+import cake2 from "../../../assets/cakes/cake2.jpeg";
+import cake3 from "../../../assets/cakes/cake3.jpeg";
+import cake4 from "../../../assets/cakes/cake4.jpeg";
+
+import store from "../../../assets/outside.jpg";
 function InfoCards() {
+  const [photos, setPhotos] = useState([]);
+  const [loading, setLoading] = useState([]);
+
   //TODO: img ler map ile yazdiriliacak
   return (
     <div className="flex flex-col w-4/5 bg-300 gap-20">
@@ -60,7 +69,7 @@ function InfoCards() {
       </div>
       <div className=" md:hidden lg:hidden xl:hidden 2xl:hidden w-full flex flex-col gap-10 ">
         <div className="w-full">
-          <img className=" rounded-md" src={foto2} alt="" />
+          <img className=" rounded-md" src={foto1} alt="" />
         </div>
         <div className="w-full flex justify-center text-center">
           <div className="flex flex-col w-[90%] items-center bg-indigo-100 gap-6">
@@ -99,7 +108,7 @@ function InfoCards() {
         <div className="w-2/5 flex justify-end">
           <img
             className="2xl:w-[450px] xl:w-[400px] h-full rounded-md"
-            src={foto1}
+            src={store}
             alt=""
           />
         </div>
@@ -107,7 +116,7 @@ function InfoCards() {
       <div className="md:hidden lg:hidden xl:hidden 2xl:hidden w-full flex  ">
         <div className="w-full flex flex-col items-center gap-10">
           <div className="w-full ">
-            <img className="rounded-md w-full" src={foto1} alt="" />
+            <img className="rounded-md w-full" src={store} alt="" />
           </div>
           <div className=" w-[90%] flex flex-col items-center gap-4 text-center">
             <h2 className="text-3xl">Visit us in store</h2>
@@ -128,29 +137,46 @@ function InfoCards() {
         </div>
       </div>
       <div className="w-full flex flex-col gap-10">
-        <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-red-400 text-center">
-          Follow on instagram
+        <h3
+          onClick={() =>
+            window.open("https://www.instagram.com/operabaker/", "_blank")
+          }
+          className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-red-400 text-center hover:cursor-pointer"
+        >
+          Instagram Hesabimizi Takip Edin
         </h3>
         <div className="flex w-full justify-between">
           <img
-            className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md"
-            src={foto1}
+            className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
+            src={cake1}
             alt=""
+            onClick={() =>
+              window.open("https://www.instagram.com/operabaker/", "_blank")
+            }
           />
           <img
-            className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md"
-            src={foto1}
+            className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
+            src={cake2}
             alt=""
+            onClick={() =>
+              window.open("https://www.instagram.com/operabaker/", "_blank")
+            }
           />
           <img
-            className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md"
-            src={foto1}
+            className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
+            src={cake3}
             alt=""
+            onClick={() =>
+              window.open("https://www.instagram.com/operabaker/", "_blank")
+            }
           />
           <img
-            className="w-[24%] rounded-md md:block lg:block xl:block 2xl:block hidden"
-            src={foto1}
+            className="w-[24%] rounded-md md:block lg:block xl:block 2xl:block hidden hover:cursor-pointer hover:opacity-70"
+            src={cake4}
             alt=""
+            onClick={() =>
+              window.open("https://www.instagram.com/operabaker/", "_blank")
+            }
           />
         </div>
       </div>
