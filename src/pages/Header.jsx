@@ -35,12 +35,12 @@ function Header() {
                 </h1>
               </Link>
             </div>
-            <ul className="2xl:flex xl:flex xl:gap-6 2xl:gap-6 hidden 2xl:text-2xl xl:text-lg lg:text-lg lg:flex lg:gap-12 md:flex md:gap-6 ">
+            <ul className="2xl:flex xl:flex xl:gap-6 2xl:gap-6 hidden 2xl:text-xl xl:text-lg lg:text-lg lg:flex lg:gap-12 md:flex md:gap-6 ">
               <Link to="/">
-                <li>HOME</li>
+                <li>ANASAYFA</li>
               </Link>
               <Link to="/specialday">
-                <li>VALENTINES</li>
+                <li>ÇİKOLATALAR</li>
               </Link>
               <Link to="/cookies">
                 <li>BESPOKE</li>
@@ -49,37 +49,37 @@ function Header() {
                 <li>WEDDINGS</li>
               </Link>
               <Link to="/about">
-                <li>ABOUT</li>
+                <li>HAKKIMIZDA</li>
               </Link>
               <Link to="/faq">
-                <li>FAQ</li>
+                <li>SSS</li>
               </Link>
               <Link to="/contact">
-                <li>CONTACT</li>
+                <li>İLETİŞİM</li>
               </Link>
             </ul>
             {menu && (
-              <ul className="flex flex-col gap-4 md:hidden lg:hidden xl:hidden 2xl:hidden  ">
-                <Link to="/">
-                  <li>HOME</li>
+              <ul className="flex flex-col gap-4 md:hidden lg:hidden xl:hidden 2xl:hidden  text-center">
+                <Link onClick={() => setMenu(false)} to="/">
+                  <li>ANASAYFA</li>
                 </Link>
-                <Link to="/specialday">
-                  <li>VALENTINES</li>
+                <Link onClick={() => setMenu(false)} to="/specialday">
+                  <li>ÇİKOLATALAR</li>
                 </Link>
-                <Link to="/cookies">
+                <Link onClick={() => setMenu(false)} to="/cookies">
                   <li>BESPOKE</li>
                 </Link>
-                <Link to="/weddings">
+                <Link onClick={() => setMenu(false)} to="/weddings">
                   <li>WEDDINGS</li>
                 </Link>
-                <Link to="/about">
-                  <li>ABOUT</li>
+                <Link onClick={() => setMenu(false)} to="/about">
+                  <li>HAKKIMIZDA</li>
                 </Link>
-                <Link to="/faq">
-                  <li>FAQ</li>
+                <Link onClick={() => setMenu(false)} to="/faq">
+                  <li>SSS</li>
                 </Link>
-                <Link to="/contact">
-                  <li>CONTACT</li>
+                <Link onClick={() => setMenu(false)} to="/contact">
+                  <li>İLETİŞİM</li>
                 </Link>
               </ul>
             )}

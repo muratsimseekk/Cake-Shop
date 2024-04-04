@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import photo1 from "../assets/weddings/wedding1.png";
 import photo2 from "../assets/weddings/wedding2.png";
@@ -10,6 +10,9 @@ import photo7 from "../assets/weddings/wedding7.png";
 import photo8 from "../assets/weddings/wedding8.png";
 
 function Wedding() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
   return (
     <div className="w-full flex justify-center">
       <div className="w-4/5 bg-yellow-300 my-14 flex flex-col gap-10">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import photo1 from "../assets/about/about1.png";
 import photo2 from "../assets/about/about2.png";
 
@@ -9,6 +9,10 @@ import photo7 from "../assets/weddings/wedding7.png";
 
 import store from "../assets/outside.jpg";
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
+
   return (
     <div className="w-full flex justify-center">
       <div className="w-4/5 flex flex-col gap-12 my-14">

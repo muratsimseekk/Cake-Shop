@@ -1,53 +1,63 @@
 import React from "react";
 import slider1 from "../../../assets/img1.jpg";
+
+import ciko1 from "../../../assets/cikolata/ciko1.jpg";
+import ciko2 from "../../../assets/cikolata/ciko2.jpg";
+import ciko3 from "../../../assets/cikolata/ciko3.jpg";
+import ciko4 from "../../../assets/cikolata/ciko4.jpg";
+import { useNavigate } from "react-router-dom";
+
 function Cards() {
+  const navigate = useNavigate();
+
   const viewButton = (e) => {
     e.preventDefault();
     console.log("tiklandi");
+    navigate("/specialday");
   };
   return (
     <>
       <div className="w-4/5 bg-red-200 md:block lg:block xl:block 2xl:block hidden">
         <div>
-          <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-xl xl:py-7 lg:text-xl md:text-xl py-5">
-            Our Valentines range ...
+          <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-2xl xl:py-7 lg:text-xl md:text-xl py-5">
+            Bayram Çikolataları
           </h3>
         </div>
         <div className="flex flex-wrap justify-between">
           <div className="flex flex-col gap-4 border w-[24%]">
             <div className=" w-full">
-              <img src={slider1} alt="" />
+              <img src={ciko1} alt="" />
             </div>
-            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
-              <h3>Valentines Treat Box</h3>
-              <p>$16.00 </p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-4 border w-[24%]">
-            <div className=" w-full">
-              <img src={slider1} alt="" />
-            </div>
-            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
-              <h3>Valentines Treat Box</h3>
-              <p>$16.00 </p>
+            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
+              <h3>4x4 Spesiyal Bayram Çikolatası</h3>
+              <p>350₺</p>
             </div>
           </div>
           <div className="flex flex-col gap-4 border w-[24%]">
             <div className=" w-full">
-              <img src={slider1} alt="" />
+              <img src={ciko2} alt="" />
             </div>
-            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
-              <h3>Valentines Treat Box</h3>
-              <p>$16.00 </p>
+            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
+              <h3>4x4 Spesiyal Bayram Çikolatası</h3>
+              <p>350₺</p>
             </div>
           </div>
           <div className="flex flex-col gap-4 border w-[24%]">
             <div className=" w-full">
-              <img src={slider1} alt="" />
+              <img src={ciko3} alt="" />
             </div>
-            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg">
-              <h3>Valentines Treat Box</h3>
-              <p>$16.00 </p>
+            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
+              <h3>4x6 Spesiyal Bayram Çikolatası</h3>
+              <p>500₺</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 border w-[24%]">
+            <div className=" w-full">
+              <img src={ciko4} alt="" />
+            </div>
+            <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
+              <h3>4x4 Spesiyal Bayram Çikolatası</h3>
+              <p>350₺</p>
             </div>
           </div>
         </div>
@@ -57,7 +67,7 @@ function Cards() {
             onClick={(e) => viewButton(e)}
             className="bg-red-600 2xl:py-1 2xl:px-5 xl:py-1 xl:px-5 lg:py-1 lg:px-6 md:px-6 md:py-1 rounded-md shadow-md cursor-pointer "
           >
-            View All
+            Hepsini Gör
           </button>
         </div>
         <div className="bg-yellow-100 py-10 flex flex-col gap-4">

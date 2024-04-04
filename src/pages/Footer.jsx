@@ -2,8 +2,10 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineCopyright } from "react-icons/ai";
+import { Link, useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navigate = useNavigate();
   //TODO: ul-li ler icin button ve hover effect verilecek.
   return (
     <div className="w-full bg-[#f7e4e3] flex flex-col items-center justify-center">
@@ -16,15 +18,27 @@ function Footer() {
           </div>
           <div>
             <ul className="md:flex md:flex-col md:gap-2 lg:flex lg:flex-col lg:gap-2 xl:flex xl:flex-col xl:gap-2 2xl:flex 2xl:flex-col 2xl:gap-2  flex flex-col gap-3  w-max 2xl:text-sm xl:text-sm lg:text-sm md:text-xs">
-              <li className="hover:underline hover:cursor-pointer">HOME</li>
-              <li className="hover:underline hover:cursor-pointer">
-                VALENTINES
-              </li>
-              <li className="hover:underline hover:cursor-pointer">BESPOKE</li>
-              <li className="hover:underline hover:cursor-pointer">WEDDINGS</li>
-              <li className="hover:underline hover:cursor-pointer">ABOUT</li>
-              <li className="hover:underline hover:cursor-pointer">FAQ</li>
-              <li className="hover:underline hover:cursor-pointer">CONTACT</li>
+              <Link to="/">
+                <li>ANASAYFA</li>
+              </Link>
+              <Link to="/specialday">
+                <li>ÇİKOLATALAR</li>
+              </Link>
+              <Link to="/cookies">
+                <li>BESPOKE</li>
+              </Link>
+              <Link to="/weddings">
+                <li>WEDDINGS</li>
+              </Link>
+              <Link to="/about">
+                <li>HAKKIMIZDA</li>
+              </Link>
+              <Link to="/faq">
+                <li>SSS</li>
+              </Link>
+              <Link to="/contact">
+                <li>İLETİŞİM</li>
+              </Link>
             </ul>
           </div>
         </div>

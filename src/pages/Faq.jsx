@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CiSquareCheck } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
@@ -25,6 +25,10 @@ function Faq() {
   const change5 = () => {
     setFifth(!fifth);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
 
   return (
     <div className="w-full flex justify-center">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import photo2 from "../assets/cookies/cookie2.png";
 import photo3 from "../assets/cookies/cookie3.png";
@@ -10,6 +10,9 @@ import photo8 from "../assets/cookies/cookie8.png";
 import store from "../assets/outside.jpg";
 
 function Cookies() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
   return (
     <div className="w-full flex justify-center items-center">
       <div className="w-4/5  my-14 flex flex-col gap-16">

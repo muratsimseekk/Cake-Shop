@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import photo4 from "../assets/weddings/wedding4.png";
 import photo5 from "../assets/weddings/wedding5.png";
 import photo6 from "../assets/weddings/wedding6.png";
 import photo7 from "../assets/weddings/wedding7.png";
 
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
   return (
     <div className="w-full flex justify-center">
       <div className="w-4/5 my-16 flex flex-col gap-16">

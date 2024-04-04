@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import topPhoto from "../assets/specialpage/specialDayPhotos/photo1.png";
 import photo2 from "../assets/specialpage/specialDayPhotos/photo2.png";
@@ -12,30 +12,40 @@ import photo9 from "../assets/specialpage/specialDayPhotos/photo9.png";
 import store from "../assets/outside.jpg";
 
 function SpecialPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
+
   return (
     <div className="w-full flex justify-center my-5">
       <div className="w-4/5 flex flex-col items-center gap-10">
         <div className="bg-slate-400 w-full flex flex-col gap-8 md:flex md:flex-row md:gap-0 lg:flex lg:flex-row lg:gap-0 xl:flex xl:flex-row xl:gap-0 2xl:flex 2xl:flex-row 2xl:gap-0 ">
           <div className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 w-full flex flex-col gap-4 bg-yellow-200 pt-10">
             <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
-              Valentines at CAKE
+              Orjinal 1.Sınıf Belçika Çikolataları
             </h2>
-            <div className="flex flex-col gap-2 text-base">
-              <p>Happy Valentine's Day</p>
+            <div className="flex flex-col gap-4 text-base">
               <p>
-                For someone you love or just a little self care,we have the
-                perfect gift ...
+                Ramazan Bayramı'nın tatlı coşkusunu Opera'nın spesiyal
+                çikolatalarıyla kutlamaya ne dersiniz?{" "}
               </p>
               <p>
-                Choose from our range for freshly baked and beautifully
-                decorated mini cakes and sweet treat , and treat the ones you
-                love this Valentines Day.
+                Her biri özenle hazırlanmış bitter, beyaz, normal ve enfes
+                fıstıklı, fındıklı çeşitlerimizle sevdiklerinize muhteşem bir
+                lezzet şöleni sunuyoruz. Bu bayram, sevdiklerinizle bir araya
+                gelirken, en kaliteli çikolatalarımızı ikram ederek tatlı anılar
+                biriktirmeye davetlisiniz.
               </p>
               <p>
-                Available for collection in store on Saturday 10th or Wednesday
-                14th of February
+                Ayrıcalıklı tatların adresi olan Belçika çikolatalarımız,
+                Ramazan Bayramı'nın huzur dolu atmosferine lezzet katarak
+                sofralarınıza renk getiriyor.
               </p>
-              <p>Postal options also available .</p>
+              <p>
+                Sevdiklerinizle paylaşmak için özenle hazırladığımız çeşit çeşit
+                çikolatalarımızla, bu bayramı unutulmaz kılın. İyi bayramlar
+                dileriz, tatlı anılarla dolu bir bayram geçirmeniz dileğiyle!
+              </p>
             </div>
           </div>
           <div className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full">
