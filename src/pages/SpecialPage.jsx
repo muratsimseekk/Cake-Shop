@@ -1,20 +1,22 @@
 import React, { useEffect } from "react";
 
-import topPhoto from "../assets/specialpage/specialDayPhotos/photo1.png";
-import photo2 from "../assets/specialpage/specialDayPhotos/photo2.png";
-import photo3 from "../assets/specialpage/specialDayPhotos/photo3.png";
-import photo4 from "../assets/specialpage/specialDayPhotos/photo4.png";
-import photo5 from "../assets/specialpage/specialDayPhotos/photo5.png";
-import photo6 from "../assets/specialpage/specialDayPhotos/photo6.png";
-import photo7 from "../assets/specialpage/specialDayPhotos/photo7.png";
-import photo8 from "../assets/specialpage/specialDayPhotos/photo8.png";
-import photo9 from "../assets/specialpage/specialDayPhotos/photo9.png";
+import topPhoto from "../assets/cikolata/cikolata9.jpg";
+import cikolata1 from "../assets/cikolata/cikolata1.jpg";
+import cikolata2 from "../assets/cikolata/cikolata2.jpg";
+import cikolata3 from "../assets/cikolata/cikolata3.jpg";
+import cikolata4 from "../assets/cikolata/cikolata4.jpg";
+import cikolata5 from "../assets/cikolata/cikolata5.jpg";
+import cikolata6 from "../assets/cikolata/cikolata6.jpg";
+import cikolata7 from "../assets/cikolata/cikolata7.jpg";
+import cikolata8 from "../assets/cikolata/cikolata8.jpg";
+
 import store from "../assets/outside.jpg";
+import { GiCupcake } from "react-icons/gi";
 
 function SpecialPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  // }, []);
 
   return (
     <div className="w-full flex justify-center my-5">
@@ -24,7 +26,7 @@ function SpecialPage() {
             <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
               Orjinal 1.Sınıf Belçika Çikolataları
             </h2>
-            <div className="flex flex-col gap-4 text-base">
+            <div className="flex flex-col gap-3 text-lg">
               <p>
                 Ramazan Bayramı'nın tatlı coşkusunu Opera'nın spesiyal
                 çikolatalarıyla kutlamaya ne dersiniz?{" "}
@@ -53,73 +55,75 @@ function SpecialPage() {
           </div>
         </div>
         <div className="bg-green-300 w-full flex flex-col md:text-center 2xl:text-start xl:text-start lg:text-start ">
-          <div>
-            <p className="text-2xl text-center py-5 md:text-xl">
-              Available CAKES
+          <div className="flex items-center justify-center 2xl:gap-4 xl:gap-4 lg:gap-4 md:gap-4 gap-1">
+            <GiCupcake className="w-[30px] " />
+            <p className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl text-xl  text-center py-5 ">
+              Opera'nın Lezzetli mi Lezzetli Spesiyal Çikolataları
             </p>
+            <GiCupcake className="w-[30px]" />
           </div>
-          <div className="flex md:flex md:flex-row md:gap-y-5 md:py-5 lg:flex lg:flex-row lg:gap-y-5 lg:py-5 xl:flex xl:flex-row xl:gap-y-5 xl:py-5 2xl:flex 2xl:flex-row 2xl:gap-y-5 2xl:py-5   justify-between flex-wrap">
+          <div className="flex md:flex md:flex-row md:gap-y-5 md:py-5 lg:flex lg:flex-row lg:gap-y-5 lg:py-5 xl:flex xl:flex-row xl:gap-y-5 xl:py-5 2xl:flex 2xl:flex-row 2xl:gap-y-5 2xl:py-5   justify-between flex-wrap text-center">
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo2} />
+              <img className="w-full rounded-md" src={cikolata7} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Bitter Çikolatalar</h3>
+                <p className="text-sm">Fıstıklı ve Bademli </p>
                 <p>$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo3} />
+              <img className="w-full rounded-md" src={cikolata8} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Damla Motifli Çikolatalar</h3>
+                <p className="text-sm">Beyaz ve Sütlü </p>
                 <p>$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo8} />
+              <img className="w-full rounded-md" src={cikolata3} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Beyaz Çikolatalar</h3>
+                <p className="text-sm">Fıstıklı Beyaz </p>
                 <p>$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo9} />
+              <img className="w-full rounded-md" src={cikolata4} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Sütlü Çikolatalar</h3>
+                <p className="text-sm">Fıstıklı ve Bademli </p>
                 <p>$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo5} />
+              <img className="w-full rounded-md" src={cikolata5} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Sütlü Çikolatalar</h3>
+                <p className="text-sm">Sade Beyaz</p>
                 <p>$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo6} />
+              <img className="w-full rounded-md" src={cikolata6} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Bitter Çikolatalar</h3>
+                <p className="text-sm">Fındıklı Bitter </p>
                 <p>$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo7} />
+              <img className="w-full rounded-md" src={cikolata2} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Beyaz Çikolatalar</h3>
+                <p className="text-sm">Özel Motifli Beyaz </p>
                 <p>$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo8} />
+              <img className="w-full rounded-md" src={cikolata1} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
+                <h3 className="text-lg">Beyaz Çikolatalar</h3>
+                <p className="text-sm">Sade Beyaz</p>
                 <p>$12</p>
               </div>
             </div>
