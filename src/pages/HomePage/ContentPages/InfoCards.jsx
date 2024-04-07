@@ -7,6 +7,8 @@ import cake2 from "../../../assets/cakes/cake2.jpeg";
 import cake3 from "../../../assets/cakes/cake3.jpeg";
 import cake4 from "../../../assets/cakes/cake4.jpeg";
 
+import tasarim from "../../../assets/home/tasarim.jpeg";
+
 import store from "../../../assets/outside.jpg";
 import { Link } from "react-router-dom";
 function InfoCards() {
@@ -114,7 +116,7 @@ function InfoCards() {
         <div className="w-full">
           <img className=" rounded-md" src={foto2} alt="" />
         </div>
-        <div className="w-full flex justify-center text-center">
+        <div className="w-full flex justify-center text-center ">
           <div className="flex flex-col w-[90%] items-center bg-indigo-100 gap-6">
             <h2 className="text-xl">Iki boyutlu pastalar</h2>
             <p className="text-sm">
@@ -148,7 +150,7 @@ function InfoCards() {
               kişiselleştirin. Pastanızın üzerine eklenecek yazılar tamamen
               sizin isteğinize bağlı. Ayrıca, renk seçimini de size bırakıyoruz!
             </p>
-            <p>
+            <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
               En özel günleriniz için Opera Baker'da size özel bir lezzet
               deneyimi sizi bekliyor.
             </p>
@@ -171,19 +173,36 @@ function InfoCards() {
         <div className="w-full ">
           <img className="rounded-md" src={yazili} alt="" />
         </div>
-        <div className="w-full bg-yellow-100 flex  justify-center">
-          <div className="flex flex-col text-center w-[90%] bg-red-100 gap-6">
-            <h2 className="text-3xl">Yazılı Pastalar </h2>
-            <p className=" text-base ">
-              Our Christmas Mini Cake featured in the British VOGUE DECEMBER
-              2022 edition!
+        <div className="w-full bg-yellow-100 flex  justify-center ">
+          <div className="flex flex-col text-center w-[90%] bg-red-100 gap-6 ">
+            <h2 className="text-xl">Yazılı Pastalar </h2>
+            <p className=" text-sm  ">
+              Opera Baker'ın yazılı pastalarıyla özel günlerinize dokunuş katın!
             </p>
+            <p className="text-sm ">
+              İster sevdiklerinizin isimleriyle, ister unutulmaz bir mesajla
+              kişiselleştirin. Pastanızın üzerine eklenecek yazılar tamamen
+              sizin isteğinize bağlı. Ayrıca, renk seçimini de size bırakıyoruz!
+            </p>
+            <p className="text-sm">
+              En özel günleriniz için Opera Baker'da size özel bir lezzet
+              deneyimi sizi bekliyor.
+            </p>
+            <Link className="w-full" to="/weddings">
+              <button className="border w-full py-1 text-sm shadow-md rounded-md border-blue-300">
+                Daha Fazla
+              </button>
+            </Link>
           </div>
         </div>
       </div>
       <div className=" md:flex md:items-center lg:flex lg:items-center xl:flex xl:items-center 2xl:flex 2xl:items-center hidden">
         <div className="w-[45%] h-full  flex ">
-          <img className="h-full  md:w-[400px] rounded-md" src={foto2} alt="" />
+          <img
+            className="h-full  md:w-[400px] rounded-md"
+            src={tasarim}
+            alt=""
+          />
         </div>
         <div className="w-[55%] h-4/5 px-10">
           <div className="flex flex-col gap-6">
@@ -191,29 +210,53 @@ function InfoCards() {
               Tasarım Pastalar
             </h2>
             <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
-              The most important day of your life deserves the most elegant
-              cake. Let's create the wedding cake you've only ever dreamt of .
+              Opera Baker'ın tasarım pastaları, modern estetiği ve sıradışı
+              detaylarıyla özel günlerinizi unutulmaz kılıyor.
             </p>
-            <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
-              Learn More
-            </button>
+            <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
+              Her bir pasta, özenle seçilmiş malzemeler ve ustalıkla işlenmiş
+              tasarımlarıyla göz dolduruyor. Opera Baker, her diliminde
+              benzersiz bir lezzet ve estetik sunarak müşterilerine unutulmaz
+              deneyimler yaşatmayı hedefliyor.
+            </p>
+            <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
+              Sizin için özel tasarlanmış pastalarımızla, en özel günlerinizi
+              renklendirin ve sıradışı bir lezzet yolculuğuna çıkın.
+            </p>
+            <Link className="w-full" to="/weddings">
+              <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
       <div className=" md:hidden lg:hidden xl:hidden 2xl:hidden w-full flex flex-col gap-10 ">
         <div className="w-full">
-          <img className=" rounded-md" src={foto1} alt="" />
+          <img className=" rounded-md" src={tasarim} alt="" />
         </div>
         <div className="w-full flex justify-center text-center">
           <div className="flex flex-col w-[90%] items-center bg-indigo-100 gap-6">
-            <h2 className="text-3xl">Tasarım Pastalar</h2>
-            <p className="text-base">
-              The most important day of your life deserves the most elegant
-              cake. Let's create the wedding cake you've only ever dreamt of .
+            <h2 className="text-xl">Tasarım Pastalar </h2>
+            <p className=" text-sm  ">
+              Opera Baker'ın tasarım pastaları, modern estetiği ve sıradışı
+              detaylarıyla özel günlerinizi unutulmaz kılıyor.
             </p>
-            <button className="border w-[65%] py-1 text-lg shadow-md rounded-md border-blue-300">
-              Learn More
-            </button>
+            <p className="text-sm ">
+              Her bir pasta, özenle seçilmiş malzemeler ve ustalıkla işlenmiş
+              tasarımlarıyla göz dolduruyor. Opera Baker, her diliminde
+              benzersiz bir lezzet ve estetik sunarak müşterilerine unutulmaz
+              deneyimler yaşatmayı hedefliyor.
+            </p>
+            <p className="text-sm">
+              Sizin için özel tasarlanmış pastalarımızla, en özel günlerinizi
+              renklendirin ve sıradışı bir lezzet yolculuğuna çıkın.
+            </p>
+            <Link className="w-full" to="/weddings">
+              <button className="border w-full py-1 text-sm shadow-md rounded-md border-blue-300">
+                Daha Fazla
+              </button>
+            </Link>
           </div>
         </div>
       </div>
