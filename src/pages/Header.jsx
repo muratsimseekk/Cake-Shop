@@ -40,20 +40,21 @@ function Header() {
                 <li>ANASAYFA</li>
               </Link>
               <Link to="/specialday">
-                <li>ÇİKOLATALAR</li>
+                <li>ÇİKOLATA</li>
               </Link>
               <Link to="/cookies">
-                <li>BESPOKE</li>
+                <li>KURABİYE</li>
               </Link>
               <Link to="/weddings">
-                <li>WEDDINGS</li>
+                <li>PASTA</li>
+              </Link>
+              <Link to="/faq">
+                <li>TATLILAR</li>
               </Link>
               <Link to="/about">
                 <li>HAKKIMIZDA</li>
               </Link>
-              <Link to="/faq">
-                <li>SSS</li>
-              </Link>
+
               <Link to="/contact">
                 <li>İLETİŞİM</li>
               </Link>
@@ -64,20 +65,21 @@ function Header() {
                   <li>ANASAYFA</li>
                 </Link>
                 <Link onClick={() => setMenu(false)} to="/specialday">
-                  <li>ÇİKOLATALAR</li>
+                  <li>ÇİKOLATA</li>
                 </Link>
                 <Link onClick={() => setMenu(false)} to="/cookies">
-                  <li>BESPOKE</li>
+                  <li>KURABİYE</li>
                 </Link>
                 <Link onClick={() => setMenu(false)} to="/weddings">
-                  <li>WEDDINGS</li>
+                  <li>PASTA</li>
+                </Link>
+                <Link onClick={() => setMenu(false)} to="/faq">
+                  <li>TATLILAR</li>
                 </Link>
                 <Link onClick={() => setMenu(false)} to="/about">
                   <li>HAKKIMIZDA</li>
                 </Link>
-                <Link onClick={() => setMenu(false)} to="/faq">
-                  <li>SSS</li>
-                </Link>
+
                 <Link onClick={() => setMenu(false)} to="/contact">
                   <li>İLETİŞİM</li>
                 </Link>

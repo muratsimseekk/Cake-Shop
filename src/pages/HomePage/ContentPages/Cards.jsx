@@ -9,6 +9,16 @@ import { useNavigate } from "react-router-dom";
 
 function Cards() {
   const navigate = useNavigate();
+  const redirectToLocation = () => {
+    // Belirli bir koordinat veya adres bilgisi
+    const destination = "37.0735141,37.3405707"; // Örnek: "37.7749,-122.4194"
+
+    // Google Haritalar URL'sini oluştur
+    const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
+
+    // Yeni pencerede Google Haritalar'ı açan kod
+    window.open(mapsUrl, "_blank");
+  };
 
   const viewButton = (e) => {
     e.preventDefault();
@@ -19,7 +29,7 @@ function Cards() {
     <>
       <div className="w-4/5 bg-red-200 md:block lg:block xl:block 2xl:block hidden">
         <div>
-          <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-2xl xl:py-7 lg:text-xl md:text-xl py-5">
+          <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-2xl xl:py-7 lg:text-xl md:text-xl py-5 text-center">
             Bayram Çikolataları
           </h3>
         </div>
@@ -65,24 +75,31 @@ function Cards() {
           <button
             type="button"
             onClick={(e) => viewButton(e)}
-            className="bg-red-600 2xl:py-1 2xl:px-5 xl:py-1 xl:px-5 lg:py-1 lg:px-6 md:px-6 md:py-1 rounded-md shadow-md cursor-pointer "
+            className=" 2xl:py-[2px] 2xl:px-5 xl:py-[2px] xl:px-14 lg:py-[2px] lg:px-6 md:px-6 md:py-[2px] border border-[#40695d] text-lg rounded-md shadow-md cursor-pointer "
           >
             Hepsini Gör
           </button>
         </div>
         <div className="bg-yellow-100 py-10 flex flex-col gap-4">
           <div className="flex justify-center gap-2">
-            <button className="border hover:border-2 border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer">
-              Click & Collect
+            <button
+              onClick={redirectToLocation}
+              className="border  border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer"
+            >
+              Yol Tarifi
             </button>
-            <button className="border hover:border-2 border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer">
-              Bespoke
+            <button
+              onClick={() => navigate("/contact")}
+              className="border  border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer"
+            >
+              İletişim
             </button>
           </div>
           <div className="flex justify-center">
             <p className="">
-              Luxury bespoke cakes and sweet treats , designed , created and
-              served in Chorley , Lancashire.
+              Opera Baker pastanesi olarak 1.sınıf malzemeler kullanarak
+              hazırladığımız butik lezzetlerimizi tatmaya , sizleri davet
+              ediyoruz .
             </p>
           </div>
         </div>
