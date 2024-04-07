@@ -88,17 +88,25 @@ function InfoCards() {
           <img className="h-full  md:w-[400px] rounded-md" src={foto2} alt="" />
         </div>
         <div className="w-[55%] h-4/5 px-10">
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-8">
             <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl">
               Iki boyutlu pastalar
             </h2>
             <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
-              The most important day of your life deserves the most elegant
-              cake. Let's create the wedding cake you've only ever dreamt of .
+              Opera Baker, özel günlerinizi renklendirmek için 2 boyutlu
+              pastalarıyla burada! <br /> İster doğum günleri için sevimli
+              hayvan figürleri, ister düğünler için romantik temalar,
+              pastalarımızı isteğinize göre tasarlayabiliriz.
             </p>
-            <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
-              Learn More
-            </button>
+
+            <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
+              Siz hayal edin, biz yapalım!
+            </p>
+            <Link className="w-full">
+              <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
+                Daha Fazla
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -108,14 +116,20 @@ function InfoCards() {
         </div>
         <div className="w-full flex justify-center text-center">
           <div className="flex flex-col w-[90%] items-center bg-indigo-100 gap-6">
-            <h2 className="text-3xl">Iki boyutlu pastalar</h2>
-            <p className="text-base">
-              The most important day of your life deserves the most elegant
-              cake. Let's create the wedding cake you've only ever dreamt of .
+            <h2 className="text-xl">Iki boyutlu pastalar</h2>
+            <p className="text-sm">
+              Opera Baker, özel günlerinizi renklendirmek için 2 boyutlu
+              pastalarıyla burada! <br /> İster doğum günleri için sevimli
+              hayvan figürleri, ister düğünler için romantik temalar,
+              pastalarımızı isteğinize göre tasarlayabiliriz.
             </p>
-            <button className="border w-[65%] py-1 text-lg shadow-md rounded-md border-blue-300">
-              Learn More
-            </button>
+
+            <p className="text-sm">Siz hayal edin, biz yapalım!</p>
+            <Link className="w-full">
+              <button className="border w-full py-1 text-sm shadow-md rounded-md border-blue-300">
+                Daha Fazla
+              </button>
+            </Link>
           </div>
         </div>
       </div>
