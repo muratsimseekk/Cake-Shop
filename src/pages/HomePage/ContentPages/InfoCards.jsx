@@ -102,7 +102,7 @@ function InfoCards() {
             <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
               Siz hayal edin, biz yapalım!
             </p>
-            <Link className="w-full">
+            <Link className="w-full" to="/weddings">
               <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
                 Daha Fazla
               </button>
@@ -125,7 +125,7 @@ function InfoCards() {
             </p>
 
             <p className="text-sm">Siz hayal edin, biz yapalım!</p>
-            <Link className="w-full">
+            <Link className="w-full" to="/weddings">
               <button className="border w-full py-1 text-sm shadow-md rounded-md border-blue-300">
                 Daha Fazla
               </button>
@@ -135,14 +135,28 @@ function InfoCards() {
       </div>
       <div className="hidden md:flex md:w-full  md:justify-center lg:flex lg:w-full  lg:justify-center xl:flex xl:w-full  xl:justify-center 2xl:flex 2xl:w-full  2xl:justify-center">
         <div className="w-3/5  flex justify-end items-center">
-          <div className=" w-[90%] h-5/6 px-10 md:px-4 flex flex-col gap-4">
+          <div className=" w-[90%] h-5/6 px-10 md:px-4 flex flex-col items-end gap-8 text-end">
             <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl">
               Yazılı Pastalar
             </h2>
+
             <p className=" 2xl:text-lg xl:text-lg lg:text-xl md:text-base ">
-              Our Christmas Mini Cake featured in the British VOGUE DECEMBER
-              2022 edition!
+              Opera Baker'ın yazılı pastalarıyla özel günlerinize dokunuş katın!
             </p>
+            <p className="2xl:text-lg xl:text-lg lg:text-xl md:text-base">
+              İster sevdiklerinizin isimleriyle, ister unutulmaz bir mesajla
+              kişiselleştirin. Pastanızın üzerine eklenecek yazılar tamamen
+              sizin isteğinize bağlı. Ayrıca, renk seçimini de size bırakıyoruz!
+            </p>
+            <p>
+              En özel günleriniz için Opera Baker'da size özel bir lezzet
+              deneyimi sizi bekliyor.
+            </p>
+            <Link className="w-full" to="/weddings">
+              <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
+                Daha Fazla
+              </button>
+            </Link>
           </div>
         </div>
         <div className="w-1/2 flex justify-end">
