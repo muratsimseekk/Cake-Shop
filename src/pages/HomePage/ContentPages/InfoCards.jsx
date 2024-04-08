@@ -260,48 +260,14 @@ function InfoCards() {
           </div>
         </div>
       </div>
-      <div className="hidden w-full md:flex md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
-        <div className="w-3/5 flex justify-between items-center ">
-          <div className=" w-[90%] px-10 flex flex-col gap-4 items-end">
-            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl">
-              Pastanemizi ziyaret edin
-            </h2>
-            <div className="flex text-lg md:text-base flex-col gap-2">
-              <p>
-                Batıkent Mah. Abdulkadir Aksu Blv. No:56/D Şehitkamil/Gaziantep
-              </p>
-              <p>Çalışma Saatlerimiz:</p>
-              <p>Pazartesi 09:00 - 21:30</p>
-              <p>Salı 09:00 - 21:30</p>
-              <p>Çarşamba 09:00 - 21:30</p>
-              <p>Perşembe 09:00 - 21:30</p>
-              <p>Cuma 09:00 - 21:30</p>
-              <p>Cumartesi 09:00 - 21:30</p>
-              <p>Pazar 09:00 - 21:30</p>
-            </div>
-            <button
-              onClick={redirectToLocation}
-              className="border 2xl:text-lg xl:text-lg lg:text-lg md:text-base 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-1/2 py-1.5 rounded-md shadow"
-            >
-              Yol Tarifi
-            </button>
-          </div>
-        </div>
-        <div className="w-2/5 flex justify-end">
-          <img
-            className="2xl:w-[450px] xl:w-[400px] h-full rounded-md"
-            src={store}
-            alt=""
-          />
-        </div>
-      </div>
+
       <div className="md:hidden lg:hidden xl:hidden 2xl:hidden w-full flex  ">
         <div className="w-full flex flex-col items-center gap-10">
           <div className="w-full ">
             <img className="rounded-md w-full" src={store} alt="" />
           </div>
           <div className=" w-[90%] flex flex-col items-center gap-4 text-center">
-            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl">
+            <h2 className="2xl:text-5xl xl:text-4xl lg:text-4xl md:text-2xl text-2xl">
               Pastanemizi ziyaret edin
             </h2>
             <div className="flex text-lg md:text-base flex-col gap-2">
@@ -319,7 +285,7 @@ function InfoCards() {
             </div>
             <button
               onClick={redirectToLocation}
-              className="border 2xl:text-lg xl:text-lg lg:text-lg md:text-base 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-1/2 py-1.5 rounded-md shadow"
+              className="border 2xl:text-lg xl:text-lg lg:text-lg md:text-base 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md shadow"
             >
               Yol Tarifi
             </button>

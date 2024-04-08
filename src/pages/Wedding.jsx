@@ -1,13 +1,17 @@
 import React, { useEffect } from "react";
 
-import photo1 from "../assets/weddings/wedding1.png";
-import photo2 from "../assets/weddings/wedding2.png";
-import photo3 from "../assets/weddings/wedding3.png";
-import photo4 from "../assets/weddings/wedding4.png";
-import photo5 from "../assets/weddings/wedding5.png";
-import photo6 from "../assets/weddings/wedding6.png";
-import photo7 from "../assets/weddings/wedding7.png";
-import photo8 from "../assets/weddings/wedding8.png";
+import photo1 from "../assets/home/tasarim.jpeg";
+import photo2 from "../assets/home/figurlu.jpg";
+import photo3 from "../assets/home/cicekli.jpeg";
+
+import pasta1 from "../assets/pastalar/pasta1.jpeg";
+import pasta2 from "../assets/pastalar/pasta2.jpeg";
+import pasta3 from "../assets/pastalar/pasta3.jpeg";
+import pasta4 from "../assets/pastalar/pasta4.jpeg";
+import pasta5 from "../assets/pastalar/pasta5.jpeg";
+import pasta6 from "../assets/pastalar/pasta6.jpeg";
+import pasta7 from "../assets/pastalar/pasta7.jpeg";
+import pasta8 from "../assets/pastalar/pasta8.jpeg";
 
 function Wedding() {
   useEffect(() => {
@@ -18,10 +22,12 @@ function Wedding() {
       <div className="w-4/5 bg-yellow-300 my-14 flex flex-col gap-10">
         <div className="flex flex-col gap-6">
           <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl text-center">
-            Weddings
+            Pastalar
           </h2>
           <p className="2xl:text-2xl xl:text-xl lg:text-xl md:text-base text-center">
-            For your perfect day,you deserve the perfect cake
+            Opera Baker'da en kaliteli malzemelerden üretilen, her dilime ayrı
+            bir lezzet katan 1. sınıf butik pastaları keşfedin ve özel
+            günlerinizi unutulmaz kılın!
           </p>
         </div>
         <div className="flex flex-col  md:flex md:flex-row md:justify-between md:h-[900px] lg:flex lg:flex-row lg:justify-between lg:h-[900px] xl:flex xl:flex-row xl:justify-between xl:h-[900px] 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:h-[900px]">
@@ -58,23 +64,35 @@ function Wedding() {
             Download Brochure{" "}
           </button>
         </div>
-        <div className="flex justify-between">
-          <div className="w-[32.5%] md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={photo4} />
+        <div className="2xl:flex 2xl:flex-row 2xl:justify-between 2xl:flex-wrap xl:flex xl:flex-row xl:justify-between xl:flex-wrap lg:flex lg:flex-row lg:justify-between lg:flex-wrap md:flex md:flex-row md:justify-between md:flex-wrap flex flex-col items-center gap-y-5">
+          <div className="w-full rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full rounded-md" src={pasta1} />
           </div>
-          <div className="w-[32.5%] md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={photo5} />
+          <div className="w-full rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full rounded-md" src={pasta2} />
           </div>
-          <div className="w-[32.5%] md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={photo6} />
+          <div className="w-full rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full rounded-md" src={pasta3} />
+          </div>
+          <div className="w-full md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full rounded-md" src={pasta4} />
           </div>
           <div className="hidden md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={photo7} />
+            <img className="w-full rounded-md" src={pasta5} />
+          </div>
+          <div className="hidden md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full rounded-md" src={pasta6} />
+          </div>
+          <div className="hidden md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full rounded-md" src={pasta7} />
+          </div>
+          <div className="hidden md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full rounded-md" src={pasta8} />
           </div>
         </div>
         <div className="flex flex-col gap-8  md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 ">
-            <img className="w-full rounded-md" src={photo8} />
+            <img className="w-full rounded-md" src={pasta8} />
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 text-center md:text-start lg:text-start xl:text-start 2xl:text-start flex justify-center items-center ">
             <div className="bg-red-300 w-4/5 flex flex-col gap-8">
@@ -159,10 +177,10 @@ function Wedding() {
             Follow on instagram
           </h3>
           <div className="flex w-full justify-between">
-            <img className="w-[24%]" src={photo4} alt="" />
-            <img className="w-[24%]" src={photo5} alt="" />
-            <img className="w-[24%]" src={photo6} alt="" />
-            <img className="w-[24%]" src={photo7} alt="" />
+            <img className="w-[24%]" src={pasta1} alt="" />
+            <img className="w-[24%]" src={pasta2} alt="" />
+            <img className="w-[24%]" src={pasta3} alt="" />
+            <img className="w-[24%]" src={pasta4} alt="" />
           </div>
         </div>
       </div>

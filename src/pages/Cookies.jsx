@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 
-import photo2 from "../assets/cookies/cookie2.png";
-import photo3 from "../assets/cookies/cookie3.png";
-import photo5 from "../assets/cookies/cookie5.png";
-import photo6 from "../assets/cookies/cookie6.png";
-import photo7 from "../assets/cookies/cookie7.png";
-import photo8 from "../assets/cookies/cookie8.png";
-
+import cookies1 from "../assets/cookies/cookies1.jpg";
+import cookies2 from "../assets/cookies/cookies2.jpg";
+import cookies3 from "../assets/cookies/cookies3.jpg";
+import cookies4 from "../assets/cookies/cookies4.jpg";
+import cookies5 from "../assets/cookies/cookies5.jpg";
+import cookies6 from "../assets/cookies/cookies6.jpg";
+import cookies7 from "../assets/cookies/cookies7.jpg";
+import cookies8 from "../assets/cookies/cookies8.jpeg";
 import store from "../assets/outside.jpg";
 
 function Cookies() {
@@ -28,7 +29,7 @@ function Cookies() {
   return (
     <div className="w-full flex justify-center items-center">
       <div className="w-4/5  my-14 flex flex-col gap-16">
-        <div className=" flex flex-col gap-5 md:w-4/5 lg:w-4/5 xl:w-4/5 2xl:w-4/5 w-full">
+        <div className=" flex flex-col gap-5 md:w-4/5 lg:w-4/5 xl:w-4/5 2xl:w-4/5 2xl:text-start xl:text-start lg:text-start md:text-start text-center w-full">
           <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
             Kurabiyeler
           </h2>
@@ -44,150 +45,78 @@ function Cookies() {
         </div>
         <div className=" w-full flex flex-col ">
           <div>
-            <p className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl text-center py-5">
-              Tatlı Kurabiyeler
+            <p className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-2xl text-center py-5">
+              Tatlı ve Tuzlu Kurabiyeler
             </p>
           </div>
-          <div className="flex md:flex md:flex-row md:gap-y-5 md:py-5 lg:flex lg:flex-row lg:gap-y-5 lg:py-5 xl:flex xl:flex-row xl:gap-y-5 xl:py-5 2xl:flex 2xl:flex-row 2xl:gap-y-5 2xl:py-5  text-center justify-between flex-wrap">
+          <div className="flex md:flex  md:flex-row md:gap-y-5 md:py-5 lg:flex lg:flex-row lg:gap-y-5 lg:py-5 xl:flex xl:flex-row xl:gap-y-5 xl:py-5 2xl:flex 2xl:flex-row 2xl:gap-y-5 2xl:py-5  text-center justify-between flex-wrap gap-y-5">
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo2} />
+              <img className="w-full rounded-md" src={cookies1} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo3} />
+              <img className="w-full rounded-md" src={cookies2} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo8} />
+              <img className="w-full rounded-md" src={cookies3} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo6} />
+              <img className="w-full rounded-md" src={cookies4} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo5} />
+              <img className="w-full rounded-md" src={cookies5} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo6} />
+              <img className="w-full rounded-md" src={cookies6} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo7} />
+              <img className="w-full rounded-md" src={cookies7} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo8} />
+              <img className="w-full rounded-md" src={cookies8} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
               </div>
             </div>
           </div>
         </div>
-        <div className=" w-full flex flex-col ">
-          <div>
-            <p className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl text-center py-5">
-              Tuzlu Kurabiyeler
-            </p>
-          </div>
-          <div className="flex md:flex md:flex-row md:gap-y-5 md:py-5 lg:flex lg:flex-row lg:gap-y-5 lg:py-5 xl:flex xl:flex-row xl:gap-y-5 xl:py-5 2xl:flex 2xl:flex-row 2xl:gap-y-5 2xl:py-5  text-center justify-between flex-wrap">
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo2} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo3} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo8} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo6} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo5} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo6} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo7} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={photo8} />
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Valentines Treat Box</h3>
-                <p className="text-sm">Cake By Opera Baker</p>
-                <p>$12</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:flex-row md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
           <div className="2xl:w-2/5 xl:w-2/5 lg:w-2/5 md:w-[45%] flex justify-end">
             <img className="w-full h-full" src={store} alt="" />

@@ -1,5 +1,4 @@
 import React from "react";
-import slider1 from "../../../assets/img1.jpg";
 
 import ciko1 from "../../../assets/cikolata/ciko1.jpg";
 import ciko2 from "../../../assets/cikolata/ciko2.jpg";

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import photo4 from "../assets/weddings/wedding4.png";
-import photo5 from "../assets/weddings/wedding5.png";
-import photo6 from "../assets/weddings/wedding6.png";
-import photo7 from "../assets/weddings/wedding7.png";
+import photo4 from "../assets/pastalar/pasta1.jpeg";
+import photo5 from "../assets/pastalar/pasta2.jpeg";
+import photo6 from "../assets/pastalar/pasta3.jpeg";
+import photo7 from "../assets/pastalar/pasta4.jpeg";
 
 function Contact() {
   useEffect(() => {
