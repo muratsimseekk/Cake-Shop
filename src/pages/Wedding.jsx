@@ -64,41 +64,41 @@ function Wedding() {
             Download Brochure{" "}
           </button>
         </div>
-        <div className="2xl:flex 2xl:h-[757px] xl:h-[634px] 2xl:flex-row 2xl:justify-between 2xl:flex-wrap xl:flex xl:flex-row xl:justify-between xl:flex-wrap lg:flex lg:flex-row lg:justify-between lg:flex-wrap md:flex md:flex-row md:justify-between md:flex-wrap flex flex-col items-center gap-y-5">
-          <div className="w-full 2xl:h-[368px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+        <div className="2xl:flex 2xl:h-[757px] xl:h-[634px] lg:h-[511px] md:h-[388px]  2xl:flex-row 2xl:justify-between 2xl:flex-wrap xl:flex xl:flex-row xl:justify-between xl:flex-wrap lg:flex lg:flex-row lg:justify-between lg:flex-wrap md:flex md:flex-row md:justify-between md:flex-wrap flex flex-col items-center gap-y-5">
+          <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img
               className="w-full h-full rounded-md object-fill"
               src={pasta1}
             />
           </div>
-          <div className="w-full 2xl:h-[368px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+          <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img
               className="w-full 2xl:h-full rounded-md object-fill"
               src={pasta2}
             />
           </div>
-          <div className="w-full 2xl:h-[368px] bg-red-300  md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+          <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] bg-red-300  md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img
               className="w-full h-full rounded-md object-fill"
               src={pasta3}
             />
           </div>
-          <div className="w-full 2xl:h-[368px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+          <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img
               className="w-full h-full rounded-md object-fill"
               src={pasta4}
             />
           </div>
-          <div className="hidden 2xl:h-[368px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+          <div className="hidden 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img className="w-full h-full rounded-md" src={pasta5} />
           </div>
-          <div className="hidden 2xl:h-[368px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full 2xl:h-full rounded-md" src={pasta6} />
+          <div className="hidden 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full h-full rounded-md" src={pasta6} />
           </div>
-          <div className="hidden 2xl:h-[368px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full 2xl:h-full rounded-md" src={pasta7} />
+          <div className="hidden 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full h-full rounded-md" src={pasta7} />
           </div>
-          <div className="hidden 2xl:h-[368px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+          <div className="hidden 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img className="w-full h-full rounded-md" src={pasta8} />
           </div>
         </div>
