@@ -11,9 +11,9 @@ import tatli8 from "../assets/tatlilar/tatli8.jpg";
 import store from "../assets/outside.jpg";
 
 function Faq() {
-  useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  // }, []);
 
   const redirectToLocation = () => {
     // Belirli bir koordinat veya adres bilgisi
@@ -61,65 +61,113 @@ function Faq() {
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={tatli1} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Orman Meyveli CheeseCake
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  175₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={tatli2} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Oreolu Muzlu Magnolya
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  95₺
+                </p>
               </div>
             </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={tatli3} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Fıstıklı Magnolya
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  150₺
+                </p>
               </div>
             </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={tatli4} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Çilekli Magnolya
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  95₺
+                </p>
               </div>
             </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={tatli5} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Bihter
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  130₺
+                </p>
               </div>
             </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={tatli6} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Muzaffer
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  90₺
+                </p>
               </div>
             </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={tatli7} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Tiramisu
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  130₺
+                </p>
               </div>
             </div>
-            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] min-h-min flex flex-col gap-2">
-              <img className="w-full rounded-md h-full" src={tatli8} />
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
+              <img className="w-full rounded-md" src={tatli8} />
               <div className="flex flex-col gap-1">
-                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
-                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
-                <p className="text-sm 2xl:text-lg">$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Supangle
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Opera Baker El Yapımı
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  90₺
+                </p>
               </div>
             </div>
           </div>

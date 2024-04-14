@@ -76,65 +76,113 @@ function SpecialPage() {
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata7} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Bitter Çikolatalar</h3>
-                <p className="text-sm">Fıstıklı ve Bademli </p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Bitter Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Fıstıklı ve Bademli{" "}
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata8} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Damla Motifli Çikolatalar</h3>
-                <p className="text-sm">Beyaz ve Sütlü </p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Damla Motifli Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Beyaz ve Sütlü{" "}
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata3} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Beyaz Çikolatalar</h3>
-                <p className="text-sm">Fıstıklı Beyaz </p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Beyaz Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Fıstıklı Beyaz{" "}
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata4} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Sütlü Çikolatalar</h3>
-                <p className="text-sm">Fıstıklı ve Bademli </p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Sütlü Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Fıstıklı ve Bademli{" "}
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata5} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Sütlü Çikolatalar</h3>
-                <p className="text-sm">Sade Beyaz</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Sütlü Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Sade Beyaz
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata6} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Bitter Çikolatalar</h3>
-                <p className="text-sm">Fındıklı Bitter </p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Bitter Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Fındıklı Bitter{" "}
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata2} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Beyaz Çikolatalar</h3>
-                <p className="text-sm">Özel Motifli Beyaz </p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Beyaz Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Özel Motifli Beyaz{" "}
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
               <img className="w-full rounded-md" src={cikolata1} />
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg">Beyaz Çikolatalar</h3>
-                <p className="text-sm">Sade Beyaz</p>
-                <p>$12</p>
+                <h3 className="2xl:text-xl xl:text-lg lg:text-base md:text-base  text-lg">
+                  Beyaz Çikolatalar
+                </h3>
+                <p className="2xl:text-lg xl:text-base lg:text-sm md:text-sm text-sm">
+                  Sade Beyaz
+                </p>
+                <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
+                  1200₺
+                </p>
               </div>
             </div>
           </div>
