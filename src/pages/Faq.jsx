@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 
-import cookies1 from "../assets/cookies/cookies1.jpg";
-import cookies2 from "../assets/cookies/cookies2.jpg";
-import cookies3 from "../assets/cookies/cookies3.jpg";
-import cookies4 from "../assets/cookies/cookies4.jpg";
-import cookies5 from "../assets/cookies/cookies5.jpg";
-import cookies6 from "../assets/cookies/cookies6.jpg";
-import cookies7 from "../assets/cookies/cookies7.jpg";
-import cookies8 from "../assets/cookies/cookies8.jpeg";
+import tatli1 from "../assets/tatlilar/tatli1.jpg";
+import tatli2 from "../assets/tatlilar/tatli2.jpg";
+import tatli3 from "../assets/tatlilar/tatli3.jpg";
+import tatli4 from "../assets/tatlilar/tatli4.jpg";
+import tatli5 from "../assets/tatlilar/tatli5.jpg";
+import tatli6 from "../assets/tatlilar/tatli6.jpg";
+import tatli7 from "../assets/tatlilar/tatli7.jpg";
+import tatli8 from "../assets/tatlilar/tatli8.jpg";
 import store from "../assets/outside.jpg";
 
 function Faq() {
@@ -59,7 +59,7 @@ function Faq() {
           </div>
           <div className="flex md:flex  md:flex-row md:gap-y-5 md:py-5 lg:flex lg:flex-row lg:gap-y-5 lg:py-5 xl:flex xl:flex-row xl:gap-y-5 xl:py-5 2xl:flex 2xl:flex-row 2xl:gap-y-5 2xl:py-5  text-center justify-between flex-wrap gap-y-5">
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={cookies1} />
+              <img className="w-full rounded-md" src={tatli1} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
@@ -67,7 +67,7 @@ function Faq() {
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
-              <img className="w-full rounded-md" src={cookies2} />
+              <img className="w-full rounded-md" src={tatli2} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
@@ -75,7 +75,7 @@ function Faq() {
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={cookies3} />
+              <img className="w-full rounded-md" src={tatli3} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
@@ -83,7 +83,7 @@ function Faq() {
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={cookies4} />
+              <img className="w-full rounded-md" src={tatli4} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
@@ -91,7 +91,7 @@ function Faq() {
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={cookies5} />
+              <img className="w-full rounded-md" src={tatli5} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
@@ -99,7 +99,7 @@ function Faq() {
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={cookies6} />
+              <img className="w-full rounded-md" src={tatli6} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
@@ -107,7 +107,7 @@ function Faq() {
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
-              <img className="w-full rounded-md" src={cookies7} />
+              <img className="w-full rounded-md" src={tatli7} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
@@ -115,7 +115,7 @@ function Faq() {
               </div>
             </div>
             <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] min-h-min flex flex-col gap-2">
-              <img className="w-full rounded-md h-full" src={cookies8} />
+              <img className="w-full rounded-md h-full" src={tatli8} />
               <div className="flex flex-col gap-1">
                 <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
                 <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
