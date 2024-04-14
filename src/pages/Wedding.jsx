@@ -64,18 +64,24 @@ function Wedding() {
             Download Brochure{" "}
           </button>
         </div>
-        <div className="2xl:flex 2xl:flex-row 2xl:justify-between 2xl:flex-wrap xl:flex xl:flex-row xl:justify-between xl:flex-wrap lg:flex lg:flex-row lg:justify-between lg:flex-wrap md:flex md:flex-row md:justify-between md:flex-wrap flex flex-col items-center gap-y-5">
-          <div className="w-full rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={pasta1} />
+        <div className="2xl:flex h-max 2xl:flex-row 2xl:justify-between 2xl:flex-wrap xl:flex xl:flex-row xl:justify-between xl:flex-wrap lg:flex lg:flex-row lg:justify-between lg:flex-wrap md:flex md:flex-row md:justify-between md:flex-wrap flex flex-col items-center gap-y-5">
+          <div className="w-full  rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img
+              className="w-full rounded-md object-fill flex-auto"
+              src={pasta1}
+            />
           </div>
           <div className="w-full rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={pasta2} />
+            <img className="w-full rounded-md object-fill" src={pasta2} />
           </div>
-          <div className="w-full rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={pasta3} />
+          <div className="w-full h-max rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img
+              className="w-full rounded-md object-fill flex-auto"
+              src={pasta3}
+            />
           </div>
           <div className="w-full md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full rounded-md" src={pasta4} />
+            <img className="w-full rounded-md object-fill" src={pasta4} />
           </div>
           <div className="hidden md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img className="w-full rounded-md" src={pasta5} />

@@ -1,276 +1,160 @@
-import React, { useEffect, useState } from "react";
-import { CiSquareCheck } from "react-icons/ci";
-import { IoIosArrowDown } from "react-icons/io";
-import { IoIosArrowUp } from "react-icons/io";
+import React, { useEffect } from "react";
+
+import cookies1 from "../assets/cookies/cookies1.jpg";
+import cookies2 from "../assets/cookies/cookies2.jpg";
+import cookies3 from "../assets/cookies/cookies3.jpg";
+import cookies4 from "../assets/cookies/cookies4.jpg";
+import cookies5 from "../assets/cookies/cookies5.jpg";
+import cookies6 from "../assets/cookies/cookies6.jpg";
+import cookies7 from "../assets/cookies/cookies7.jpg";
+import cookies8 from "../assets/cookies/cookies8.jpeg";
+import store from "../assets/outside.jpg";
 
 function Faq() {
-  const [first, setFirst] = useState(false);
-  const [second, setSecond] = useState(false);
-  const [third, setThird] = useState(false);
-  const [fourth, setFourth] = useState(false);
-  const [fifth, setFifth] = useState(false);
-
-  const change1 = () => {
-    setFirst(!first);
-  };
-  const change2 = () => {
-    setSecond(!second);
-  };
-  const change3 = () => {
-    setThird(!third);
-  };
-  const change4 = () => {
-    setFourth(!fourth);
-  };
-  const change5 = () => {
-    setFifth(!fifth);
-  };
-
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
   }, []);
 
+  const redirectToLocation = () => {
+    // Belirli bir koordinat veya adres bilgisi
+    const destination = "37.0735141,37.3405707"; // Örnek: "37.7749,-122.4194"
+
+    // Google Haritalar URL'sini oluştur
+    const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
+
+    // Yeni pencerede Google Haritalar'ı açan kod
+    window.open(mapsUrl, "_blank");
+  };
   return (
-    <div className="w-full flex justify-center">
-      <div className="w-4/5  my-10 flex flex-col gap-20">
-        <div className="flex flex-col gap-3">
-          <h1 className="text-center 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl my-4">
-            FAQ{" "}
-          </h1>
-          <div className=" cursor-pointer">
-            {first == false && (
-              <div
-                onClick={change1}
-                className="flex items-center justify-between"
-              >
-                <div className="flex items-center gap-8">
-                  <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                    Do you make fondant or novelty cakes ?
-                  </p>
-                </div>
-                <IoIosArrowDown className="text-2xl" />
-              </div>
-            )}
-          </div>
-          <div className=" cursor-pointer">
-            {first == true && (
-              <div className="flex flex-col gap-3">
-                <div
-                  onClick={change1}
-                  className="flex items-center justify-between"
-                >
-                  <div className="flex items-center gap-8">
-                    <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                      Do you make fondant or novelty cakes ?
-                    </p>
-                  </div>
-                  <IoIosArrowUp className="text-2xl" />
-                </div>
-                <p className="">No</p>
-              </div>
-            )}
-          </div>
-          <div className=" cursor-pointer">
-            {second == false && (
-              <div
-                onClick={change2}
-                className="flex items-center justify-between"
-              >
-                <div className="flex items-center gap-8">
-                  <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                    Do you make fondant or novelty cakes ?
-                  </p>
-                </div>
-                <IoIosArrowDown className="text-2xl" />
-              </div>
-            )}
-          </div>
-          <div className=" cursor-pointer">
-            {second == true && (
-              <div className="flex flex-col gap-3">
-                <div
-                  onClick={change2}
-                  className="flex items-center justify-between"
-                >
-                  <div className="flex items-center gap-8">
-                    <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                      Do you make fondant or novelty cakes ?
-                    </p>
-                  </div>
-                  <IoIosArrowUp className="text-2xl" />
-                </div>
-                <p>No</p>
-              </div>
-            )}
-          </div>
-          <div className="bg-red-200 cursor-pointer">
-            {third == false && (
-              <div
-                onClick={change3}
-                className="flex items-center justify-between"
-              >
-                <div className="flex items-center gap-8">
-                  <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                    Do you make fondant or novelty cakes ?
-                  </p>
-                </div>
-                <IoIosArrowDown className="text-2xl" />
-              </div>
-            )}
-          </div>
-          <div className="bg-red-200 cursor-pointer">
-            {third == true && (
-              <div className="flex flex-col gap-3">
-                <div
-                  onClick={change3}
-                  className="flex items-center justify-between"
-                >
-                  <div className="flex items-center gap-8">
-                    <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                      Do you make fondant or novelty cakes ?
-                    </p>
-                  </div>
-                  <IoIosArrowUp className="text-2xl" />
-                </div>
-                <p>No</p>
-              </div>
-            )}
-          </div>
-          <div className="bg-red-200 cursor-pointer">
-            {fourth == false && (
-              <div
-                onClick={change4}
-                className="flex items-center justify-between"
-              >
-                <div className="flex items-center gap-8">
-                  <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                    Do you make fondant or novelty cakes ?
-                  </p>
-                </div>
-                <IoIosArrowDown className="text-2xl" />
-              </div>
-            )}
-          </div>
-          <div className="bg-red-200 cursor-pointer">
-            {fourth == true && (
-              <div className="flex flex-col gap-3">
-                <div
-                  onClick={change4}
-                  className="flex items-center justify-between"
-                >
-                  <div className="flex items-center gap-8">
-                    <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                      Do you make fondant or novelty cakes ?
-                    </p>
-                  </div>
-                  <IoIosArrowUp className="text-2xl" />
-                </div>
-                <p>No</p>
-              </div>
-            )}
-          </div>
-          <div className="bg-red-200 cursor-pointer">
-            {fifth == false && (
-              <div
-                onClick={change5}
-                className="flex items-center justify-between"
-              >
-                <div className="flex items-center gap-8">
-                  <CiSquareCheck className="text-4xl" />
-                  <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                    Do you make fondant or novelty cakes ?
-                  </p>
-                </div>
-                <IoIosArrowDown className="text-2xl" />
-              </div>
-            )}
-          </div>
-          <div className="bg-red-200 cursor-pointer">
-            {fifth == true && (
-              <div className="flex flex-col gap-3">
-                <div
-                  onClick={change5}
-                  className="flex items-center justify-between"
-                >
-                  <div className="flex items-center gap-8">
-                    <CiSquareCheck className="text-4xl" />
-                    <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-                      Do you make fondant or novelty cakes ?
-                    </p>
-                  </div>
-                  <IoIosArrowUp className="text-2xl" />
-                </div>
-                <p>No</p>
-              </div>
-            )}
-          </div>
-        </div>
-        <div className="flex flex-col gap-6 items-center bg-rose-200">
-          <h2 className="2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-2xl">
-            GET IN TOUCH
+    <div className="w-full flex justify-center items-center">
+      <div className="w-4/5  my-14 flex flex-col gap-16">
+        <div className=" flex flex-col gap-5 md:w-4/5 lg:w-4/5 xl:w-4/5 2xl:w-4/5 2xl:text-start xl:text-start lg:text-start md:text-start text-center w-full">
+          <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
+            Tatlılar
           </h2>
-          <p className="2xl:text-xl xl:text-lg lg:text-lg md:text-base">
-            Any other questions ? Just send a message{" "}
+          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base text-sm">
+            Opera Baker'ın tatlılar bölümü, tatlı düşkünlerini büyüleyen bir
+            lezzet cümbüşü sunuyor.
+          </p>
+          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base text-sm">
+            {" "}
+            Çikolatalı, fıstıklı, kremalı ve daha birçok nefis tatlı seçeneğiyle
+            damakları şenlendiriyoruz. CheeseCake'in kremsi dokusu, Magnolya'nın
+            hafif ve ferah tadı, Tiramisu'nun yoğun kahve aroması, Profiterolün
+            çıtır dışı ve kremalı içi, San Sebastian'ın ise eşsiz lezzetiyle
+            damağınızda unutulmaz bir tat bırakacak.
+          </p>
+          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base text-sm">
+            Opera Baker'ın ustaları, en kaliteli malzemeleri kullanarak her bir
+            tatlıyı özenle hazırlıyor ve sizlere sunuyor. Tatlı tutkunlarının
+            vazgeçilmez adresi Opera Baker, özel günlerinizi tatlandırmak için
+            burada!
           </p>
         </div>
-        <div className="flex justify-center">
-          <div className="2xl:w-[60%] xl:w-[60%] lg:w-[65%] md:w-[80%] w-full  bg-red-300 flex flex-col gap-4">
-            <h3 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-lg text-lg">
-              Make an enquiery
-            </h3>
-            <div className="hidden md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-              <input
-                className="border border-black w-[47%] py-2 pl-5"
-                type="text"
-                placeholder="Name *"
-              />
-              <input
-                className="border border-black w-[47%] py-2 pl-5"
-                type="email"
-                name=""
-                id=""
-                placeholder="E-mail *"
-              />
+        <div className=" w-full flex flex-col ">
+          <div>
+            <p className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-2xl text-center py-5">
+              Enfes Tatlılar
+            </p>
+          </div>
+          <div className="flex md:flex  md:flex-row md:gap-y-5 md:py-5 lg:flex lg:flex-row lg:gap-y-5 lg:py-5 xl:flex xl:flex-row xl:gap-y-5 xl:py-5 2xl:flex 2xl:flex-row 2xl:gap-y-5 2xl:py-5  text-center justify-between flex-wrap gap-y-5">
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
+              <img className="w-full rounded-md" src={cookies1} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
             </div>
-            <input
-              className="block md:hidden lg:hidden xl:hidden 2xl:hidden border border-black w-full py-2 pl-5"
-              type="text"
-              placeholder="Name *"
-            />
-            <input
-              className="block md:hidden lg:hidden xl:hidden 2xl:hidden border border-black w-full py-2 pl-5"
-              type="email"
-              name=""
-              id=""
-              placeholder="E-mail *"
-            />
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] flex flex-col gap-2">
+              <img className="w-full rounded-md" src={cookies2} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
+            </div>
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+              <img className="w-full rounded-md" src={cookies3} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
+            </div>
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+              <img className="w-full rounded-md" src={cookies4} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
+            </div>
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+              <img className="w-full rounded-md" src={cookies5} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
+            </div>
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+              <img className="w-full rounded-md" src={cookies6} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
+            </div>
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%]  flex flex-col gap-2">
+              <img className="w-full rounded-md" src={cookies7} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
+            </div>
+            <div className="md:w-[23%] lg:w-[23%] xl:w-[23%] 2xl:w-[23%] w-[49%] min-h-min flex flex-col gap-2">
+              <img className="w-full rounded-md h-full" src={cookies8} />
+              <div className="flex flex-col gap-1">
+                <h3 className="2xl:text-xl  text-lg">Valentines Treat Box</h3>
+                <p className="2xl:text-lg text-sm">Cake By Opera Baker</p>
+                <p className="text-sm 2xl:text-lg">$12</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <input
-              className="border border-black w-full py-2 pl-5"
-              type="tel"
-              name=""
-              id=""
-              placeholder="Phone Number *"
-            />
-            <textarea
-              className="border border-black w-full pt-2 pl-5"
-              name=""
-              id=""
-              cols="30"
-              rows="5"
-              placeholder="Comment"
-            ></textarea>
-            <button className="max-w-max border border-black py-1 px-10 rounded-md">
-              Send
-            </button>
+        <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:flex-row md:justify-end md:text-end lg:flex lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
+          <div className="2xl:w-2/5 xl:w-2/5 lg:w-2/5 md:w-[45%] flex justify-end">
+            <img className="w-full h-full" src={store} alt="" />
+          </div>
+          <div className="2xl:w-3/5 xl:w-3/5 lg:w-3/5 md:w-[55%] w-full flex flex-col md:flex md:flex-row md:justify-between md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center xl:flex xl:flex-row xl:justify-between xl:items-center 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:items-center ">
+            <div className=" md:w-[90%] md:px-10 lg:w-[90%] lg:px-12 xl:w-[90%] xl:px-20 2xl:w-[90%] 2xl:px-10 2xl:text-start xl:text-start lg:text-start md:text-start text-center flex flex-col gap-4 md:items-start lg:items-start xl:items-start 2xl:items-end bg-red-200">
+              <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-xl  text-xl ">
+                Pastanemizi ziyaret edin
+              </h2>
+              <div className="flex text-sm lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
+                <p>
+                  Batıkent Mah. Abdulkadir Aksu Blv. No:56/D
+                  Şehitkamil/Gaziantep
+                </p>
+                <p>Opening hours:</p>
+                <p>Pazartesi 09:00 - 21:30</p>
+                <p>Salı 09:00 - 21:30</p>
+                <p>Çarşamba 09:00 - 21:30</p>
+                <p>Perşembe 09:00 - 21:30</p>
+                <p>Cuma 09:00 - 21:30</p>
+                <p>Cumartesi 09:00 - 21:30</p>
+                <p>Pazar 09:00 - 21:30</p>
+              </div>
+              <button
+                onClick={redirectToLocation}
+                className="border 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md shadow"
+              >
+                Directions
+              </button>
+            </div>
           </div>
         </div>
       </div>
