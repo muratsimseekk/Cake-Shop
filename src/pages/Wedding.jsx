@@ -12,8 +12,20 @@ import pasta5 from "../assets/pastalar/pasta5.jpeg";
 import pasta6 from "../assets/pastalar/pasta6.jpeg";
 import pasta7 from "../assets/pastalar/pasta7.jpeg";
 import pasta8 from "../assets/pastalar/pasta8.jpeg";
+import { useNavigate } from "react-router-dom";
 
 function Wedding() {
+  const navigate = useNavigate();
+  const redirectToLocation = () => {
+    // Belirli bir koordinat veya adres bilgisi
+    const destination = "37.0735141,37.3405707"; // Örnek: "37.7749,-122.4194"
+
+    // Google Haritalar URL'sini oluştur
+    const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
+
+    // Yeni pencerede Google Haritalar'ı açan kod
+    window.open(mapsUrl, "_blank");
+  };
   // useEffect(() => {
   //   window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
   // }, []);
@@ -132,7 +144,12 @@ function Wedding() {
 
         <div className="bg-blue-400 hidden md:flex md:flex-col lg:flex lg:flex-col xl:flex xl:flex-col 2xl:flex 2xl:flex-col gap-2 text-center mt-9 text-lg">
           <p>Abdulkadir Aksu Bulvarı,No:56/D Şehitkamil/Gaziantep</p>
-          <p>Opera Baker</p>
+          <p
+            onClick={redirectToLocation}
+            className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px] hover:cursor-pointer"
+          >
+            Opera Baker'a yol tarifi
+          </p>
         </div>
         <div className="w-full hidden md:flex md:flex-col lg:flex lg:flex-col xl:flex xl:flex-col 2xl:flex 2xl:flex-col gap-10">
           <h3
