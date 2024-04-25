@@ -50,19 +50,23 @@ function Wedding() {
         </div>
         <div className="flex flex-col gap-5 text-center items-center ">
           <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-2xl">
-            It's time to create something you've only ever dreamt of{" "}
+            Zevkinize ozel butik pastalari birlikte tasarlayalım.
           </h3>
-          <p className="2xl:text-base xl:text-base lg:text-base md:text-[15px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-            quia dolorum magnam aspernatur eos.
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            Pasta Fiyatlarımız :
           </p>
-          <p className="2xl:text-base xl:text-base lg:text-base md:text-[15px]">
-            My Wedding Brochure will provide you with all the details you need
-            to know .
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            Tek Kişilik : 180₺
           </p>
-          <button className="px-5 py-1.5 max-w-max border border-rose-400 rounded-md">
-            Download Brochure{" "}
-          </button>
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            2 Kişilik : 370₺
+          </p>
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            6 Kişilik : 650₺
+          </p>
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            Figurlu Pastalar için lütfen bize ulaşın .
+          </p>
         </div>
         <div className="2xl:flex 2xl:h-[757px] xl:h-[634px] lg:h-[511px] md:h-[388px]  2xl:flex-row 2xl:justify-between 2xl:flex-wrap xl:flex xl:flex-row xl:justify-between xl:flex-wrap lg:flex lg:flex-row lg:justify-between lg:flex-wrap md:flex md:flex-row md:justify-between md:flex-wrap flex flex-col items-center gap-y-5">
           <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
@@ -108,91 +112,63 @@ function Wedding() {
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 text-center md:text-start lg:text-start xl:text-start 2xl:text-start flex justify-center items-center ">
             <div className="bg-red-300 w-4/5 flex flex-col gap-8">
-              <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-2xl">
-                Let's talk it over ...
+              <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-2xl text-center">
+                Bir sonraki pastanızı beraber tasarlayalım...
               </h2>
               <div className="flex flex-col gap-4">
-                <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-[15px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                  itaque dolor dolore enim doloribus eaque omnis, hic officia
-                  deleniti fugiat fugit ea ullam unde pariatur eligendi quod
-                  eius tenetur nostrum.
-                </p>
-                <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-[15px]">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Repudiandae optio tempore architecto iste numquam sunt ipsa
-                  adipisci enim, molestias nesciunt!
+                <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-[15px] text-center">
+                  Opera Baker'da, pastalarınızı kişiselleştirmenin keyfini
+                  çıkarabilirsiniz. Her bir pasta, renk, yazı, figür gibi
+                  çeşitli opsiyonları kullanarak tamamen size özel hale
+                  getirilebilir. Sevdiklerinizin isimleriyle veya özel bir
+                  mesajla donatılmış pastalarımızı tercih edebilir, istediğiniz
+                  renkleri seçebilir ve üzerine hayal ettiğiniz figürleri
+                  ekleyebilirsiniz.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="2xl:w-[60%] xl:w-[60%] lg:w-[65%] md:w-[80%] w-full  bg-red-300 flex flex-col gap-4">
-            <h3 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-lg">
-              Make an enquiery
-            </h3>
-            <div className="hidden md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-              <input
-                className="border border-black w-[47%] py-2 pl-5"
-                type="text"
-                placeholder="Name *"
-              />
-              <input
-                className="border border-black w-[47%] py-2 pl-5"
-                type="email"
-                name=""
-                id=""
-                placeholder="E-mail *"
-              />
-            </div>
-            <input
-              className="block md:hidden lg:hidden xl:hidden 2xl:hidden border border-black w-full py-2 pl-5"
-              type="text"
-              placeholder="Name *"
-            />
-            <input
-              className="block md:hidden lg:hidden xl:hidden 2xl:hidden border border-black w-full py-2 pl-5"
-              type="email"
-              name=""
-              id=""
-              placeholder="E-mail *"
-            />
 
-            <input
-              className="border border-black w-full py-2 pl-5"
-              type="tel"
-              name=""
-              id=""
-              placeholder="Phone Number *"
-            />
-            <textarea
-              className="border border-black w-full pt-2 pl-5"
-              name=""
-              id=""
-              cols="30"
-              rows="5"
-              placeholder="Comment"
-            ></textarea>
-            <button className="max-w-max border border-black py-1 px-10 rounded-md">
-              Send
-            </button>
-          </div>
-        </div>
         <div className="bg-blue-400 hidden md:flex md:flex-col lg:flex lg:flex-col xl:flex xl:flex-col 2xl:flex 2xl:flex-col gap-2 text-center mt-9 text-lg">
-          <p>30 Market Street , Adlinhton , Chorley,PR7 4HE</p>
-          <p>123456789</p>
-          <p>muratsimseekk@gmail.com</p>
+          <p>Abdulkadir Aksu Bulvarı,No:56/D Şehitkamil/Gaziantep</p>
+          <p>Opera Baker</p>
         </div>
         <div className="w-full hidden md:flex md:flex-col lg:flex lg:flex-col xl:flex xl:flex-col 2xl:flex 2xl:flex-col gap-10">
-          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl bg-red-400 text-center">
-            Follow on instagram
+          <h3
+            onClick={() =>
+              window.open("https://www.instagram.com/operabaker/", "_blank")
+            }
+            className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-red-400 text-center hover:cursor-pointer"
+          >
+            Instagram hesabımızı Takip Edin
           </h3>
-          <div className="flex w-full justify-between">
-            <img className="w-[24%]" src={pasta1} alt="" />
-            <img className="w-[24%]" src={pasta2} alt="" />
-            <img className="w-[24%]" src={pasta3} alt="" />
-            <img className="w-[24%]" src={pasta4} alt="" />
+          <div
+            onClick={() =>
+              window.open("https://www.instagram.com/operabaker/", "_blank")
+            }
+            className="flex w-full justify-between"
+          >
+            <img
+              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
+              src={pasta1}
+              alt=""
+            />
+            <img
+              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
+              src={pasta2}
+              alt=""
+            />
+            <img
+              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
+              src={pasta3}
+              alt=""
+            />
+            <img
+              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
+              src={pasta4}
+              alt=""
+            />
           </div>
         </div>
       </div>

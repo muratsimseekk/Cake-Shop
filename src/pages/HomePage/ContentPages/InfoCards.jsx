@@ -299,7 +299,7 @@ function InfoCards() {
           }
           className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-red-400 text-center hover:cursor-pointer"
         >
-          Instagram Hesabimizi Takip Edin
+          Instagram Hesabımızı Takip Edin
         </h3>
         <div className="flex w-full justify-between">
           <img
