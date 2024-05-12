@@ -17,6 +17,7 @@ function SpecialPage() {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
   }, []);
+  //TODO: Adres ve calisma saatleri icin bir component yap .
 
   const redirectToLocation = () => {
     // Belirli bir koordinat veya adres bilgisi
