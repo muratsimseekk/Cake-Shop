@@ -46,7 +46,7 @@ function InfoCards() {
               günlerinizi daha da unutulmaz kılacak.
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
+              <button className="button-css w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -78,7 +78,7 @@ function InfoCards() {
               günlerinizi daha da unutulmaz kılacak.
             </p>
             <Link to="/weddings">
-              <button className="border  w-full py-1 text-sm shadow-md rounded-md border-blue-300">
+              <button className="button-css  w-full py-1 text-sm shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -105,7 +105,7 @@ function InfoCards() {
               Siz hayal edin, biz yapalım!
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
+              <button className=" w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md button-css">
                 Daha Fazla
               </button>
             </Link>
@@ -128,7 +128,7 @@ function InfoCards() {
 
             <p className="text-sm">Siz hayal edin, biz yapalım!</p>
             <Link className="w-full" to="/weddings">
-              <button className="border w-full py-1 text-sm shadow-md rounded-md border-blue-300">
+              <button className="button-css w-full py-1 text-sm shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -155,7 +155,7 @@ function InfoCards() {
               deneyimi sizi bekliyor.
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
+              <button className="button-css w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -189,7 +189,7 @@ function InfoCards() {
               deneyimi sizi bekliyor.
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="border w-full py-1 text-sm shadow-md rounded-md border-blue-300">
+              <button className="button-css w-full py-1 text-sm shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -224,8 +224,8 @@ function InfoCards() {
               renklendirin ve sıradışı bir lezzet yolculuğuna çıkın.
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="border w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md border-blue-300">
-                Learn More
+              <button className="button-css w-[26.5%] md:w-[56%] md:text-base py-1 text-lg shadow-md rounded-md">
+                Daha Fazla
               </button>
             </Link>
           </div>
@@ -253,7 +253,7 @@ function InfoCards() {
               renklendirin ve sıradışı bir lezzet yolculuğuna çıkın.
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="border w-full py-1 text-sm shadow-md rounded-md border-blue-300">
+              <button className="button-css w-full py-1 text-sm shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -297,7 +297,7 @@ function InfoCards() {
           onClick={() =>
             window.open("https://www.instagram.com/operabaker/", "_blank")
           }
-          className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-red-400 text-center hover:cursor-pointer"
+          className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-white text-center hover:cursor-pointer"
         >
           Instagram Hesabımızı Takip Edin
         </h3>

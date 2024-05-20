@@ -34,7 +34,7 @@ function SpecialPage() {
       <div className="w-4/5 flex flex-col items-center gap-10">
         <div className="bg-slate-400 w-full flex flex-col gap-8 md:flex md:flex-row md:gap-0 lg:flex lg:flex-row lg:gap-0 xl:flex xl:flex-row xl:gap-0 2xl:flex 2xl:flex-row 2xl:gap-0 ">
           <div className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 w-full flex flex-col gap-4 bg-yellow-200 pt-10 2xl:text-start xl:text-start lg:text-start md:text-start text-center">
-            <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
+            <h2 className="header 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
               Orjinal 1.Sınıf Belçika Çikolataları
             </h2>
             <div className="flex flex-col gap-3 text-lg">

@@ -5,7 +5,7 @@ import InfoCards from "./ContentPages/InfoCards";
 
 function Content() {
   return (
-    <div className="bg-slate-500 py-10 flex flex-col w-full gap-10 items-center">
+    <div className=" py-10 flex flex-col w-full gap-10 items-center">
       <Cards />
       <InfoCards />
     </div>

@@ -26,7 +26,7 @@ function Cards() {
   };
   return (
     <>
-      <div className="w-4/5 bg-red-200 md:block lg:block xl:block 2xl:block hidden">
+      <div className="w-4/5 md:block lg:block xl:block 2xl:block hidden ">
         <div>
           <h3 className="tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-2xl xl:py-7 lg:text-xl md:text-xl py-5 text-center">
             Bayram Çikolataları
@@ -70,26 +70,26 @@ function Cards() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-4 bg-slate-400 mt-10">
+        <div className="flex justify-center py-4 mt-10">
           <button
             type="button"
             onClick={(e) => viewButton(e)}
-            className=" 2xl:py-[2px] 2xl:px-5 xl:py-[2px] xl:px-14 lg:py-[2px] lg:px-6 md:px-6 md:py-[2px] border border-[#40695d] text-lg rounded-md shadow-md cursor-pointer "
+            className="button-css 2xl:py-[2px] 2xl:px-5 xl:py-[2px] xl:px-14 lg:py-[2px] lg:px-6 md:px-6 md:py-[2px]  text-lg rounded-md shadow-md cursor-pointer "
           >
             Hepsini Gör
           </button>
         </div>
-        <div className="bg-yellow-100 py-10 flex flex-col gap-4">
+        <div className="py-10 flex flex-col gap-4">
           <div className="flex justify-center gap-2">
             <button
               onClick={redirectToLocation}
-              className="border  border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer"
+              className="button-css text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer"
             >
               Yol Tarifi
             </button>
             <button
               onClick={() => navigate("/contact")}
-              className="border  border-[#40695d] text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer"
+              className="button-css text-center text-lg py-[2px] w-52 rounded-md shadow-md cursor-pointer"
             >
               İletişim
             </button>
@@ -103,7 +103,7 @@ function Cards() {
           </div>
         </div>
       </div>
-      <div className="w-4/5 md:hidden lg:hidden xl:hidden 2xl:hidden  bg-red-300 text-center flex flex-col items-center gap-6">
+      <div className="w-4/5 md:hidden lg:hidden xl:hidden 2xl:hidden text-center flex flex-col items-center gap-6">
         <h2 className="text-3xl ">Mothers Day at CAKE</h2>
         <p>Pre order for both collection in store and UK delivery</p>
         <button className="border w-[45%] py-2 rounded-md">Shop now</button>
