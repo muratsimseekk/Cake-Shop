@@ -32,9 +32,9 @@ function SpecialPage() {
   return (
     <div className="w-full flex justify-center my-5">
       <div className="w-4/5 flex flex-col items-center gap-10">
-        <div className="bg-slate-400 w-full flex flex-col gap-8 md:flex md:flex-row md:gap-0 lg:flex lg:flex-row lg:gap-0 xl:flex xl:flex-row xl:gap-0 2xl:flex 2xl:flex-row 2xl:gap-0 ">
-          <div className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 w-full flex flex-col gap-4 bg-yellow-200 pt-10 2xl:text-start xl:text-start lg:text-start md:text-start text-center">
-            <h2 className="header 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
+        <div className=" w-full flex flex-col gap-8 md:flex md:flex-row md:gap-0 lg:flex lg:flex-row lg:gap-0 xl:flex xl:flex-row xl:gap-0 2xl:flex 2xl:flex-row 2xl:gap-0 ">
+          <div className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 w-full flex flex-col gap-4  pt-10 2xl:text-start xl:text-start lg:text-start md:text-start text-center">
+            <h2 className=" 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
               Orjinal 1.Sınıf Belçika Çikolataları
             </h2>
             <div className="flex flex-col gap-3 text-lg">
@@ -65,7 +65,7 @@ function SpecialPage() {
             <img className="w-full h-full " src={topPhoto} alt="" />
           </div>
         </div>
-        <div className="bg-green-300 w-full flex flex-col md:text-center 2xl:text-start xl:text-start lg:text-start ">
+        <div className=" w-full flex flex-col md:text-center 2xl:text-start xl:text-start lg:text-start ">
           <div className="flex items-center justify-center 2xl:gap-4 xl:gap-4 lg:gap-4 md:gap-4 gap-1">
             <GiCupcake className="w-[30px] " />
             <p className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-xl text-xl  text-center py-5 ">
@@ -188,9 +188,9 @@ function SpecialPage() {
             </div>
           </div>
         </div>
-        <div className="bg-red-50 flex flex-col gap-8 w-full md:flex md:flex-row md:justify-end md:text-end lg:flex lg:flex-row lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
+        <div className=" flex flex-col gap-8 w-full md:flex md:flex-row md:justify-end md:text-end lg:flex lg:flex-row lg:justify-end lg:text-end xl:flex xl:justify-end xl:text-end 2xl:flex 2xl:justify-end 2xl:text-end">
           <div className="2xl:w-3/5 xl:w-3/5 lg:w-3/5 md:w-[55%] w-full flex flex-col md:flex md:flex-row md:justify-between md:items-center lg:flex lg:flex-row lg:justify-between lg:items-center xl:flex xl:flex-row xl:justify-between xl:items-center 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:items-center ">
-            <div className=" md:w-[90%] md:px-10 lg:w-[90%] lg:px-12 xl:w-[90%] xl:px-20 2xl:w-[90%] 2xl:px-10 2xl:text-start xl:text-start lg:text-start md:text-start text-center flex flex-col gap-4 md:items-start lg:items-start xl:items-start 2xl:items-end bg-red-200">
+            <div className=" md:w-[90%] md:px-10 lg:w-[90%] lg:px-12 xl:w-[90%] xl:px-20 2xl:w-[90%] 2xl:px-10 2xl:text-start xl:text-start lg:text-start md:text-start text-center flex flex-col gap-4 md:items-start lg:items-start xl:items-start 2xl:items-end">
               <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-xl  text-xl ">
                 Pastanemizi ziyaret edin
               </h2>
@@ -210,9 +210,9 @@ function SpecialPage() {
               </div>
               <button
                 onClick={redirectToLocation}
-                className="border 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md shadow"
+                className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
               >
-                Directions
+                Yol Tarifi
               </button>
             </div>
           </div>
