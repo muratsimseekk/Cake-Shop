@@ -7,4 +7,13 @@
   font-family: Architects Daughter, Macondo, Roboto, Single Day, Whisper;
   max-width: 1536px;
   margin: 0 auto;
+  background-color: white;
+  color: #a89668;
+  .header {
+    color: black;
+  }
+  .button-css {
+    background-color: #a89668;
+    color: white;
+  }
 }
