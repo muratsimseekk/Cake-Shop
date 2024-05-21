@@ -13,7 +13,7 @@ function Footer() {
         <div className="md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3 w-full flex flex-col gap-4">
           <div>
             <h3 className="2xl:text-xl xl:text-xl lg:text-xl md:text-base text-xl">
-              Navigation
+              Menü
             </h3>
           </div>
           <div>
@@ -25,16 +25,16 @@ function Footer() {
                 <li>ÇİKOLATALAR</li>
               </Link>
               <Link to="/cookies">
-                <li>BESPOKE</li>
+                <li>KURABİYELER</li>
               </Link>
               <Link to="/weddings">
-                <li>WEDDINGS</li>
+                <li>PASTALAR</li>
+              </Link>
+              <Link to="/faq">
+                <li>TATLILAR</li>
               </Link>
               <Link to="/about">
                 <li>HAKKIMIZDA</li>
-              </Link>
-              <Link to="/faq">
-                <li>SSS</li>
               </Link>
               <Link to="/contact">
                 <li>İLETİŞİM</li>
