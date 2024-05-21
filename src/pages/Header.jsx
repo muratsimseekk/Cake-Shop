@@ -13,9 +13,11 @@ function Header() {
     <div className="2xl:w-full xl:w-full 2xl:flex xl:flex 2xl:justify-center xl:justify-center w-full flex justify-center">
       <div className="2xl:w-[100%] w-full">
         <div className="flex items-center gap-3  justify-center py-3 bg-[#fff3ed]">
-          <h3 className="  font-architech text-[#0f3227] 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg  hover:underline hover:cursor-pointer">
-            SHOP OUR VALENTINES COLLECTION
-          </h3>
+          <Link to="faq">
+            <h3 className="  font-architech text-[#0f3227] 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg  hover:underline hover:cursor-pointer">
+              ENFES TATLILARIMIZA GÖZ ATIN
+            </h3>
+          </Link>
           <FaArrowRightLong className="w-4 h-4 text-[#40695d]" />
         </div>
         <div className="header bg-white 2xl:flex xl:flex 2xl:justify-center xl:justify-center 2xl:items-center xl:items-center flex flex-col items-center">
