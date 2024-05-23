@@ -43,7 +43,7 @@ function About() {
                   olduktan sonra akademik eğitimini tamamlamış bir çikolata ve
                   pasta tasarımcısıyım! Pişirme tutkum, ailem ve arkadaşlarım
                   için kekler ve ikramlıklar hazırlamakla başladı ve bu süreç,
-                  bugünkü Opera Baker'ın temellerini attı.
+                  bugünkü Opera Baker'ın temellerini attı .
                 </p>
                 <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-[15px]">
                   Kişilerin zevklerine ve hayal dünyalarındaki renkli fikirlere
