@@ -64,8 +64,8 @@ function InfoCards() {
         <div className="w-full ">
           <img className="rounded-md" src={foto1} alt="" />
         </div>
-        <div className="w-full bg-yellow-100 flex  justify-center py-4">
-          <div className="flex flex-col text-center w-[90%] bg-red-100 gap-6">
+        <div className="w-fullflex  justify-center py-4">
+          <div className="flex flex-col text-center w-[90%]  gap-6">
             <h2 className=" text-xl">Şeker Hamurlu Pastalar</h2>
 
             <p className="text-sm ">
@@ -117,7 +117,7 @@ function InfoCards() {
           <img className=" rounded-md" src={foto2} alt="" />
         </div>
         <div className="w-full flex justify-center text-center ">
-          <div className="flex flex-col w-[90%] items-center bg-indigo-100 gap-6">
+          <div className="flex flex-col w-[90%] items-center gap-6">
             <h2 className="text-xl">Iki boyutlu pastalar</h2>
             <p className="text-sm">
               Opera Baker, özel günlerinizi renklendirmek için 2 boyutlu
@@ -173,8 +173,8 @@ function InfoCards() {
         <div className="w-full ">
           <img className="rounded-md" src={yazili} alt="" />
         </div>
-        <div className="w-full bg-yellow-100 flex  justify-center ">
-          <div className="flex flex-col text-center w-[90%] bg-red-100 gap-6 ">
+        <div className="w-full flex  justify-center ">
+          <div className="flex flex-col text-center w-[90%]  gap-6 ">
             <h2 className="text-xl">Yazılı Pastalar </h2>
             <p className=" text-sm  ">
               Opera Baker'ın yazılı pastalarıyla özel günlerinize dokunuş katın!
@@ -236,7 +236,7 @@ function InfoCards() {
           <img className=" rounded-md" src={tasarim} alt="" />
         </div>
         <div className="w-full flex justify-center text-center">
-          <div className="flex flex-col w-[90%] items-center bg-indigo-100 gap-6">
+          <div className="flex flex-col w-[90%] items-center gap-6">
             <h2 className="text-xl">Tasarım Pastalar </h2>
             <p className=" text-sm  ">
               Opera Baker'ın tasarım pastaları, modern estetiği ve sıradışı
