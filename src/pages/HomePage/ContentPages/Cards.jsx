@@ -4,7 +4,7 @@ import ciko1 from "../../../assets/cikolata/ciko1.jpg";
 import ciko2 from "../../../assets/cikolata/ciko2.jpg";
 import ciko3 from "../../../assets/cikolata/ciko3.jpg";
 import ciko4 from "../../../assets/cikolata/ciko4.jpg";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Cards() {
   const navigate = useNavigate();
@@ -104,19 +104,28 @@ function Cards() {
         </div>
       </div>
       <div className="w-4/5 md:hidden lg:hidden xl:hidden 2xl:hidden text-center flex flex-col items-center gap-6">
-        <h2 className="text-3xl ">Mothers Day at CAKE</h2>
-        <p>Pre order for both collection in store and UK delivery</p>
-        <button className="border w-[45%] py-2 rounded-md">Shop now</button>
+        <h2 className="text-3xl ">Sipariş oluştur</h2>
+        <p>
+          Online platformlar üzerinden pastanemizden alışveriş yapabilirsiniz .
+        </p>
         <div className="w-full flex flex-col gap-3 mt-6">
-          <button className="border w-full py-2 rounded-md">
-            Click & Collect
-          </button>
-          <button className="border w-full py-2 rounded-md">Bespoke</button>
+          <a
+            href="https://www.yemeksepeti.com/restaurant/ucdg/opera-baker"
+            target="_blank"
+          >
+            <button className="border w-full py-2 rounded-md">
+              Yemek Sepeti
+            </button>
+          </a>
+          <Link to="/contact">
+            <button className="border w-full py-2 rounded-md">İletişim</button>
+          </Link>
         </div>
         <p>
-          Luxury bespoke cakes and sweet treats , designed , created and served
-          in Chorley , Lancashire.
+          Yemek Sepeti ve Trendyol Yemek üzerinden pastanemizden alışveriş
+          yapabilirsiniz . Özel tasarım pastalar için lütfen iletişime geçiniz .
         </p>
+        <p>İletişim bölümünden irtibat bilgilerine ulaşabilirsiniz . </p>
       </div>
     </>
   );
