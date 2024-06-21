@@ -83,29 +83,46 @@ function Contact() {
           <p>tugce_simsek2017@outlook.com</p>
         </div>
         <div className="w-full flex flex-col gap-10">
-          <h3 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl text-center">
-            Follow on instagram
+          <h3
+            onClick={() =>
+              window.open("https://www.instagram.com/operabaker/", "_blank")
+            }
+            className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-xl bg-white text-center hover:cursor-pointer"
+          >
+            Instagram Hesabımızı Takip Edin
           </h3>
           <div className="flex w-full justify-between">
             <img
-              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md"
+              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
               src={photo4}
               alt=""
+              onClick={() =>
+                window.open("https://www.instagram.com/operabaker/", "_blank")
+              }
             />
             <img
-              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md"
+              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
               src={photo5}
               alt=""
+              onClick={() =>
+                window.open("https://www.instagram.com/operabaker/", "_blank")
+              }
             />
             <img
-              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md"
+              className="md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%] w-[33%] rounded-md hover:cursor-pointer hover:opacity-70"
               src={photo6}
               alt=""
+              onClick={() =>
+                window.open("https://www.instagram.com/operabaker/", "_blank")
+              }
             />
             <img
-              className="w-[24%] rounded-md md:block lg:block xl:block 2xl:block hidden"
+              className="w-[24%] rounded-md md:block lg:block xl:block 2xl:block hidden hover:cursor-pointer hover:opacity-70"
               src={photo7}
               alt=""
+              onClick={() =>
+                window.open("https://www.instagram.com/operabaker/", "_blank")
+              }
             />
           </div>
         </div>
