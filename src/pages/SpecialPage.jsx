@@ -37,27 +37,26 @@ function SpecialPage() {
             <h2 className=" 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
               Orjinal 1.Sınıf Belçika Çikolataları
             </h2>
-            <div className="flex flex-col gap-3 text-lg">
+            <div className="flex flex-col gap-5 text-lg">
               <p>
-                Ramazan Bayramı'nın tatlı coşkusunu Opera'nın spesiyal
-                çikolatalarıyla kutlamaya ne dersiniz?{" "}
+                Özel günlerin tatlı coşkusunu Opera'nın spesiyal çikolatalarıyla
+                kutlamaya ne dersiniz?
               </p>
               <p>
                 Her biri özenle hazırlanmış bitter, beyaz, normal ve enfes
                 fıstıklı, fındıklı çeşitlerimizle sevdiklerinize muhteşem bir
-                lezzet şöleni sunuyoruz. Bu bayram, sevdiklerinizle bir araya
-                gelirken, en kaliteli çikolatalarımızı ikram ederek tatlı anılar
-                biriktirmeye davetlisiniz.
+                lezzet şöleni sunuyoruz. Bu özel günlerde, sevdiklerinizle bir
+                araya gelirken, en kaliteli çikolatalarımızı ikram ederek tatlı
+                anılar biriktirmeye davetlisiniz.
               </p>
               <p>
-                Ayrıcalıklı tatların adresi olan Belçika çikolatalarımız,
-                Ramazan Bayramı'nın huzur dolu atmosferine lezzet katarak
-                sofralarınıza renk getiriyor.
+                Ayrıcalıklı tatların adresi olan Belçika çikolatalarımız, özel
+                günlerin huzur dolu atmosferine lezzet katarak sofralarınıza
+                renk getiriyor.
               </p>
               <p>
                 Sevdiklerinizle paylaşmak için özenle hazırladığımız çeşit çeşit
-                çikolatalarımızla, bu bayramı unutulmaz kılın. İyi bayramlar
-                dileriz, tatlı anılarla dolu bir bayram geçirmeniz dileğiyle!
+                çikolatalarımızla, özel günlerinizi unutulmaz kılın.
               </p>
             </div>
           </div>
@@ -195,18 +194,14 @@ function SpecialPage() {
                 Pastanemizi ziyaret edin
               </h2>
               <div className="flex text-sm lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
-                <p>
-                  Batıkent Mah. Abdulkadir Aksu Blv. No:56/D
-                  Şehitkamil/Gaziantep
-                </p>
-                <p>Opening hours:</p>
-                <p>Pazartesi 09:00 - 21:30</p>
-                <p>Salı 09:00 - 21:30</p>
-                <p>Çarşamba 09:00 - 21:30</p>
-                <p>Perşembe 09:00 - 21:30</p>
-                <p>Cuma 09:00 - 21:30</p>
-                <p>Cumartesi 09:00 - 21:30</p>
-                <p>Pazar 09:00 - 21:30</p>
+                <p>Çalışma Saatlerimiz:</p>
+                <p>Pazartesi 09:30 - 21:30</p>
+                <p>Salı 09:30 - 21:30</p>
+                <p>Çarşamba 09:30 - 21:30</p>
+                <p>Perşembe 09:30 - 21:30</p>
+                <p>Cuma 09:30 - 21:30</p>
+                <p>Cumartesi 09:30 - 21:30</p>
+                <p>Pazar Kapalı</p>
               </div>
               <button
                 onClick={redirectToLocation}

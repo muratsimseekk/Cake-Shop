@@ -271,17 +271,14 @@ function InfoCards() {
               Pastanemizi ziyaret edin
             </h2>
             <div className="flex text-lg md:text-base flex-col gap-2">
-              <p>
-                Batıkent Mah. Abdulkadir Aksu Blv. No:56/D Şehitkamil/Gaziantep
-              </p>
               <p>Çalışma Saatlerimiz:</p>
-              <p>Pazartesi 09:00 - 21:30</p>
-              <p>Salı 09:00 - 21:30</p>
-              <p>Çarşamba 09:00 - 21:30</p>
-              <p>Perşembe 09:00 - 21:30</p>
-              <p>Cuma 09:00 - 21:30</p>
-              <p>Cumartesi 09:00 - 21:30</p>
-              <p>Pazar 09:00 - 21:30</p>
+              <p>Pazartesi 09:30 - 21:30</p>
+              <p>Salı 09:30 - 21:30</p>
+              <p>Çarşamba 09:30 - 21:30</p>
+              <p>Perşembe 09:30 - 21:30</p>
+              <p>Cuma 09:30 - 21:30</p>
+              <p>Cumartesi 09:30 - 21:30</p>
+              <p>Pazar Kapalı</p>
             </div>
             <button
               onClick={redirectToLocation}

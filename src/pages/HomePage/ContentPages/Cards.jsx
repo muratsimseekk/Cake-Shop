@@ -29,7 +29,7 @@ function Cards() {
       <div className="w-4/5 md:block lg:block xl:block 2xl:block hidden ">
         <div>
           <h3 className="  tracking tracking-wider 2xl:text-2xl 2xl:py-10 xl:text-2xl xl:py-7 lg:text-xl md:text-xl py-5 text-center">
-            Bayram Çikolataları
+            El Yapımı Belçika Çikolataları
           </h3>
         </div>
         <div className="flex flex-wrap justify-between">
@@ -38,7 +38,7 @@ function Cards() {
               <img src={ciko1} alt="" />
             </div>
             <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
-              <h3>4x4 Spesiyal Bayram Çikolatası</h3>
+              <h3>4x4 Spesiyal Çikolata Kutusu</h3>
               <p>350₺</p>
             </div>
           </div>
@@ -47,7 +47,7 @@ function Cards() {
               <img src={ciko2} alt="" />
             </div>
             <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
-              <h3>4x4 Spesiyal Bayram Çikolatası</h3>
+              <h3>4x4 Spesiyal Çikolata Kutusu</h3>
               <p>350₺</p>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Cards() {
               <img src={ciko3} alt="" />
             </div>
             <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
-              <h3>4x6 Spesiyal Bayram Çikolatası</h3>
+              <h3>4x6 Spesiyal Çikolata Kutusu</h3>
               <p>500₺</p>
             </div>
           </div>
@@ -65,7 +65,7 @@ function Cards() {
               <img src={ciko4} alt="" />
             </div>
             <div className="flex flex-col gap-2 2xl:text-xl xl:text-lg text-center">
-              <h3>4x4 Spesiyal Bayram Çikolatası</h3>
+              <h3>4x4 Spesiyal Çikolata Kutusu</h3>
               <p>350₺</p>
             </div>
           </div>
