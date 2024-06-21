@@ -11,9 +11,9 @@ import tatli8 from "../assets/tatlilar/tatli8.jpg";
 import store from "../assets/outside.jpg";
 
 function Faq() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
 
   const redirectToLocation = () => {
     // Belirli bir koordinat veya adres bilgisi
@@ -183,18 +183,14 @@ function Faq() {
                 Pastanemizi ziyaret edin
               </h2>
               <div className="flex text-sm lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
-                <p>
-                  Batıkent Mah. Abdulkadir Aksu Blv. No:56/D
-                  Şehitkamil/Gaziantep
-                </p>
-                <p>Opening hours:</p>
-                <p>Pazartesi 09:00 - 21:30</p>
-                <p>Salı 09:00 - 21:30</p>
-                <p>Çarşamba 09:00 - 21:30</p>
-                <p>Perşembe 09:00 - 21:30</p>
-                <p>Cuma 09:00 - 21:30</p>
-                <p>Cumartesi 09:00 - 21:30</p>
-                <p>Pazar 09:00 - 21:30</p>
+                <p>Çalışma Saatlerimiz:</p>
+                <p>Pazartesi 09:30 - 21:30</p>
+                <p>Salı 09:30 - 21:30</p>
+                <p>Çarşamba 09:30 - 21:30</p>
+                <p>Perşembe 09:30 - 21:30</p>
+                <p>Cuma 09:30 - 21:30</p>
+                <p>Cumartesi 09:30 - 21:30</p>
+                <p>Pazar Kapalı</p>
               </div>
               <button
                 onClick={redirectToLocation}

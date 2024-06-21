@@ -26,9 +26,9 @@ function Wedding() {
     // Yeni pencerede Google Haritalar'ı açan kod
     window.open(mapsUrl, "_blank");
   };
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+  }, []);
   return (
     <div className="w-full flex justify-center">
       <div className="w-4/5 my-14 flex flex-col gap-10">
