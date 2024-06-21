@@ -13,7 +13,6 @@ import slider6 from "../../assets/cakes/cake6.jpeg";
 import slider7 from "../../assets/cakes/cake7.jpeg";
 import slider8 from "../../assets/cakes/cake8.jpeg";
 import slider9 from "../../assets/cakes/cake9.jpeg";
-import slider10 from "../../assets/cakes/cake10.jpeg";
 
 function TopSlider() {
   return (
@@ -59,7 +58,7 @@ function TopSlider() {
           <img className="h-full rounded-lg" src={slider6} />
         </SwiperSlide>
         <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
-          <img className="h-full rounded-lg" src={slider7} />
+          <img className="h-full rounded-lg" src={cake11} />
         </SwiperSlide>
         <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
           <img className="h-full rounded-lg" src={slider8} />
@@ -68,11 +67,11 @@ function TopSlider() {
           <img className="h-full rounded-lg" src={slider9} />
         </SwiperSlide>
         <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
-          <img className="h-full rounded-lg" src={slider10} />
+          <img className="h-full rounded-lg" src={slider7} />
         </SwiperSlide>
 
         <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
+          <div className="swiper-button-prev slider-arrow ">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
           <div className="swiper-button-next slider-arrow ">
