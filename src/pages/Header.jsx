@@ -14,7 +14,7 @@ function Header() {
       <div className="2xl:w-[100%] w-full">
         <div className="flex items-center gap-3  justify-center py-3 bg-[#fff3ed]">
           <Link to="faq">
-            <h3 className="  font-architech text-[#185240] 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg  hover:underline hover:cursor-pointer">
+            <h3 className="  font-architech text-[#185240] 2xl:text-2xl xl:text-[22px] lg:text-xl md:text-lg  hover:underline hover:cursor-pointer">
               ENFES TATLILARIMIZA GÖZ ATIN
             </h3>
           </Link>
