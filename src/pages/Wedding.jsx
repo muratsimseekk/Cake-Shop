@@ -4,14 +4,14 @@ import photo1 from "../assets/home/tasarim.jpeg";
 import photo2 from "../assets/home/figurlu.jpg";
 import photo3 from "../assets/home/cicekli.jpeg";
 
-import pasta1 from "../assets/pastalar/pasta1.jpeg";
-import pasta2 from "../assets/pastalar/pasta2.jpeg";
-import pasta3 from "../assets/pastalar/pasta3.jpeg";
-import pasta4 from "../assets/pastalar/pasta4.jpeg";
-import pasta5 from "../assets/pastalar/pasta5.jpeg";
-import pasta6 from "../assets/pastalar/pasta6.jpeg";
-import pasta7 from "../assets/pastalar/pasta7.jpeg";
-import pasta8 from "../assets/pastalar/pasta8.jpeg";
+import pasta1 from "../assets/cakes/cake1.jpeg";
+import pasta2 from "../assets/cakes/cake2.jpeg";
+import pasta3 from "../assets/cakes/cake3.jpeg";
+import pasta4 from "../assets/cakes/cake4.jpeg";
+import pasta5 from "../assets/cakes/cake5.jpeg";
+import pasta6 from "../assets/cakes/cake6.jpeg";
+import pasta7 from "../assets/cakes/cake7.jpeg";
+import pasta8 from "../assets/cakes/cake1.jpeg";
 import maket from "../assets/pastalar/maket.jpg";
 import { useNavigate } from "react-router-dom";
 
@@ -122,12 +122,15 @@ function Wedding() {
             />
           </div>
           <div className="hidden 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img className="w-full h-full rounded-md object-fill" src={maket} />
+            <img
+              className="w-full h-full rounded-md object-fill"
+              src={pasta8}
+            />
           </div>
         </div>
         <div className="flex flex-col gap-8  md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 ">
-            <img className="w-full rounded-md" src={maket} />
+            <img className="w-full rounded-md" src={pasta8} />
           </div>
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 text-center md:text-start lg:text-start xl:text-start 2xl:text-start flex justify-center items-center ">
             <div className=" w-4/5 flex flex-col gap-8">

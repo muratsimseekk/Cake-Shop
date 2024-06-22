@@ -40,34 +40,34 @@ function TopSlider() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className=" h-full rounded-lg" src={slider1} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%]  md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%]  md:w-[42%] h-[65%] w-[60%]">
           <img className=" h-full rounded-lg" src={slider2} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider3} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider4} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider5} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider6} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider10} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider8} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider9} />
         </SwiperSlide>
-        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[75%] w-[70%]">
+        <SwiperSlide className="2xl:h-full 2xl:w-1/3 xl:h-[90%] xl:w-1/3 lg:h-[85%] md:h-[80%] md:w-[42%] h-[65%] w-[60%]">
           <img className="h-full rounded-lg" src={slider7} />
         </SwiperSlide>
 
