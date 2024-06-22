@@ -35,7 +35,7 @@ function SpecialPage() {
         <div className=" w-full flex flex-col gap-8 md:flex md:flex-row md:gap-0 lg:flex lg:flex-row lg:gap-0 xl:flex xl:flex-row xl:gap-2 2xl:flex 2xl:flex-row 2xl:gap-2 ">
           <div className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 w-full flex flex-col gap-4  pt-10 2xl:text-start xl:text-start lg:text-start md:text-start text-center">
             <h2 className=" 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
-              Orjinal 1.Sınıf Belçika Çikolataları
+              Orijinal 1.Sınıf Belçika Çikolataları
             </h2>
             <div className="flex flex-col gap-5 text-lg">
               <p>
