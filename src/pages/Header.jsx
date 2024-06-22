@@ -56,9 +56,9 @@ function Header() {
               <Link to="/faq">
                 <li>TATLILAR</li>
               </Link>
-              <Link to="/about">
+              {/* <Link to="/about">
                 <li>HAKKIMIZDA</li>
-              </Link>
+              </Link> */}
 
               <Link to="/contact">
                 <li>İLETİŞİM</li>
@@ -81,9 +81,9 @@ function Header() {
                 <Link onClick={() => setMenu(false)} to="/faq">
                   <li>TATLILAR</li>
                 </Link>
-                <Link onClick={() => setMenu(false)} to="/about">
+                {/* <Link onClick={() => setMenu(false)} to="/about">
                   <li>HAKKIMIZDA</li>
-                </Link>
+                </Link> */}
 
                 <Link onClick={() => setMenu(false)} to="/contact">
                   <li>İLETİŞİM</li>

@@ -43,7 +43,7 @@ function SpecialPage() {
                 kutlamaya ne dersiniz?
               </p>
               <p>
-                Her biri özenle hazırlanmış bitter, beyaz, normal ve enfes
+                Her biri özenle hazırlanmış bitter, beyaz, sütlü ve enfes
                 fıstıklı, fındıklı çeşitlerimizle sevdiklerinize muhteşem bir
                 lezzet şöleni sunuyoruz. Bu özel günlerde, sevdiklerinizle bir
                 araya gelirken, en kaliteli çikolatalarımızı ikram ederek tatlı
