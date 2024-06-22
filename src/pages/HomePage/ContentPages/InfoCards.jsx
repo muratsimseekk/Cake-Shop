@@ -68,17 +68,17 @@ function InfoCards() {
           <div className="flex flex-col text-center w-[90%]  gap-6">
             <h2 className=" text-xl">Şeker Hamurlu Pastalar</h2>
 
-            <p className="text-sm ">
+            <p className=" ">
               Özel figürlerle süslenmiş ya da kişiselleştirilmiş yazılarla
               donatılmış şeker hamurlu pastalarımız, sizin isteğiniz
               doğrultusunda tasarlanıyor.
             </p>
-            <p className="text-sm">
+            <p className="">
               Opera Baker'ın kalitesi ve özeniyle hazırlanan bu pastalar, özel
               günlerinizi daha da unutulmaz kılacak.
             </p>
             <Link to="/weddings">
-              <button className="button-css  w-full py-1 text-sm shadow-md rounded-md ">
+              <button className="button-css  w-full py-1  shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -119,16 +119,16 @@ function InfoCards() {
         <div className="w-full flex justify-center text-center ">
           <div className="flex flex-col w-[90%] items-center gap-6">
             <h2 className="text-xl">Iki boyutlu pastalar</h2>
-            <p className="text-sm">
+            <p className="">
               Opera Baker, özel günlerinizi renklendirmek için 2 boyutlu
               pastalarıyla burada! <br /> İster doğum günleri için sevimli
               hayvan figürleri, ister düğünler için romantik temalar,
               pastalarımızı isteğinize göre tasarlayabiliriz.
             </p>
 
-            <p className="text-sm">Siz hayal edin, biz yapalım!</p>
+            <p className="">Siz hayal edin, biz yapalım!</p>
             <Link className="w-full" to="/weddings">
-              <button className="button-css w-full py-1 text-sm shadow-md rounded-md ">
+              <button className="button-css w-full py-1  shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -176,20 +176,20 @@ function InfoCards() {
         <div className="w-full flex  justify-center ">
           <div className="flex flex-col text-center w-[90%]  gap-6 ">
             <h2 className="text-xl">Yazılı Pastalar </h2>
-            <p className=" text-sm  ">
+            <p className="   ">
               Opera Baker'ın yazılı pastalarıyla özel günlerinize dokunuş katın!
             </p>
-            <p className="text-sm ">
+            <p className=" ">
               İster sevdiklerinizin isimleriyle, ister unutulmaz bir mesajla
               kişiselleştirin. Pastanızın üzerine eklenecek yazılar tamamen
               sizin isteğinize bağlı. Ayrıca, renk seçimini de size bırakıyoruz!
             </p>
-            <p className="text-sm">
+            <p className="">
               En özel günleriniz için Opera Baker'da size özel bir lezzet
               deneyimi sizi bekliyor.
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="button-css w-full py-1 text-sm shadow-md rounded-md ">
+              <button className="button-css w-full py-1  shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
@@ -238,22 +238,22 @@ function InfoCards() {
         <div className="w-full flex justify-center text-center">
           <div className="flex flex-col w-[90%] items-center gap-6">
             <h2 className="text-xl">Tasarım Pastalar </h2>
-            <p className=" text-sm  ">
+            <p className="   ">
               Opera Baker'ın tasarım pastaları, modern estetiği ve sıradışı
               detaylarıyla özel günlerinizi unutulmaz kılıyor.
             </p>
-            <p className="text-sm ">
+            <p className="">
               Her bir pasta, özenle seçilmiş malzemeler ve ustalıkla işlenmiş
               tasarımlarıyla göz dolduruyor. Opera Baker, her diliminde
               benzersiz bir lezzet ve estetik sunarak müşterilerine unutulmaz
               deneyimler yaşatmayı hedefliyor.
             </p>
-            <p className="text-sm">
+            <p className="">
               Sizin için özel tasarlanmış pastalarımızla, en özel günlerinizi
               renklendirin ve sıradışı bir lezzet yolculuğuna çıkın.
             </p>
             <Link className="w-full" to="/weddings">
-              <button className="button-css w-full py-1 text-sm shadow-md rounded-md ">
+              <button className="button-css w-full py-1  shadow-md rounded-md ">
                 Daha Fazla
               </button>
             </Link>
