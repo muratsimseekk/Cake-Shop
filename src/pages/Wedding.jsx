@@ -5,6 +5,9 @@ import photo2 from "../assets/home/figurlu.jpg";
 import photo3 from "../assets/home/cicekli.jpeg";
 
 import pasta1 from "../assets/cakes/cake1.jpeg";
+import cup1 from "../assets/cup1.jpg";
+import cup2 from "../assets/cup2.jpg";
+import cup3 from "../assets/cup3.jpg";
 import pasta2 from "../assets/cakes/cake2.jpeg";
 import pasta3 from "../assets/cakes/cake3.jpeg";
 import pasta4 from "../assets/cakes/cake4.jpeg";
@@ -69,13 +72,22 @@ function Wedding() {
             Pasta Fiyatlarımız :
           </p>
           <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
-            Tek Kişilik : 180₺
+            Tek Kişilik : 220₺
           </p>
           <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
-            2 Kişilik : 370₺
+            2 Kişilik : 400₺
           </p>
           <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
-            6 Kişilik : 650₺
+            6 Kişilik : 850₺
+          </p>
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            6'lı Cupcake Box : 480₺
+          </p>
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            9'lı Cupcake Box : 720₺
+          </p>
+          <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
+            Pasta ve Cupcake Box : 800₺
           </p>
           <p className="2xl:text-2xl xl:text-xl lg:text-base md:text-[15px]">
             Figurlu Pastalar için lütfen bize ulaşın .
@@ -83,10 +95,13 @@ function Wedding() {
         </div>
         <div className="2xl:flex 2xl:h-[757px] xl:h-[634px] lg:h-[511px] md:h-[388px]  2xl:flex-row 2xl:justify-between 2xl:flex-wrap xl:flex xl:flex-row xl:justify-between xl:flex-wrap lg:flex lg:flex-row lg:justify-between lg:flex-wrap md:flex md:flex-row md:justify-between md:flex-wrap flex flex-col items-center gap-y-5">
           <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img
-              className="w-full h-full rounded-md object-fill"
-              src={pasta1}
-            />
+            <img className="w-full h-full rounded-md object-fill" src={cup1} />
+          </div>
+          <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full h-full rounded-md object-fill" src={cup2} />
+          </div>
+          <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] rounded-md md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
+            <img className="w-full h-full rounded-md object-fill" src={cup3} />
           </div>
           <div className="w-full 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
             <img className="w-full h-full rounded-md" src={pasta2} />

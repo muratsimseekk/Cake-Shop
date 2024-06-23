@@ -19,7 +19,7 @@ function TopSlider() {
   return (
     <div className="pt-8 ">
       <Swiper
-        style={{ height: 570 }}
+        style={{ height: 450 }}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}

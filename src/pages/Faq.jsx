@@ -68,7 +68,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  175₺
+                  190₺
                 </p>
               </div>
             </div>
@@ -82,7 +82,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  95₺
+                  130₺
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  150₺
+                  175₺
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  95₺
+                  130₺
                 </p>
               </div>
             </div>
@@ -124,7 +124,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  130₺
+                  150₺
                 </p>
               </div>
             </div>
@@ -138,7 +138,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  90₺
+                  130₺
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  130₺
+                  150₺
                 </p>
               </div>
             </div>
@@ -166,7 +166,7 @@ function Faq() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  90₺
+                  130₺
                 </p>
               </div>
             </div>

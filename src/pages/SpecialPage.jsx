@@ -83,7 +83,7 @@ function SpecialPage() {
                   Fıstıklı ve Bademli{" "}
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>
@@ -97,7 +97,7 @@ function SpecialPage() {
                   Beyaz ve Sütlü{" "}
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>
@@ -111,7 +111,7 @@ function SpecialPage() {
                   Fıstıklı Beyaz{" "}
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>
@@ -125,7 +125,7 @@ function SpecialPage() {
                   Fıstıklı ve Bademli{" "}
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>
@@ -139,7 +139,7 @@ function SpecialPage() {
                   Sade Beyaz
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@ function SpecialPage() {
                   Fındıklı Bitter{" "}
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>
@@ -167,7 +167,7 @@ function SpecialPage() {
                   Özel Motifli Beyaz{" "}
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>
@@ -181,7 +181,7 @@ function SpecialPage() {
                   Sade Beyaz
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  1200₺
+                  1500₺
                 </p>
               </div>
             </div>

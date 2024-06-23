@@ -39,7 +39,7 @@ function About() {
                   Tuğçe Şimşek
                 </h2>
                 <p className="2xl:text-lg xl:text-lg lg:text-lg md:text-[15px]">
-                  Ben, çocukluğumdan beri kendi kendini yetiştirmiş ve yetişkin
+                  Ben, çocukluğundan beri kendi kendini yetiştirmiş ve yetişkin
                   olduktan sonra akademik eğitimini tamamlamış bir çikolata ve
                   pasta tasarımcısıyım! Pişirme tutkum, ailem ve arkadaşlarım
                   için kekler ve ikramlıklar hazırlamakla başladı ve bu süreç,

@@ -60,7 +60,7 @@ function Cookies() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  450₺ kg.
+                  500₺ kg.
                 </p>
               </div>
             </div>
@@ -74,7 +74,7 @@ function Cookies() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  450₺ kg.
+                  500₺ kg.
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ function Cookies() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  450₺ kg.
+                  500₺ kg.
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ function Cookies() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  350₺ kg.
+                  450₺ kg.
                 </p>
               </div>
             </div>
@@ -116,7 +116,7 @@ function Cookies() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  300₺ kg.
+                  400₺ kg.
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@ function Cookies() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  450₺ kg.
+                  500₺ kg.
                 </p>
               </div>
             </div>
@@ -144,7 +144,7 @@ function Cookies() {
                   Opera Baker El Yapımı
                 </p>
                 <p className="text-sm 2xl:text-lg xl:text-lg lg:text-sm md:text-sm">
-                  300₺ kg.
+                  400₺ kg.
                 </p>
               </div>
             </div>
