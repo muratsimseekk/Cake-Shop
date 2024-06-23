@@ -130,18 +130,6 @@ function Wedding() {
               src={pasta6}
             />
           </div>
-          <div className="hidden 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img
-              className="w-full h-full rounded-md object-fill"
-              src={pasta7}
-            />
-          </div>
-          <div className="hidden 2xl:h-[368px] xl:h-[307px] lg:h-[245px] md:h-[184px] h-[425px] md:block lg:block xl:block 2xl:block md:w-[24%] lg:w-[24%] xl:w-[24%] 2xl:w-[24%]">
-            <img
-              className="w-full h-full rounded-md object-fill"
-              src={pasta8}
-            />
-          </div>
         </div>
         <div className="flex flex-col gap-8  md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 ">
