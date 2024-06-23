@@ -33,7 +33,7 @@ function Cookies() {
           <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
             Kurabiyeler
           </h2>
-          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base text-sm">
+          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base ">
             Opera Baker'ın kurabiye koleksiyonu, tatlı ve tuzlu lezzetlerle
             dolu! Her biri özenle hazırlanmış, enfes tatlarla dolu
             kurabiyelerimizle her anınızı tatlandırabilirsiniz. İster çikolatalı
@@ -174,7 +174,7 @@ function Cookies() {
               <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-xl  text-xl ">
                 Pastanemizi ziyaret edin
               </h2>
-              <div className="flex text-sm lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
+              <div className="flex  lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
                 <p>Çalışma Saatlerimiz:</p>
                 <p>Pazartesi 09:30 - 21:30</p>
                 <p>Salı 09:30 - 21:30</p>
@@ -186,7 +186,7 @@ function Cookies() {
               </div>
               <button
                 onClick={redirectToLocation}
-                className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
+                className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base  2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
               >
                 Yol Tarifi
               </button>

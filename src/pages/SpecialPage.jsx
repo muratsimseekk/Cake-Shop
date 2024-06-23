@@ -193,7 +193,7 @@ function SpecialPage() {
               <h2 className="2xl:text-4xl xl:text-4xl lg:text-3xl md:text-xl text-xl ">
                 Pastanemizi ziyaret edin
               </h2>
-              <div className="flex text-sm lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
+              <div className="flex  lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
                 <p>Çalışma Saatlerimiz:</p>
                 <p>Pazartesi 09:30 - 21:30</p>
                 <p>Salı 09:30 - 21:30</p>
@@ -205,7 +205,7 @@ function SpecialPage() {
               </div>
               <button
                 onClick={redirectToLocation}
-                className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
+                className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base  2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
               >
                 Yol Tarifi
               </button>
