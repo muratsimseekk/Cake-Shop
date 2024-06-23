@@ -193,7 +193,7 @@ function SpecialPage() {
               <h2 className="2xl:text-4xl xl:text-4xl lg:text-3xl md:text-xl text-xl ">
                 Pastanemizi ziyaret edin
               </h2>
-              <div className="flex  lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
+              <div className="flex lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
                 <p>Çalışma Saatlerimiz:</p>
                 <p>Pazartesi 09:30 - 21:30</p>
                 <p>Salı 09:30 - 21:30</p>

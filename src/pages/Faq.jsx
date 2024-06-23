@@ -32,11 +32,11 @@ function Faq() {
           <h2 className="2xl:text-4xl xl:text-3xl lg:text-3xl md:text-2xl text-3xl">
             Tatlılar
           </h2>
-          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base text-sm">
+          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base ">
             Opera Baker'ın tatlılar bölümü, tatlı düşkünlerini büyüleyen bir
             lezzet cümbüşü sunuyor.
           </p>
-          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base text-sm">
+          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base ">
             {" "}
             Çikolatalı, fıstıklı, kremalı ve daha birçok nefis tatlı seçeneğiyle
             damakları şenlendiriyoruz. CheeseCake'in kremsi dokusu, Magnolya'nın
@@ -44,7 +44,7 @@ function Faq() {
             çıtır dışı ve kremalı içi, San Sebastian'ın ise eşsiz lezzetiyle
             damağınızda unutulmaz bir tat bırakacak.
           </p>
-          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base text-sm">
+          <p className="leading-7 2xl:text-xl xl:text-lg lg:text-lg md:text-base ">
             Opera Baker'ın ustaları, en kaliteli malzemeleri kullanarak her bir
             tatlıyı özenle hazırlıyor ve sizlere sunuyor. Tatlı tutkunlarının
             vazgeçilmez adresi Opera Baker, özel günlerinizi tatlandırmak için
@@ -182,7 +182,7 @@ function Faq() {
               <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-xl  text-xl ">
                 Pastanemizi ziyaret edin
               </h2>
-              <div className="flex text-sm lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
+              <div className="flex lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
                 <p>Çalışma Saatlerimiz:</p>
                 <p>Pazartesi 09:30 - 21:30</p>
                 <p>Salı 09:30 - 21:30</p>
@@ -194,7 +194,7 @@ function Faq() {
               </div>
               <button
                 onClick={redirectToLocation}
-                className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
+                className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
               >
                 Yol Tarifi
               </button>

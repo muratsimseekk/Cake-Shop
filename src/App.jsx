@@ -29,9 +29,9 @@ function App() {
       <Routes>
         <Route path="/faq" element={<Faq />} />
       </Routes>
-      {/* <Routes>
+      <Routes>
         <Route path="/about" element={<About />} />
-      </Routes> */}
+      </Routes>
 
       <Routes>
         <Route path="/contact" element={<Contact />} />

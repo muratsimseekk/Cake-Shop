@@ -8,6 +8,7 @@ function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
   }, []);
+
   return (
     <div className="w-full flex justify-center">
       <div className="w-4/5 my-16 flex flex-col gap-16">
@@ -76,7 +77,7 @@ function Contact() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col gap-2 text-center 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm">
+        <div className="flex flex-col gap-2 text-center 2xl:text-lg xl:text-lg lg:text-lg md:text-base">
           <p>Batıkent Mahallesi Abdulkadir Aksu Bulvarı No : 56/D </p>
           <p>Şehitkamil/Gaziantep</p>
           <p>+90 538 320 77 97</p>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import photo1 from "../assets/about/about1.png";
-import photo2 from "../assets/pastalar/pasta1.jpeg";
+import profil from "../assets/profil.jpg";
 
 import photo4 from "../assets/pastalar/pasta2.jpeg";
 import photo5 from "../assets/pastalar/pasta3.jpeg";
@@ -31,10 +31,10 @@ function About() {
         <div className="flex flex-col gap-16">
           <div className=" md:flex md:flex-row md:justify-between lg:flex lg:flex-row lg:justify-between xl:flex xl:flex-row xl:justify-between 2xl:flex 2xl:flex-row 2xl:justify-between">
             <div className=" w-full md:flex md:flex-row md:w-[55%] lg:flex lg:flex-row lg:w-[55%] xl:flex xl:flex-row xl:w-[55%] 2xl:flex 2xl:flex-row 2xl:w-[55%]">
-              <img className="w-full" src={photo2} />
+              <img className="w-full" src={profil} />
             </div>
             <div className="md:w-[45%] lg:w-[45%] xl:w-[45%] 2xl:w-[45%] w-[85%]  m-auto md:flex md:flex-row md:justify-between md:items-center ">
-              <div className="flex flex-col gap-5 2xl:px-8 xl:px-8 lg:px-8 md:px-4 py-5">
+              <div className="flex flex-col gap-5 2xl:px-8 xl:px-8 lg:px-8 md:px-4 py-5 text-center">
                 <h2 className="2xl:text-3xl xl:text-2xl lg:text-2xl md:text-xl text-3xl">
                   Tuğçe Şimşek
                 </h2>
@@ -71,7 +71,7 @@ function About() {
                 <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-xl  text-xl ">
                   Pastanemizi ziyaret edin
                 </h2>
-                <div className="flex text-sm lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
+                <div className="flex  lg:text-lg xl:text-lg 2xl:text-lg flex-col gap-2 md:text-base ">
                   <p>Çalışma Saatlerimiz:</p>
                   <p>Pazartesi 09:30 - 21:30</p>
                   <p>Salı 09:30 - 21:30</p>
@@ -83,7 +83,7 @@ function About() {
                 </div>
                 <button
                   onClick={redirectToLocation}
-                  className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base text-sm 2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
+                  className=" 2xl:text-lg xl:text-lg lg:text-lg md:text-base  2xl:w-1/3 xl:w-1/3 lg:w-1/3 md:w-[45%] w-full py-1.5 rounded-md button-css"
                 >
                   Yol Tarifi
                 </button>
